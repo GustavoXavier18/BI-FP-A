@@ -1,0 +1,28 @@
+/// Saldos de abertura em 31/12/2023. Apoio sem relacionamento.
+table 'aSaldoInicial'
+	lineageTag: 9a901225-6b48-53eb-9b95-4104fb96fd79
+
+	column 'Conta'
+		dataType: string
+		sourceColumn: Conta
+		summarizeBy: none
+		lineageTag: 08a63749-ce4e-5ec7-9858-d9862b9fee55
+
+	column 'Saldo'
+		dataType: double
+		sourceColumn: Saldo
+		summarizeBy: none
+		lineageTag: 408c6643-e20d-59a1-87ba-f66fdd8ff368
+
+	partition 'aSaldoInicial' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			let
+			    Fonte = fnPlanilha("11_SALDO_INICIAL"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Conta",type text},{"Saldo",type number}},"pt-BR")
+			in
+			    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

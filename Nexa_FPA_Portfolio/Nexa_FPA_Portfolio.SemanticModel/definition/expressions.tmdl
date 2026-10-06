@@ -1,0 +1,28 @@
+expression 'pArquivoExcel' =
+		"C:\NEXA\data\Projeto_FPA_Nexa_Distribuicao.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: c31c04f6-42ad-53c3-9b04-747f6c0b0cbc
+	queryGroup: '00_Parametros'
+
+expression 'pTolerancia' =
+		0.01 meta [IsParameterQuery=true, Type="Number", IsParameterQueryRequired=true]
+	lineageTag: 87174c86-1351-528f-a033-258c3c1a3431
+	queryGroup: '00_Parametros'
+
+expression 'stgExcel' =
+		Excel.Workbook(File.Contents(pArquivoExcel), null, true)
+	lineageTag: ce57a493-eef3-542e-bdea-ddcd5c7d13f4
+	queryGroup: '03_Apoio'
+
+expression 'fnPlanilha' =
+		(Nome as text) as table =>
+		let
+		    Dados = stgExcel{[Item=Nome, Kind="Sheet"]}[Data],
+		    Cabecalhos = Table.PromoteHeaders(Dados, [PromoteAllScalars=true]),
+		    Linhas = Table.SelectRows(Cabecalhos, each List.NonNullCount(Record.FieldValues(_)) > 0),
+		    Textos = List.Select(Table.ColumnNames(Linhas), (c) => List.AllTrue(List.Transform(List.RemoveNulls(Table.Column(Linhas,c)), each Value.Is(_,type text)))),
+		    Limpo = Table.TransformColumns(Linhas,List.Transform(Textos,each {_,Text.Trim,type text}))
+		in
+		    Limpo
+	lineageTag: 9ed1e590-6e74-530a-858f-50d38361665c
+	queryGroup: '03_Apoio'
+

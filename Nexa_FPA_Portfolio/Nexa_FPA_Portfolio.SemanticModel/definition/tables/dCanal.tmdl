@@ -1,0 +1,18 @@
+/// Dimensão compartilhada de Canal.
+table 'dCanal'
+	lineageTag: 1dd760e1-a090-51d3-9733-23f9103e753c
+
+	column 'Canal'
+		dataType: string
+		sourceColumn: Canal
+		summarizeBy: none
+		lineageTag: 58f3e073-c148-5c95-90db-e95a5df291d6
+
+	partition 'dCanal' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			Table.Sort(Table.Distinct(Table.SelectColumns(fVendas,{"Canal"})),{{"Canal",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

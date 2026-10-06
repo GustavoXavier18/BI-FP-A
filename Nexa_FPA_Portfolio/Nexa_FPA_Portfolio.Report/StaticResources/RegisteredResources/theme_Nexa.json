@@ -1,0 +1,39 @@
+{
+  "name": "NEXA | FP&A Integrado",
+  "dataColors": [
+    "#256FAE",
+    "#12AFA3",
+    "#0C2942",
+    "#D6A137",
+    "#D95C5C",
+    "#1A9A6C"
+  ],
+  "background": "#F4F7FA",
+  "foreground": "#16344B",
+  "tableAccent": "#12AFA3",
+  "good": "#1A9A6C",
+  "bad": "#D95C5C",
+  "neutral": "#D6A137",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 22,
+      "color": "#16344B"
+    },
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#16344B"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#718096"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#16344B"
+    }
+  }
+}

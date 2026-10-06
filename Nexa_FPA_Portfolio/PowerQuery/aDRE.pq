@@ -1,0 +1,21 @@
+#table(type table [Linha=text, Campo=text, Ordem=Int64.Type, Favoravel=Int64.Type, Subtotal=Int64.Type],{
+    {"Receita Bruta","ReceitaBruta",1,1,0},
+    {"(-) Deduções","Deducoes",2,-1,0},
+    {"Receita Líquida","ReceitaLiquida",3,1,1},
+    {"(-) CMV","CMV",4,-1,0},
+    {"Lucro Bruto","LucroBruto",5,1,1},
+    {"(-) Pessoal","Pessoal",6,-1,0},
+    {"(-) Comercial","Comercial",7,-1,0},
+    {"(-) Administrativo","Administrativo",8,-1,0},
+    {"(-) Tecnologia","Tecnologia",9,-1,0},
+    {"(-) Logística","Logistica",10,-1,0},
+    {"Opex","Opex",11,-1,1},
+    {"EBITDA","EBITDA",12,1,1},
+    {"(-) Depreciação","Depreciacao",13,-1,0},
+    {"EBIT","EBIT",14,1,1},
+    {"(-) Juros","Juros",15,-1,0},
+    {"LAIR","LAIR",16,1,1},
+    {"(-) IR simulado","IRSimulado",17,-1,0},
+    {"Lucro Líquido","LucroLiquido",18,1,1},
+    {"Fluxo de Caixa Livre","FC_Livre",19,1,1}
+})

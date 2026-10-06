@@ -1,0 +1,18 @@
+/// Dimensão compartilhada de ContaDespesa.
+table 'dContaDespesa'
+	lineageTag: 91ff0b71-3cfd-52d7-8d55-e0a8c16ad8b8
+
+	column 'Conta'
+		dataType: string
+		sourceColumn: Conta
+		summarizeBy: none
+		lineageTag: f8396d28-c43d-555d-80b7-52bc6e06c56a
+
+	partition 'dContaDespesa' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			Table.Sort(Table.Distinct(Table.SelectColumns(fDespesas,{"Conta"})),{{"Conta",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

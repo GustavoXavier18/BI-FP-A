@@ -1,0 +1,31 @@
+/// Ponte do EBITDA orçado ao realizado; total automático é EBITDA realizado.
+table 'aVariancia'
+	lineageTag: a05c6b23-47c8-5959-a678-8558abf92b08
+
+	column 'Etapa'
+		dataType: string
+		sourceColumn: Etapa
+		summarizeBy: none
+		lineageTag: c02610ad-b571-51d3-bcd4-cfe55d5e3309
+		sortByColumn: 'Ordem'
+
+	column 'Ordem'
+		dataType: int64
+		sourceColumn: Ordem
+		summarizeBy: none
+		lineageTag: beb7ee12-1373-5929-bc59-1321d359b3b3
+		isHidden
+
+	partition 'aVariancia' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			#table(type table [Etapa=text, Ordem=Int64.Type],{
+			    {"EBITDA Orçado",1},
+			    {"Receita Líquida",2},
+			    {"CMV",3},
+			    {"Opex",4}
+			})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

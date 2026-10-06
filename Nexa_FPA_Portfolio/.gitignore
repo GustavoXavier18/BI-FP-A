@@ -1,0 +1,7 @@
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+**/.pbi/unappliedChanges.json
+**/bin/
+**/obj/
+__pycache__/
+*.pbix

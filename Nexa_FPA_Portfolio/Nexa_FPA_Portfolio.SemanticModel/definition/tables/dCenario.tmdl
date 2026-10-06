@@ -1,0 +1,30 @@
+/// Dimensão compartilhada de Cenario.
+table 'dCenario'
+	lineageTag: 586f14e3-d354-5406-82e5-7a73ee7b03c9
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: 838ff34b-570b-56c5-949b-1f37c72c0527
+		sortByColumn: 'Ordem'
+
+	column 'Ordem'
+		dataType: int64
+		sourceColumn: Ordem
+		summarizeBy: none
+		lineageTag: c4d1b124-861e-5fb4-a4f1-4dc2c6feb939
+		isHidden
+
+	partition 'dCenario' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			let
+			    Fonte = Table.Distinct(Table.SelectColumns(fFinanceiro,{"Cenario"})),
+			    Ordem = Table.AddColumn(Fonte,"Ordem", each if [Cenario]="Realizado" then 1 else if [Cenario]="Orçamento" then 2 else if [Cenario]="Forecast 6+6" then 3 else if [Cenario]="Base 2026" then 4 else if [Cenario]="Otimista 2026" then 5 else 6, Int64.Type)
+			in
+			    Table.Sort(Ordem,{{"Ordem",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

@@ -1,0 +1,30 @@
+/// Etapas da ponte comercial; total automático corresponde à receita 2025.
+table 'aPontePV'
+	lineageTag: 36d6848d-ce0d-5ec1-b93c-ed0b6affe5f3
+
+	column 'Etapa'
+		dataType: string
+		sourceColumn: Etapa
+		summarizeBy: none
+		lineageTag: 2012eb0e-281f-586a-a59a-dbd520434885
+		sortByColumn: 'Ordem'
+
+	column 'Ordem'
+		dataType: int64
+		sourceColumn: Ordem
+		summarizeBy: none
+		lineageTag: 62ce5a80-163d-5ff8-9acf-2763ab56ae32
+		isHidden
+
+	partition 'aPontePV' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			#table(type table [Etapa=text, Ordem=Int64.Type],{
+			    {"Receita 2024",1},
+			    {"Efeito Volume",2},
+			    {"Efeito Preço",3}
+			})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

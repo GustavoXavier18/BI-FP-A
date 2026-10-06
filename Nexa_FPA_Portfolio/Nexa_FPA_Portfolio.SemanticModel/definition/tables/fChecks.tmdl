@@ -1,0 +1,74 @@
+/// Checks por mês/cenário. Diário é aplicável somente ao Realizado.
+table 'fChecks'
+	lineageTag: f48f2f67-dc29-54f3-b0d2-cbd9ebb3fac5
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 43dc21b4-74b3-58cf-a918-7d0774afe912
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: d6566668-882d-56fc-8bd2-cd11f9e4c6b5
+		isHidden
+
+	column 'CheckBP'
+		dataType: double
+		sourceColumn: CheckBP
+		summarizeBy: none
+		lineageTag: cb8e552b-7fa2-50e9-ac39-7961943813e6
+		isHidden
+
+	column 'CheckDFC'
+		dataType: double
+		sourceColumn: CheckDFC
+		summarizeBy: none
+		lineageTag: bc17d70f-6c08-5165-8455-fe22603006f6
+		isHidden
+
+	column 'CheckDiario'
+		dataType: double
+		sourceColumn: CheckDiario
+		summarizeBy: none
+		lineageTag: 9f1f4974-f1bf-5e42-b2a3-0e0b02033f44
+		isHidden
+
+	column 'CaixaFinal'
+		dataType: double
+		sourceColumn: CaixaFinal
+		summarizeBy: none
+		lineageTag: ced19a67-d74a-58ad-9612-3a5916fa9e90
+		isHidden
+
+	column 'Status'
+		dataType: string
+		sourceColumn: Status
+		summarizeBy: none
+		lineageTag: 43456c04-1090-5a14-9697-a3360bb645bf
+		isHidden
+
+	column 'AlertaCaixa'
+		dataType: string
+		sourceColumn: AlertaCaixa
+		summarizeBy: none
+		lineageTag: dd3f92eb-2ece-5d4a-a02c-9280fff5ead6
+		isHidden
+
+	partition 'fChecks' = m
+		mode: import
+		queryGroup: '99_QA'
+		source =
+			let
+			    Fonte = fnPlanilha("07_CHECKS"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"Cenário",type text},{"BP R$",type number},{"DFC R$",type number},{"Diário R$",type number},{"Caixa final",type number},{"Status",type text},{"Alerta caixa",type text}},"pt-BR"),
+			    Nomes = Table.RenameColumns(Tipos,{{"Cenário","Cenario"},{"BP R$","CheckBP"},{"DFC R$","CheckDFC"},{"Diário R$","CheckDiario"},{"Caixa final","CaixaFinal"},{"Alerta caixa","AlertaCaixa"}})
+			in
+			    Nomes
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

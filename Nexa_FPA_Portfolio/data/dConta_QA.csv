@@ -1,0 +1,24 @@
+﻿ContaID,Conta,Grupo,Natureza,CampoModelo
+1101,Caixa,Ativo,Devedora,CaixaFinal
+1102,Clientes,Ativo,Devedora,Clientes
+1103,Estoques,Ativo,Devedora,Estoque
+1201,Imobilizado bruto,Ativo,Devedora,ImobilizadoBruto
+1202,Depreciação acumulada,Ativo,Credora,DepAcumulada
+2101,Fornecedores,Passivo,Credora,Fornecedores
+2102,Salários a pagar,Passivo,Credora,SalariosPagar
+2103,Tributos sobre venda,Passivo,Credora,TributosVendaPagar
+2104,IR simulado a pagar,Passivo,Credora,IRPagar
+2201,Empréstimos,Passivo,Credora,Divida
+3101,Capital,PL,Credora,Capital
+3102,Lucros acumulados,PL,Credora,LucrosAcumulados
+4101,Receita bruta,Resultado,Credora,ReceitaBruta
+5101,Deduções,Resultado,Devedora,Deducoes
+5102,CMV,Resultado,Devedora,CMV
+5201,Pessoal,Resultado,Devedora,Pessoal
+5202,Comercial,Resultado,Devedora,Comercial
+5203,Administrativo,Resultado,Devedora,Administrativo
+5204,Tecnologia,Resultado,Devedora,Tecnologia
+5205,Logística,Resultado,Devedora,Logistica
+5301,Depreciação,Resultado,Devedora,Depreciacao
+5401,Juros,Resultado,Devedora,Juros
+5501,IR simulado,Resultado,Devedora,IRSimulado

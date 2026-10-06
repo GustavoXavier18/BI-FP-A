@@ -1,0 +1,345 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa02Growth",
+  "displayName": "02 | Growth & Drivers",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ActualOnly",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCenario"
+              }
+            },
+            "Property": "Cenario"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCenario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Cenario"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Realizado'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "pv",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "prod",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "evol",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "reg",
+      "type": "NoFilter"
+    },
+    {
+      "source": "pv",
+      "target": "canal",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "prod",
+      "target": "pv",
+      "type": "DataFilter"
+    },
+    {
+      "source": "prod",
+      "target": "evol",
+      "type": "DataFilter"
+    },
+    {
+      "source": "prod",
+      "target": "reg",
+      "type": "DataFilter"
+    },
+    {
+      "source": "prod",
+      "target": "canal",
+      "type": "DataFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "pv",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "prod",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "reg",
+      "type": "NoFilter"
+    },
+    {
+      "source": "evol",
+      "target": "canal",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "reg",
+      "target": "pv",
+      "type": "DataFilter"
+    },
+    {
+      "source": "reg",
+      "target": "prod",
+      "type": "DataFilter"
+    },
+    {
+      "source": "reg",
+      "target": "evol",
+      "type": "DataFilter"
+    },
+    {
+      "source": "reg",
+      "target": "canal",
+      "type": "DataFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "canal",
+      "target": "pv",
+      "type": "DataFilter"
+    },
+    {
+      "source": "canal",
+      "target": "prod",
+      "type": "DataFilter"
+    },
+    {
+      "source": "canal",
+      "target": "evol",
+      "type": "DataFilter"
+    },
+    {
+      "source": "canal",
+      "target": "reg",
+      "type": "DataFilter"
+    }
+  ]
+}

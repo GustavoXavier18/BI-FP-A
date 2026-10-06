@@ -1,0 +1,22 @@
+#table(type table [Linha=text, Campo=text, Ordem=Int64.Type],{
+    {"ATIVO | Caixa","CaixaFinal",1},
+    {"ATIVO | Clientes","Clientes",2},
+    {"ATIVO | Estoque","Estoque",3},
+    {"ATIVO | Ativo Circulante","AtivoCirculante",4},
+    {"ATIVO | Imobilizado Bruto","ImobilizadoBruto",5},
+    {"ATIVO | (-) Depreciação Acumulada","DepAcumulada",6},
+    {"ATIVO | Ativo Não Circulante","AtivoNaoCirculante",7},
+    {"ATIVO TOTAL","Ativo",8},
+    {"PASSIVO | Fornecedores","Fornecedores",9},
+    {"PASSIVO | Salários a Pagar","SalariosPagar",10},
+    {"PASSIVO | Tributos sobre Venda","TributosVendaPagar",11},
+    {"PASSIVO | IR a Pagar","IRPagar",12},
+    {"PASSIVO | Dívida CP","DividaCP",13},
+    {"PASSIVO | Passivo Circulante","PassivoCirculante",14},
+    {"PASSIVO | Dívida LP","DividaLP",15},
+    {"PASSIVO | Passivo Não Circulante","PassivoNaoCirculante",16},
+    {"PASSIVO TOTAL","Passivo",17},
+    {"PL | Capital","Capital",18},
+    {"PL | Lucros Acumulados","LucrosAcumulados",19},
+    {"PATRIMÔNIO LÍQUIDO","PL",20}
+})

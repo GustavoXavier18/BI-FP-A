@@ -1,0 +1,52 @@
+// Execute em Exibição de Consulta DAX no Power BI Desktop após o refresh.
+// Os resultados esperados estão em docs/QA_Reconciliacao.md.
+EVALUATE
+CALCULATETABLE(
+    ROW(
+        "ReceitaLiquida", [Receita Líquida],
+        "EBITDA", [EBITDA],
+        "MargemEBITDA", [Margem EBITDA],
+        "LucroLiquido", [Lucro Líquido],
+        "CaixaFinal", [Caixa Final],
+        "FCL", [Fluxo de Caixa Livre],
+        "NCG", [NCG],
+        "CheckBP", [Check BP Máximo],
+        "CheckDFC", [Check DFC Máximo],
+        "CheckDiario", [Check Diário Máximo],
+        "Inconsistencias", [Inconsistências]
+    ),
+    REMOVEFILTERS(dCalendario), dCalendario[Ano]=2025,
+    REMOVEFILTERS(dCenario), dCenario[Cenario]="Realizado"
+)
+
+// Cenários lado a lado: as posições usam dezembro; os fluxos acumulam o ano.
+EVALUATE
+SUMMARIZECOLUMNS(
+    dCenario[Cenario],
+    TREATAS({2026},dCalendario[Ano]),
+    TREATAS({"Base 2026","Otimista 2026","Adverso 2026"},dCenario[Cenario]),
+    "Receita", [Receita Líquida], "EBITDA", [EBITDA],
+    "Margem", [Margem EBITDA], "CaixaFinal", [Caixa Final],
+    "FCL", [Fluxo de Caixa Livre], "Captação", [Captação],
+    "Alerta", [Alerta de Financiamento]
+)
+
+// Comparações permanecem disponíveis mesmo sob slicer Forecast.
+EVALUATE
+CALCULATETABLE(
+    ROW("Realizado",[Realizado],"Orçamento",[Orçamento],"Forecast",[Forecast 6+6]),
+    dCalendario[Ano]=2025,dCenario[Cenario]="Forecast 6+6"
+)
+
+// Checagem de aditividade das pontes.
+EVALUATE
+CALCULATETABLE(
+    ROW(
+        "PontePV", SUMX(VALUES(aPontePV[Etapa]),[Ponte Preço Volume]),
+        "ReceitaBruta2025", [Receita Ponte 2025],
+        "PonteCaixa", SUMX(VALUES(aPonteCaixa[Etapa]),[Ponte Caixa]),
+        "VariacaoCaixa", [Variação de Caixa],
+        "PonteEBITDA", SUMX(VALUES(aVariancia[Etapa]),[Ponte Variância EBITDA]),
+        "EBITDARealizado", [EBITDA | Realizado]
+    ), dCalendario[Ano]=2025,dCenario[Cenario]="Realizado"
+)

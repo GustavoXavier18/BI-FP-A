@@ -1,0 +1,53 @@
+/// Histórico de despesas por mês, centro de custo e descrição de conta.
+table 'fDespesas'
+	lineageTag: ecd402e1-fe54-5882-9063-14b7491edb7a
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 3675944c-ad28-5b8d-ad34-906fc47150b2
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'CentroCusto'
+		dataType: string
+		sourceColumn: CentroCusto
+		summarizeBy: none
+		lineageTag: e5ad405d-b172-5fb0-b015-eb80dbb58331
+		isHidden
+
+	column 'Conta'
+		dataType: string
+		sourceColumn: Conta
+		summarizeBy: none
+		lineageTag: 5b61b1c4-e47b-57ec-8d5a-735677dba665
+		isHidden
+
+	column 'Valor'
+		dataType: double
+		sourceColumn: Valor
+		summarizeBy: none
+		lineageTag: 90b94632-0512-5974-ae19-e1f548290098
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: 29a7d728-e5b0-5fc9-ba15-715d1c012e26
+		isHidden
+
+	partition 'fDespesas' = m
+		mode: import
+		queryGroup: '02_Fatos'
+		source =
+			let
+			    Fonte = fnPlanilha("10_DESPESAS"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"CentroCusto",type text},{"Conta",type text},{"Valor",type number}},"pt-BR"),
+			    Cenario = Table.AddColumn(Tipos,"Cenario",each "Realizado",type text)
+			in
+			    Cenario
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

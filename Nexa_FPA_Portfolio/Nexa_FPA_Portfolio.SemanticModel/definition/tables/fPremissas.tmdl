@@ -1,0 +1,192 @@
+/// Premissas mensais financeiras; prazos e taxas são posições, quantidade e investimentos são fluxos.
+table 'fPremissas'
+	lineageTag: 8e421987-d070-5506-87d6-452e4d143d17
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 82013c4f-9faa-54f7-a832-a5e1145da89a
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: 36ae9ea8-5e7d-5d96-a951-0eeb5aeb8db2
+		isHidden
+
+	column 'Quantidade'
+		dataType: double
+		sourceColumn: Quantidade
+		summarizeBy: none
+		lineageTag: 754bd42c-c21b-5996-8be6-81e005311b9f
+		isHidden
+
+	column 'TicketMedio'
+		dataType: double
+		sourceColumn: TicketMedio
+		summarizeBy: none
+		lineageTag: 6c064945-4c1e-5630-a577-0dc36c8db867
+		isHidden
+
+	column 'CMVPercentual'
+		dataType: double
+		sourceColumn: CMVPercentual
+		summarizeBy: none
+		lineageTag: 030a8b80-ecb7-5182-b281-3c077510646b
+		isHidden
+
+	column 'TaxaComercial'
+		dataType: double
+		sourceColumn: TaxaComercial
+		summarizeBy: none
+		lineageTag: f674ec9a-0541-5ae0-93c7-ebf26f629873
+		isHidden
+
+	column 'TaxaLogistica'
+		dataType: double
+		sourceColumn: TaxaLogistica
+		summarizeBy: none
+		lineageTag: 02bce65d-b03b-588f-a5e6-778ef858a68a
+		isHidden
+
+	column 'ReceitaBruta'
+		dataType: double
+		sourceColumn: ReceitaBruta
+		summarizeBy: none
+		lineageTag: 92c06624-6ba0-5856-89f7-66bef63bb669
+		isHidden
+
+	column 'CMV'
+		dataType: double
+		sourceColumn: CMV
+		summarizeBy: none
+		lineageTag: 299b437e-b5f9-5bf2-86af-c684259487c7
+		isHidden
+
+	column 'Pessoal'
+		dataType: double
+		sourceColumn: Pessoal
+		summarizeBy: none
+		lineageTag: 76e874f0-d838-55ed-8a67-0dd880f3c735
+		isHidden
+
+	column 'Comercial'
+		dataType: double
+		sourceColumn: Comercial
+		summarizeBy: none
+		lineageTag: 475f6175-a304-5857-948d-053ac101db2c
+		isHidden
+
+	column 'Administrativo'
+		dataType: double
+		sourceColumn: Administrativo
+		summarizeBy: none
+		lineageTag: 9f4d0392-de1b-5f7b-83b7-ee14a27353d9
+		isHidden
+
+	column 'Tecnologia'
+		dataType: double
+		sourceColumn: Tecnologia
+		summarizeBy: none
+		lineageTag: 36d1c485-e3fa-56c4-93ad-baad65fd5826
+		isHidden
+
+	column 'Logistica'
+		dataType: double
+		sourceColumn: Logistica
+		summarizeBy: none
+		lineageTag: 93fd38d1-7f17-5786-9c1f-ec5ba5a55cf9
+		isHidden
+
+	column 'DSO'
+		dataType: double
+		sourceColumn: DSO
+		summarizeBy: none
+		lineageTag: ceb7ee42-73f2-5195-9de2-3e3206f074eb
+		isHidden
+
+	column 'DIO'
+		dataType: double
+		sourceColumn: DIO
+		summarizeBy: none
+		lineageTag: eb6fd95a-23dd-5cff-8ee4-74031dfa1f82
+		isHidden
+
+	column 'DPO'
+		dataType: double
+		sourceColumn: DPO
+		summarizeBy: none
+		lineageTag: a5475d90-e739-5af1-886f-ae0b70bf6749
+		isHidden
+
+	column 'TaxaVenda'
+		dataType: double
+		sourceColumn: TaxaVenda
+		summarizeBy: none
+		lineageTag: fab3ea20-27b4-58bd-bc3d-d6d3efbe1107
+		isHidden
+
+	column 'TaxaIR'
+		dataType: double
+		sourceColumn: TaxaIR
+		summarizeBy: none
+		lineageTag: 9c0ebfb2-a087-58d3-9792-0da878cfda84
+		isHidden
+
+	column 'TaxaJuros'
+		dataType: double
+		sourceColumn: TaxaJuros
+		summarizeBy: none
+		lineageTag: 4d084e96-62a4-5aec-b3b5-4055b8556534
+		isHidden
+
+	column 'TaxaDep'
+		dataType: double
+		sourceColumn: TaxaDep
+		summarizeBy: none
+		lineageTag: f16fd9ff-7811-54f8-80d7-37b7e043855f
+		isHidden
+
+	column 'Capex'
+		dataType: double
+		sourceColumn: Capex
+		summarizeBy: none
+		lineageTag: f1ad50d0-a2f2-5f73-a0d1-ad199fa00400
+		isHidden
+
+	column 'Captacao'
+		dataType: double
+		sourceColumn: Captacao
+		summarizeBy: none
+		lineageTag: 700da0da-abb5-5c65-8e51-cfb7878b057f
+		isHidden
+
+	column 'Amortizacao'
+		dataType: double
+		sourceColumn: Amortizacao
+		summarizeBy: none
+		lineageTag: cd4d3ee9-52b3-564b-b873-1d50e407086b
+		isHidden
+
+	column 'Dividendos'
+		dataType: double
+		sourceColumn: Dividendos
+		summarizeBy: none
+		lineageTag: af89ef31-24ac-5dc8-8d18-bc0fe32debfd
+		isHidden
+
+	partition 'fPremissas' = m
+		mode: import
+		queryGroup: '02_Fatos'
+		source =
+			let
+			    Fonte = fnPlanilha("08_PREMISSAS"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"Cenario",type text},{"Quantidade",type number},{"TicketMedio",type number},{"CMVPercentual",type number},{"TaxaComercial",type number},{"TaxaLogistica",type number},{"ReceitaBruta",type number},{"CMV",type number},{"Pessoal",type number},{"Comercial",type number},{"Administrativo",type number},{"Tecnologia",type number},{"Logistica",type number},{"DSO",type number},{"DIO",type number},{"DPO",type number},{"TaxaVenda",type number},{"TaxaIR",type number},{"TaxaJuros",type number},{"TaxaDep",type number},{"Capex",type number},{"Captacao",type number},{"Amortizacao",type number},{"Dividendos",type number}},"pt-BR")
+			in
+			    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

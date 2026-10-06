@@ -1,0 +1,18 @@
+/// Dimensão compartilhada de CentroCusto.
+table 'dCentroCusto'
+	lineageTag: 1c069460-5396-51d2-8de5-f8a941cb9372
+
+	column 'CentroCusto'
+		dataType: string
+		sourceColumn: CentroCusto
+		summarizeBy: none
+		lineageTag: 6fca4f0b-3032-5897-aa65-7d1b3edfb16a
+
+	partition 'dCentroCusto' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			Table.Sort(Table.Distinct(Table.Combine({Table.SelectColumns(fDespesas,{"CentroCusto"}),Table.SelectColumns(fDiario,{"CentroCusto"})})),{{"CentroCusto",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

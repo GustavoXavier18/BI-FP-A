@@ -1,0 +1,1443 @@
+﻿Lancamento,Data,ContaID,Conta,Grupo,CentroCusto,Historico,Debito,Credito,Movimento
+L00001,2024-01-01,1102,Clientes,Ativo,Comercial,Vendas por competência,930104.38,0,930104.38
+L00001,2024-01-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,930104.38,-930104.38
+L00002,2024-01-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,79058.8723,0,79058.8723
+L00002,2024-01-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,79058.8723,-79058.8723
+L00003,2024-01-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,858810.6666666665,0,858810.6666666665
+L00003,2024-01-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,858810.6666666665,-858810.6666666665
+L00004,2024-01-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,615320,0,615320
+L00004,2024-01-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,615320,-615320
+L00005,2024-01-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00005,2024-01-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00006,2024-01-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,116000,0,116000
+L00006,2024-01-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,116000,-116000
+L00007,2024-01-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,33483.76,0,33483.76
+L00007,2024-01-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,33483.76,-33483.76
+L00008,2024-01-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00008,2024-01-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00009,2024-01-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00009,2024-01-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00010,2024-01-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,20462.3,0,20462.3
+L00010,2024-01-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,20462.3,-20462.3
+L00011,2024-01-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,15000,0,15000
+L00011,2024-01-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,15000,-15000
+L00012,2024-01-01,5401,Juros,Resultado,Corporativo,Juros pagos,9600,0,9600
+L00012,2024-01-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9600,-9600
+L00013,2024-01-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,4141.012217999987,0,4141.012217999987
+L00013,2024-01-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,4141.012217999987,-4141.012217999987
+L00014,2024-01-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,589965.2066666665,0,589965.2066666665
+L00014,2024-01-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,589965.2066666665,-589965.2066666665
+L00015,2024-01-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,690937.3333333331,0,690937.3333333331
+L00015,2024-01-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,690937.3333333331,-690937.3333333331
+L00016,2024-01-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,79999.99999999999,0,79999.99999999999
+L00016,2024-01-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,79999.99999999999,-79999.99999999999
+L00017,2024-01-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,50000,0,50000
+L00017,2024-01-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,50000,-50000
+L00018,2024-01-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00018,2024-01-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00019,2024-01-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00019,2024-01-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00020,2024-01-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,930104.38,0,930104.38
+L00020,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,930104.38,-930104.38
+L00021,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,79058.8723,0,79058.8723
+L00021,2024-01-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,79058.8723,-79058.8723
+L00022,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,615320,0,615320
+L00022,2024-01-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,615320,-615320
+L00023,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00023,2024-01-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00024,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33483.76,0,33483.76
+L00024,2024-01-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,33483.76,-33483.76
+L00025,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00025,2024-01-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00026,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00026,2024-01-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00027,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20462.3,0,20462.3
+L00027,2024-01-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,20462.3,-20462.3
+L00028,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,15000,0,15000
+L00028,2024-01-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,15000,-15000
+L00029,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9600,0,9600
+L00029,2024-01-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9600,-9600
+L00030,2024-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,4141.012217999987,0,4141.012217999987
+L00030,2024-01-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,4141.012217999987,-4141.012217999987
+L00031,2024-02-01,1102,Clientes,Ativo,Comercial,Vendas por competência,973056.48,0,973056.48
+L00031,2024-02-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,973056.48,-973056.48
+L00032,2024-02-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,82709.8008,0,82709.8008
+L00032,2024-02-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,82709.8008,-82709.8008
+L00033,2024-02-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,685721.3333333334,0,685721.3333333334
+L00033,2024-02-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,685721.3333333334,-685721.3333333334
+L00034,2024-02-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,643110,0,643110
+L00034,2024-02-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,643110,-643110
+L00035,2024-02-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00035,2024-02-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00036,2024-02-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,95000,0,95000
+L00036,2024-02-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,95000,-95000
+L00037,2024-02-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,35030.03,0,35030.03
+L00037,2024-02-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,35030.03,-35030.03
+L00038,2024-02-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00038,2024-02-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00039,2024-02-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00039,2024-02-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00040,2024-02-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,21407.24,0,21407.24
+L00040,2024-02-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,21407.24,-21407.24
+L00041,2024-02-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,15180,0,15180
+L00041,2024-02-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,15180,-15180
+L00042,2024-02-01,5401,Juros,Resultado,Corporativo,Juros pagos,9384,0,9384
+L00042,2024-02-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9384,-9384
+L00043,2024-02-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,7220.039128000009,0,7220.039128000009
+L00043,2024-02-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,7220.039128000009,-7220.039128000009
+L00044,2024-02-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,915787.0133333332,0,915787.0133333332
+L00044,2024-02-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,915787.0133333332,-915787.0133333332
+L00045,2024-02-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,653299.6666666667,0,653299.6666666667
+L00045,2024-02-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,653299.6666666667,-653299.6666666667
+L00046,2024-02-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,79058.87230000002,0,79058.87230000002
+L00046,2024-02-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,79058.87230000002,-79058.87230000002
+L00047,2024-02-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,4141.012217999988,0,4141.012217999988
+L00047,2024-02-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,4141.012217999988,-4141.012217999988
+L00048,2024-02-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00048,2024-02-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00049,2024-02-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00049,2024-02-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00050,2024-02-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,973056.48,0,973056.48
+L00050,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,973056.48,-973056.48
+L00051,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,82709.8008,0,82709.8008
+L00051,2024-02-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,82709.8008,-82709.8008
+L00052,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,643110,0,643110
+L00052,2024-02-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,643110,-643110
+L00053,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00053,2024-02-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00054,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,35030.03,0,35030.03
+L00054,2024-02-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,35030.03,-35030.03
+L00055,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00055,2024-02-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00056,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00056,2024-02-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00057,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21407.24,0,21407.24
+L00057,2024-02-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,21407.24,-21407.24
+L00058,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,15180,0,15180
+L00058,2024-02-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,15180,-15180
+L00059,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9384,0,9384
+L00059,2024-02-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9384,-9384
+L00060,2024-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7220.039128000009,0,7220.039128000009
+L00060,2024-02-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,7220.039128000009,-7220.039128000009
+L00061,2024-03-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1139151.54,0,1139151.54
+L00061,2024-03-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1139151.54,-1139151.54
+L00062,2024-03-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,96827.8809,0,96827.8809
+L00062,2024-03-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,96827.8809,-96827.8809
+L00063,2024-03-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,921067.3333333333,0,921067.3333333333
+L00063,2024-03-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,921067.3333333333,-921067.3333333333
+L00064,2024-03-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,752830,0,752830
+L00064,2024-03-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,752830,-752830
+L00065,2024-03-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00065,2024-03-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00066,2024-03-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,95000,0,95000
+L00066,2024-03-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,95000,-95000
+L00067,2024-03-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,41009.46,0,41009.46
+L00067,2024-03-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,41009.46,-41009.46
+L00068,2024-03-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00068,2024-03-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00069,2024-03-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00069,2024-03-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00070,2024-03-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,25061.33,0,25061.33
+L00070,2024-03-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,25061.33,-25061.33
+L00071,2024-03-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,15360,0,15360
+L00071,2024-03-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,15360,-15360
+L00072,2024-03-01,5401,Juros,Resultado,Corporativo,Juros pagos,9168,0,9168
+L00072,2024-03-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9168,-9168
+L00073,2024-03-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,18324.25549400002,0,18324.25549400002
+L00073,2024-03-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,18324.25549400002,-18324.25549400002
+L00074,2024-03-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,917691.4600000002,0,917691.4600000002
+L00074,2024-03-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,917691.4600000002,-917691.4600000002
+L00075,2024-03-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,793060.6666666666,0,793060.6666666666
+L00075,2024-03-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,793060.6666666666,-793060.6666666666
+L00076,2024-03-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,82709.80080000001,0,82709.80080000001
+L00076,2024-03-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,82709.80080000001,-82709.80080000001
+L00077,2024-03-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,7220.039128000008,0,7220.039128000008
+L00077,2024-03-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,7220.039128000008,-7220.039128000008
+L00078,2024-03-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00078,2024-03-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00079,2024-03-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00079,2024-03-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00080,2024-03-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1139151.54,0,1139151.54
+L00080,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1139151.54,-1139151.54
+L00081,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,96827.8809,0,96827.8809
+L00081,2024-03-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,96827.8809,-96827.8809
+L00082,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,752830,0,752830
+L00082,2024-03-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,752830,-752830
+L00083,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00083,2024-03-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00084,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,41009.46,0,41009.46
+L00084,2024-03-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,41009.46,-41009.46
+L00085,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00085,2024-03-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00086,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00086,2024-03-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00087,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,25061.33,0,25061.33
+L00087,2024-03-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,25061.33,-25061.33
+L00088,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,15360,0,15360
+L00088,2024-03-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,15360,-15360
+L00089,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9168,0,9168
+L00089,2024-03-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9168,-9168
+L00090,2024-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18324.25549400002,0,18324.25549400002
+L00090,2024-03-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,18324.25549400002,-18324.25549400002
+L00091,2024-04-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1139818.88,0,1139818.88
+L00091,2024-04-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1139818.88,-1139818.88
+L00092,2024-04-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,96884.6048,0,96884.6048
+L00092,2024-04-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,96884.6048,-96884.6048
+L00093,2024-04-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,755642,0,755642
+L00093,2024-04-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,755642,-755642
+L00094,2024-04-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,753940,0,753940
+L00094,2024-04-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,753940,-753940
+L00095,2024-04-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00095,2024-04-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00096,2024-04-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,95000,0,95000
+L00096,2024-04-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,95000,-95000
+L00097,2024-04-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,41033.48,0,41033.48
+L00097,2024-04-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,41033.48,-41033.48
+L00098,2024-04-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00098,2024-04-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00099,2024-04-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00099,2024-04-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00100,2024-04-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,25076.02,0,25076.02
+L00100,2024-04-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,25076.02,-25076.02
+L00101,2024-04-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,16260,0,16260
+L00101,2024-04-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,16260,-16260
+L00102,2024-04-01,5401,Juros,Resultado,Corporativo,Juros pagos,8952,0,8952
+L00102,2024-04-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8952,-8952
+L00103,2024-04-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,17908.74356799997,0,17908.74356799997
+L00103,2024-04-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,17908.74356799997,-17908.74356799997
+L00104,2024-04-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1138929.093333333,0,1138929.093333333
+L00104,2024-04-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1138929.093333333,-1138929.093333333
+L00105,2024-04-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,754346.9999999999,0,754346.9999999999
+L00105,2024-04-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,754346.9999999999,-754346.9999999999
+L00106,2024-04-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,96827.88090000002,0,96827.88090000002
+L00106,2024-04-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,96827.88090000002,-96827.88090000002
+L00107,2024-04-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,18324.25549400002,0,18324.25549400002
+L00107,2024-04-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,18324.25549400002,-18324.25549400002
+L00108,2024-04-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00108,2024-04-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00109,2024-04-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00109,2024-04-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00110,2024-04-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1139818.88,0,1139818.88
+L00110,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1139818.88,-1139818.88
+L00111,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,96884.6048,0,96884.6048
+L00111,2024-04-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,96884.6048,-96884.6048
+L00112,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,753940,0,753940
+L00112,2024-04-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,753940,-753940
+L00113,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00113,2024-04-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00114,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,41033.48,0,41033.48
+L00114,2024-04-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,41033.48,-41033.48
+L00115,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00115,2024-04-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00116,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00116,2024-04-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00117,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,25076.02,0,25076.02
+L00117,2024-04-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,25076.02,-25076.02
+L00118,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,16260,0,16260
+L00118,2024-04-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,16260,-16260
+L00119,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8952,0,8952
+L00119,2024-04-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8952,-8952
+L00120,2024-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,17908.74356799997,0,17908.74356799997
+L00120,2024-04-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,17908.74356799997,-17908.74356799997
+L00121,2024-05-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1186040.08,0,1186040.08
+L00121,2024-05-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1186040.08,-1186040.08
+L00122,2024-05-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,100813.4068,0,100813.4068
+L00122,2024-05-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,100813.4068,-100813.4068
+L00123,2024-05-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,833182.6666666667,0,833182.6666666667
+L00123,2024-05-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,833182.6666666667,-833182.6666666667
+L00124,2024-05-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,785220,0,785220
+L00124,2024-05-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,785220,-785220
+L00125,2024-05-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00125,2024-05-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00126,2024-05-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,95000,0,95000
+L00126,2024-05-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,95000,-95000
+L00127,2024-05-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,42697.44,0,42697.44
+L00127,2024-05-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,42697.44,-42697.44
+L00128,2024-05-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00128,2024-05-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00129,2024-05-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00129,2024-05-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00130,2024-05-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,26092.88,0,26092.88
+L00130,2024-05-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,26092.88,-26092.88
+L00131,2024-05-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,16440,0,16440
+L00131,2024-05-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,16440,-16440
+L00132,2024-05-01,5401,Juros,Resultado,Corporativo,Juros pagos,8736,0,8736
+L00132,2024-05-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8736,-8736
+L00133,2024-05-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,20753.72008800002,0,20753.72008800002
+L00133,2024-05-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,20753.72008800002,-20753.72008800002
+L00134,2024-05-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1124411.813333333,0,1124411.813333333
+L00134,2024-05-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1124411.813333333,-1124411.813333333
+L00135,2024-05-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,796689.3333333335,0,796689.3333333335
+L00135,2024-05-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,796689.3333333335,-796689.3333333335
+L00136,2024-05-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,96884.60480000002,0,96884.60480000002
+L00136,2024-05-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,96884.60480000002,-96884.60480000002
+L00137,2024-05-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,17908.74356799997,0,17908.74356799997
+L00137,2024-05-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,17908.74356799997,-17908.74356799997
+L00138,2024-05-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00138,2024-05-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00139,2024-05-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00139,2024-05-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00140,2024-05-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1186040.08,0,1186040.08
+L00140,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1186040.08,-1186040.08
+L00141,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,100813.4068,0,100813.4068
+L00141,2024-05-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,100813.4068,-100813.4068
+L00142,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,785220,0,785220
+L00142,2024-05-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,785220,-785220
+L00143,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00143,2024-05-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00144,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,42697.44,0,42697.44
+L00144,2024-05-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,42697.44,-42697.44
+L00145,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00145,2024-05-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00146,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00146,2024-05-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00147,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,26092.88,0,26092.88
+L00147,2024-05-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,26092.88,-26092.88
+L00148,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,16440,0,16440
+L00148,2024-05-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,16440,-16440
+L00149,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8736,0,8736
+L00149,2024-05-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8736,-8736
+L00150,2024-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20753.72008800002,0,20753.72008800002
+L00150,2024-05-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,20753.72008800002,-20753.72008800002
+L00151,2024-06-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1228190.6,0,1228190.6
+L00151,2024-06-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1228190.6,-1228190.6
+L00152,2024-06-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,104396.201,0,104396.201
+L00152,2024-06-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,104396.201,-104396.201
+L00153,2024-06-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,855444,0,855444
+L00153,2024-06-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,855444,-855444
+L00154,2024-06-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,812940,0,812940
+L00154,2024-06-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,812940,-812940
+L00155,2024-06-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,95000,0,95000
+L00155,2024-06-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,95000,-95000
+L00156,2024-06-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,95000,0,95000
+L00156,2024-06-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,95000,-95000
+L00157,2024-06-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,44214.86,0,44214.86
+L00157,2024-06-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,44214.86,-44214.86
+L00158,2024-06-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00158,2024-06-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00159,2024-06-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00159,2024-06-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00160,2024-06-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,27020.19,0,27020.19
+L00160,2024-06-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,27020.19,-27020.19
+L00161,2024-06-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,16620,0,16620
+L00161,2024-06-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,16620,-16620
+L00162,2024-06-01,5401,Juros,Resultado,Corporativo,Juros pagos,8520,0,8520
+L00162,2024-06-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8520,-8520
+L00163,2024-06-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,23622.97866,0,23622.97866
+L00163,2024-06-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,23622.97866,-23622.97866
+L00164,2024-06-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1171989.906666667,0,1171989.906666667
+L00164,2024-06-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1171989.906666667,-1171989.906666667
+L00165,2024-06-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,823104,0,823104
+L00165,2024-06-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,823104,-823104
+L00166,2024-06-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,100813.4068,0,100813.4068
+L00166,2024-06-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,100813.4068,-100813.4068
+L00167,2024-06-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,20753.72008800003,0,20753.72008800003
+L00167,2024-06-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,20753.72008800003,-20753.72008800003
+L00168,2024-06-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00168,2024-06-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00169,2024-06-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00169,2024-06-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00170,2024-06-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1228190.6,0,1228190.6
+L00170,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1228190.6,-1228190.6
+L00171,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,104396.201,0,104396.201
+L00171,2024-06-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,104396.201,-104396.201
+L00172,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,812940,0,812940
+L00172,2024-06-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,812940,-812940
+L00173,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,95000,0,95000
+L00173,2024-06-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,95000,-95000
+L00174,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,44214.86,0,44214.86
+L00174,2024-06-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,44214.86,-44214.86
+L00175,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00175,2024-06-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00176,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00176,2024-06-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00177,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,27020.19,0,27020.19
+L00177,2024-06-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,27020.19,-27020.19
+L00178,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,16620,0,16620
+L00178,2024-06-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,16620,-16620
+L00179,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8520,0,8520
+L00179,2024-06-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8520,-8520
+L00180,2024-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,23622.97866,0,23622.97866
+L00180,2024-06-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,23622.97866,-23622.97866
+L00181,2024-07-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1083854.96,0,1083854.96
+L00181,2024-07-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1083854.96,-1083854.96
+L00182,2024-07-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,92127.6716,0,92127.6716
+L00182,2024-07-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,92127.6716,-92127.6716
+L00183,2024-07-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,573033.3333333333,0,573033.3333333333
+L00183,2024-07-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,573033.3333333333,-573033.3333333333
+L00184,2024-07-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,718240,0,718240
+L00184,2024-07-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,718240,-718240
+L00185,2024-07-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00185,2024-07-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00186,2024-07-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98040,0,98040
+L00186,2024-07-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98040,-98040
+L00187,2024-07-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,39018.78,0,39018.78
+L00187,2024-07-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,39018.78,-39018.78
+L00188,2024-07-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00188,2024-07-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00189,2024-07-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00189,2024-07-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00190,2024-07-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,23844.81,0,23844.81
+L00190,2024-07-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,23844.81,-23844.81
+L00191,2024-07-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,17520,0,17520
+L00191,2024-07-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,17520,-17520
+L00192,2024-07-01,5401,Juros,Resultado,Corporativo,Juros pagos,8304,0,8304
+L00192,2024-07-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8304,-8304
+L00193,2024-07-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,12239.89745599999,0,12239.89745599999
+L00193,2024-07-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,12239.89745599999,-12239.89745599999
+L00194,2024-07-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1276302.48,0,1276302.48
+L00194,2024-07-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1276302.48,-1276302.48
+L00195,2024-07-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,683516.6666666666,0,683516.6666666666
+L00195,2024-07-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,683516.6666666666,-683516.6666666666
+L00196,2024-07-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,104396.201,0,104396.201
+L00196,2024-07-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,104396.201,-104396.201
+L00197,2024-07-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,23622.97865999999,0,23622.97865999999
+L00197,2024-07-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,23622.97865999999,-23622.97865999999
+L00198,2024-07-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00198,2024-07-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00199,2024-07-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00199,2024-07-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00200,2024-07-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1083854.96,0,1083854.96
+L00200,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1083854.96,-1083854.96
+L00201,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,92127.6716,0,92127.6716
+L00201,2024-07-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,92127.6716,-92127.6716
+L00202,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,718240,0,718240
+L00202,2024-07-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,718240,-718240
+L00203,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00203,2024-07-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00204,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,39018.78,0,39018.78
+L00204,2024-07-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,39018.78,-39018.78
+L00205,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00205,2024-07-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00206,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00206,2024-07-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00207,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,23844.81,0,23844.81
+L00207,2024-07-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,23844.81,-23844.81
+L00208,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,17520,0,17520
+L00208,2024-07-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,17520,-17520
+L00209,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8304,0,8304
+L00209,2024-07-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8304,-8304
+L00210,2024-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,12239.89745599999,0,12239.89745599999
+L00210,2024-07-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,12239.89745599999,-12239.89745599999
+L00211,2024-08-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1173442.34,0,1173442.34
+L00211,2024-08-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1173442.34,-1173442.34
+L00212,2024-08-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,99742.59890000001,0,99742.59890000001
+L00212,2024-08-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,99742.59890000001,-99742.59890000001
+L00213,2024-08-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,865452,0,865452
+L00213,2024-08-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,865452,-865452
+L00214,2024-08-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,776350,0,776350
+L00214,2024-08-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,776350,-776350
+L00215,2024-08-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00215,2024-08-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00216,2024-08-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98800,0,98800
+L00216,2024-08-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98800,-98800
+L00217,2024-08-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,42243.92,0,42243.92
+L00217,2024-08-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,42243.92,-42243.92
+L00218,2024-08-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00218,2024-08-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00219,2024-08-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00219,2024-08-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00220,2024-08-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,25815.73,0,25815.73
+L00220,2024-08-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,25815.73,-25815.73
+L00221,2024-08-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,17700,0,17700
+L00221,2024-08-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,17700,-17700
+L00222,2024-08-01,5401,Juros,Resultado,Corporativo,Juros pagos,8088,0,8088
+L00222,2024-08-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8088,-8088
+L00223,2024-08-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,18598.710974,0,18598.710974
+L00223,2024-08-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,18598.710974,-18598.710974
+L00224,2024-08-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1053992.5,0,1053992.5
+L00224,2024-08-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1053992.5,-1053992.5
+L00225,2024-08-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,797656.9999999999,0,797656.9999999999
+L00225,2024-08-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,797656.9999999999,-797656.9999999999
+L00226,2024-08-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,92127.6716,0,92127.6716
+L00226,2024-08-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,92127.6716,-92127.6716
+L00227,2024-08-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,12239.89745599999,0,12239.89745599999
+L00227,2024-08-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,12239.89745599999,-12239.89745599999
+L00228,2024-08-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00228,2024-08-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00229,2024-08-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00229,2024-08-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00230,2024-08-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1173442.34,0,1173442.34
+L00230,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1173442.34,-1173442.34
+L00231,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,99742.59890000001,0,99742.59890000001
+L00231,2024-08-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,99742.59890000001,-99742.59890000001
+L00232,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,776350,0,776350
+L00232,2024-08-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,776350,-776350
+L00233,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00233,2024-08-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00234,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,42243.92,0,42243.92
+L00234,2024-08-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,42243.92,-42243.92
+L00235,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00235,2024-08-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00236,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00236,2024-08-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00237,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,25815.73,0,25815.73
+L00237,2024-08-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,25815.73,-25815.73
+L00238,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,17700,0,17700
+L00238,2024-08-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,17700,-17700
+L00239,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8088,0,8088
+L00239,2024-08-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8088,-8088
+L00240,2024-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18598.710974,0,18598.710974
+L00240,2024-08-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,18598.710974,-18598.710974
+L00241,2024-09-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1218986.26,0,1218986.26
+L00241,2024-09-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1218986.26,-1218986.26
+L00242,2024-09-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,103613.8321,0,103613.8321
+L00242,2024-09-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,103613.8321,-103613.8321
+L00243,2024-09-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,850247.3333333335,0,850247.3333333335
+L00243,2024-09-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,850247.3333333335,-850247.3333333335
+L00244,2024-09-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,805520,0,805520
+L00244,2024-09-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,805520,-805520
+L00245,2024-09-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00245,2024-09-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00246,2024-09-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98800,0,98800
+L00246,2024-09-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98800,-98800
+L00247,2024-09-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,43883.51,0,43883.51
+L00247,2024-09-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,43883.51,-43883.51
+L00248,2024-09-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00248,2024-09-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00249,2024-09-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00249,2024-09-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00250,2024-09-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,26817.7,0,26817.7
+L00250,2024-09-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,26817.7,-26817.7
+L00251,2024-09-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,17880,0,17880
+L00251,2024-09-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,17880,-17880
+L00252,2024-09-01,5401,Juros,Resultado,Corporativo,Juros pagos,7872,0,7872
+L00252,2024-09-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,7872,-7872
+L00253,2024-09-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,21963.73408600001,0,21963.73408600001
+L00253,2024-09-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,21963.73408600001,-21963.73408600001
+L00254,2024-09-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1158261.033333334,0,1158261.033333334
+L00254,2024-09-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1158261.033333334,-1158261.033333334
+L00255,2024-09-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,816215.6666666666,0,816215.6666666666
+L00255,2024-09-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,816215.6666666666,-816215.6666666666
+L00256,2024-09-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,99742.59890000003,0,99742.59890000003
+L00256,2024-09-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,99742.59890000003,-99742.59890000003
+L00257,2024-09-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,18598.710974,0,18598.710974
+L00257,2024-09-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,18598.710974,-18598.710974
+L00258,2024-09-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00258,2024-09-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00259,2024-09-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00259,2024-09-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00260,2024-09-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1218986.26,0,1218986.26
+L00260,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1218986.26,-1218986.26
+L00261,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,103613.8321,0,103613.8321
+L00261,2024-09-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,103613.8321,-103613.8321
+L00262,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,805520,0,805520
+L00262,2024-09-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,805520,-805520
+L00263,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00263,2024-09-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00264,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,43883.51,0,43883.51
+L00264,2024-09-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,43883.51,-43883.51
+L00265,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00265,2024-09-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00266,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00266,2024-09-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00267,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,26817.7,0,26817.7
+L00267,2024-09-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,26817.7,-26817.7
+L00268,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,17880,0,17880
+L00268,2024-09-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,17880,-17880
+L00269,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7872,0,7872
+L00269,2024-09-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,7872,-7872
+L00270,2024-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21963.73408600001,0,21963.73408600001
+L00270,2024-09-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,21963.73408600001,-21963.73408600001
+L00271,2024-10-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1336476.66,0,1336476.66
+L00271,2024-10-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1336476.66,-1336476.66
+L00272,2024-10-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,113600.5161,0,113600.5161
+L00272,2024-10-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,113600.5161,-113600.5161
+L00273,2024-10-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1007958.666666666,0,1007958.666666666
+L00273,2024-10-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1007958.666666666,-1007958.666666666
+L00274,2024-10-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,885430,0,885430
+L00274,2024-10-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,885430,-885430
+L00275,2024-10-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00275,2024-10-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00276,2024-10-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98800,0,98800
+L00276,2024-10-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98800,-98800
+L00277,2024-10-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,48113.16,0,48113.16
+L00277,2024-10-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,48113.16,-48113.16
+L00278,2024-10-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00278,2024-10-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00279,2024-10-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00279,2024-10-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00280,2024-10-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,29402.49,0,29402.49
+L00280,2024-10-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,29402.49,-29402.49
+L00281,2024-10-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,18780,0,18780
+L00281,2024-10-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,18780,-18780
+L00282,2024-10-01,5401,Juros,Resultado,Corporativo,Juros pagos,7656,0,7656
+L00282,2024-10-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,7656,-7656
+L00283,2024-10-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,28796.12792600001,0,28796.12792600001
+L00283,2024-10-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,28796.12792600001,-28796.12792600001
+L00284,2024-10-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1179822.793333333,0,1179822.793333333
+L00284,2024-10-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1179822.793333333,-1179822.793333333
+L00285,2024-10-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,914730.3333333329,0,914730.3333333329
+L00285,2024-10-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,914730.3333333329,-914730.3333333329
+L00286,2024-10-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,103613.8321,0,103613.8321
+L00286,2024-10-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,103613.8321,-103613.8321
+L00287,2024-10-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,21963.73408600001,0,21963.73408600001
+L00287,2024-10-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,21963.73408600001,-21963.73408600001
+L00288,2024-10-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00288,2024-10-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00289,2024-10-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00289,2024-10-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00290,2024-10-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1336476.66,0,1336476.66
+L00290,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1336476.66,-1336476.66
+L00291,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,113600.5161,0,113600.5161
+L00291,2024-10-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,113600.5161,-113600.5161
+L00292,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,885430,0,885430
+L00292,2024-10-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,885430,-885430
+L00293,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00293,2024-10-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00294,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,48113.16,0,48113.16
+L00294,2024-10-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,48113.16,-48113.16
+L00295,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00295,2024-10-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00296,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00296,2024-10-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00297,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,29402.49,0,29402.49
+L00297,2024-10-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,29402.49,-29402.49
+L00298,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18780,0,18780
+L00298,2024-10-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,18780,-18780
+L00299,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7656,0,7656
+L00299,2024-10-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,7656,-7656
+L00300,2024-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,28796.12792600001,0,28796.12792600001
+L00300,2024-10-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,28796.12792600001,-28796.12792600001
+L00301,2024-11-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1504412.32,0,1504412.32
+L00301,2024-11-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1504412.32,-1504412.32
+L00302,2024-11-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,127875.0472,0,127875.0472
+L00302,2024-11-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,127875.0472,-127875.0472
+L00303,2024-11-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1166250,0,1166250
+L00303,2024-11-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1166250,-1166250
+L00304,2024-11-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,996280,0,996280
+L00304,2024-11-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,996280,-996280
+L00305,2024-11-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00305,2024-11-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00306,2024-11-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98800,0,98800
+L00306,2024-11-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98800,-98800
+L00307,2024-11-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,54158.84,0,54158.84
+L00307,2024-11-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,54158.84,-54158.84
+L00308,2024-11-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00308,2024-11-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00309,2024-11-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00309,2024-11-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00310,2024-11-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,33097.07,0,33097.07
+L00310,2024-11-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,33097.07,-33097.07
+L00311,2024-11-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,18960,0,18960
+L00311,2024-11-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,18960,-18960
+L00312,2024-11-01,5401,Juros,Resultado,Corporativo,Juros pagos,7440,0,7440
+L00312,2024-11-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,7440,-7440
+L00313,2024-11-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,40052.46335200005,0,40052.46335200005
+L00313,2024-11-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,40052.46335200005,-40052.46335200005
+L00314,2024-11-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1280498.106666667,0,1280498.106666667
+L00314,2024-11-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1280498.106666667,-1280498.106666667
+L00315,2024-11-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1036925,0,1036925
+L00315,2024-11-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1036925,-1036925
+L00316,2024-11-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,113600.5161,0,113600.5161
+L00316,2024-11-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,113600.5161,-113600.5161
+L00317,2024-11-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,28796.12792600002,0,28796.12792600002
+L00317,2024-11-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,28796.12792600002,-28796.12792600002
+L00318,2024-11-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00318,2024-11-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00319,2024-11-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00319,2024-11-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00320,2024-11-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1504412.32,0,1504412.32
+L00320,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1504412.32,-1504412.32
+L00321,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,127875.0472,0,127875.0472
+L00321,2024-11-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,127875.0472,-127875.0472
+L00322,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,996280,0,996280
+L00322,2024-11-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,996280,-996280
+L00323,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00323,2024-11-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00324,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,54158.84,0,54158.84
+L00324,2024-11-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,54158.84,-54158.84
+L00325,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00325,2024-11-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00326,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00326,2024-11-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00327,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33097.07,0,33097.07
+L00327,2024-11-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,33097.07,-33097.07
+L00328,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18960,0,18960
+L00328,2024-11-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,18960,-18960
+L00329,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7440,0,7440
+L00329,2024-11-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,7440,-7440
+L00330,2024-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,40052.46335200005,0,40052.46335200005
+L00330,2024-11-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,40052.46335200005,-40052.46335200005
+L00331,2024-12-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1381719.58,0,1381719.58
+L00331,2024-12-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1381719.58,-1381719.58
+L00332,2024-12-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,117446.1643,0,117446.1643
+L00332,2024-12-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,117446.1643,-117446.1643
+L00333,2024-12-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,790699.9999999998,0,790699.9999999998
+L00333,2024-12-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,790699.9999999998,-790699.9999999998
+L00334,2024-12-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,915130,0,915130
+L00334,2024-12-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,915130,-915130
+L00335,2024-12-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,98800,0,98800
+L00335,2024-12-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,98800,-98800
+L00336,2024-12-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,98800,0,98800
+L00336,2024-12-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,98800,-98800
+L00337,2024-12-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,49741.9,0,49741.9
+L00337,2024-12-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,49741.9,-49741.9
+L00338,2024-12-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,32000,0,32000
+L00338,2024-12-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,32000,-32000
+L00339,2024-12-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,18000,0,18000
+L00339,2024-12-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,18000,-18000
+L00340,2024-12-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,30397.83,0,30397.83
+L00340,2024-12-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,30397.83,-30397.83
+L00341,2024-12-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,19140,0,19140
+L00341,2024-12-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,19140,-19140
+L00342,2024-12-01,5401,Juros,Resultado,Corporativo,Juros pagos,7224,0,7224
+L00342,2024-12-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,7224,-7224
+L00343,2024-12-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,31905.493138,0,31905.493138
+L00343,2024-12-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,31905.493138,-31905.493138
+L00344,2024-12-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1545309.9,0,1545309.9
+L00344,2024-12-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1545309.9,-1545309.9
+L00345,2024-12-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,885374.9999999998,0,885374.9999999998
+L00345,2024-12-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,885374.9999999998,-885374.9999999998
+L00346,2024-12-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,127875.0472,0,127875.0472
+L00346,2024-12-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,127875.0472,-127875.0472
+L00347,2024-12-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,40052.46335200005,0,40052.46335200005
+L00347,2024-12-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,40052.46335200005,-40052.46335200005
+L00348,2024-12-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00348,2024-12-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00349,2024-12-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00349,2024-12-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00350,2024-12-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1381719.58,0,1381719.58
+L00350,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1381719.58,-1381719.58
+L00351,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,117446.1643,0,117446.1643
+L00351,2024-12-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,117446.1643,-117446.1643
+L00352,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,915130,0,915130
+L00352,2024-12-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,915130,-915130
+L00353,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,98800,0,98800
+L00353,2024-12-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,98800,-98800
+L00354,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,49741.9,0,49741.9
+L00354,2024-12-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,49741.9,-49741.9
+L00355,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32000,0,32000
+L00355,2024-12-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,32000,-32000
+L00356,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,18000,0,18000
+L00356,2024-12-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,18000,-18000
+L00357,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,30397.83,0,30397.83
+L00357,2024-12-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,30397.83,-30397.83
+L00358,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,19140,0,19140
+L00358,2024-12-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,19140,-19140
+L00359,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7224,0,7224
+L00359,2024-12-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,7224,-7224
+L00360,2024-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,31905.493138,0,31905.493138
+L00360,2024-12-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,31905.493138,-31905.493138
+L00361,2025-01-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1151091.49,0,1151091.49
+L00361,2025-01-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1151091.49,-1151091.49
+L00362,2025-01-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,97842.77665,0,97842.77665
+L00362,2025-01-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,97842.77665,-97842.77665
+L00363,2025-01-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,747883.652,0,747883.652
+L00363,2025-01-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,747883.652,-747883.652
+L00364,2025-01-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,786981.58,0,786981.58
+L00364,2025-01-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,786981.58,-786981.58
+L00365,2025-01-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00365,2025-01-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00366,2025-01-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,104500,0,104500
+L00366,2025-01-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,104500,-104500
+L00367,2025-01-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,41439.29,0,41439.29
+L00367,2025-01-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,41439.29,-41439.29
+L00368,2025-01-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00368,2025-01-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00369,2025-01-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00369,2025-01-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00370,2025-01-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,25324.01,0,25324.01
+L00370,2025-01-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,25324.01,-25324.01
+L00371,2025-01-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,20040,0,20040
+L00371,2025-01-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,20040,-20040
+L00372,2025-01-01,5401,Juros,Resultado,Corporativo,Juros pagos,7008,0,7008
+L00372,2025-01-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,7008,-7008
+L00373,2025-01-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,4233.28333900005,0,4233.28333900005
+L00373,2025-01-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,4233.28333900005,-4233.28333900005
+L00374,2025-01-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1190007.595666667,0,1190007.595666667
+L00374,2025-01-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1190007.595666667,-1190007.595666667
+L00375,2025-01-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,897390.1420000002,0,897390.1420000002
+L00375,2025-01-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,897390.1420000002,-897390.1420000002
+L00376,2025-01-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,117446.1643,0,117446.1643
+L00376,2025-01-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,117446.1643,-117446.1643
+L00377,2025-01-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,31905.493138,0,31905.493138
+L00377,2025-01-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,31905.493138,-31905.493138
+L00378,2025-01-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00378,2025-01-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00379,2025-01-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00379,2025-01-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00380,2025-01-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1151091.49,0,1151091.49
+L00380,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1151091.49,-1151091.49
+L00381,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,97842.77665,0,97842.77665
+L00381,2025-01-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,97842.77665,-97842.77665
+L00382,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,786981.58,0,786981.58
+L00382,2025-01-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,786981.58,-786981.58
+L00383,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00383,2025-01-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00384,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,41439.29,0,41439.29
+L00384,2025-01-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,41439.29,-41439.29
+L00385,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00385,2025-01-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00386,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00386,2025-01-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00387,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,25324.01,0,25324.01
+L00387,2025-01-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,25324.01,-25324.01
+L00388,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20040,0,20040
+L00388,2025-01-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,20040,-20040
+L00389,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,7008,0,7008
+L00389,2025-01-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,7008,-7008
+L00390,2025-01-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,4233.28333900005,0,4233.28333900005
+L00390,2025-01-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,4233.28333900005,-4233.28333900005
+L00391,2025-02-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1176731.76,0,1176731.76
+L00391,2025-02-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1176731.76,-1176731.76
+L00392,2025-02-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,100022.1996,0,100022.1996
+L00392,2025-02-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,100022.1996,-100022.1996
+L00393,2025-02-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,838438.4386666669,0,838438.4386666669
+L00393,2025-02-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,838438.4386666669,-838438.4386666669
+L00394,2025-02-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,805807.26,0,805807.26
+L00394,2025-02-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,805807.26,-805807.26
+L00395,2025-02-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00395,2025-02-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00396,2025-02-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,105925,0,105925
+L00396,2025-02-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,105925,-105925
+L00397,2025-02-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,42362.34,0,42362.34
+L00397,2025-02-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,42362.34,-42362.34
+L00398,2025-02-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00398,2025-02-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00399,2025-02-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00399,2025-02-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00400,2025-02-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,25888.1,0,25888.1
+L00400,2025-02-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,25888.1,-25888.1
+L00401,2025-02-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,20220,0,20220
+L00401,2025-02-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,20220,-20220
+L00402,2025-02-01,5401,Juros,Resultado,Corporativo,Juros pagos,6792,0,6792
+L00402,2025-02-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,6792,-6792
+L00403,2025-02-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,5315.852536000022,0,5315.852536000022
+L00403,2025-02-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,5315.852536000022,-5315.852536000022
+L00404,2025-02-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1136562.003666667,0,1136562.003666667
+L00404,2025-02-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1136562.003666667,-1136562.003666667
+L00405,2025-02-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,816475.1453333333,0,816475.1453333333
+L00405,2025-02-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,816475.1453333333,-816475.1453333333
+L00406,2025-02-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,97842.77665,0,97842.77665
+L00406,2025-02-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,97842.77665,-97842.77665
+L00407,2025-02-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,4233.283339000051,0,4233.283339000051
+L00407,2025-02-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,4233.283339000051,-4233.283339000051
+L00408,2025-02-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00408,2025-02-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00409,2025-02-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00409,2025-02-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00410,2025-02-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1176731.76,0,1176731.76
+L00410,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1176731.76,-1176731.76
+L00411,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,100022.1996,0,100022.1996
+L00411,2025-02-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,100022.1996,-100022.1996
+L00412,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,805807.26,0,805807.26
+L00412,2025-02-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,805807.26,-805807.26
+L00413,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00413,2025-02-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00414,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,42362.34,0,42362.34
+L00414,2025-02-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,42362.34,-42362.34
+L00415,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00415,2025-02-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00416,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00416,2025-02-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00417,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,25888.1,0,25888.1
+L00417,2025-02-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,25888.1,-25888.1
+L00418,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20220,0,20220
+L00418,2025-02-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,20220,-20220
+L00419,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,6792,0,6792
+L00419,2025-02-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,6792,-6792
+L00420,2025-02-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,5315.852536000022,0,5315.852536000022
+L00420,2025-02-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,5315.852536000022,-5315.852536000022
+L00421,2025-03-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1389953.08,0,1389953.08
+L00421,2025-03-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1389953.08,-1389953.08
+L00422,2025-03-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,118146.0118,0,118146.0118
+L00422,2025-03-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,118146.0118,-118146.0118
+L00423,2025-03-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1206198.664,0,1206198.664
+L00423,2025-03-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1206198.664,-1206198.664
+L00424,2025-03-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,952291.92,0,952291.92
+L00424,2025-03-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,952291.92,-952291.92
+L00425,2025-03-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00425,2025-03-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00426,2025-03-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,105925,0,105925
+L00426,2025-03-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,105925,-105925
+L00427,2025-03-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,50038.31,0,50038.31
+L00427,2025-03-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,50038.31,-50038.31
+L00428,2025-03-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00428,2025-03-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00429,2025-03-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00429,2025-03-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00430,2025-03-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,30578.97,0,30578.97
+L00430,2025-03-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,30578.97,-30578.97
+L00431,2025-03-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,20400,0,20400
+L00431,2025-03-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,20400,-20400
+L00432,2025-03-01,5401,Juros,Resultado,Corporativo,Juros pagos,6576,0,6576
+L00432,2025-03-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,6576,-6576
+L00433,2025-03-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,17651.73518800002,0,17651.73518800002
+L00433,2025-03-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,17651.73518800002,-17651.73518800002
+L00434,2025-03-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1055906.345333333,0,1055906.345333333
+L00434,2025-03-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1055906.345333333,-1055906.345333333
+L00435,2025-03-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1035299.894,0,1035299.894
+L00435,2025-03-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1035299.894,-1035299.894
+L00436,2025-03-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,100022.1996,0,100022.1996
+L00436,2025-03-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,100022.1996,-100022.1996
+L00437,2025-03-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,5315.85253600002,0,5315.85253600002
+L00437,2025-03-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,5315.85253600002,-5315.85253600002
+L00438,2025-03-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00438,2025-03-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00439,2025-03-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00439,2025-03-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00440,2025-03-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1389953.08,0,1389953.08
+L00440,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1389953.08,-1389953.08
+L00441,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,118146.0118,0,118146.0118
+L00441,2025-03-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,118146.0118,-118146.0118
+L00442,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,952291.92,0,952291.92
+L00442,2025-03-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,952291.92,-952291.92
+L00443,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00443,2025-03-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00444,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,50038.31,0,50038.31
+L00444,2025-03-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,50038.31,-50038.31
+L00445,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00445,2025-03-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00446,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00446,2025-03-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00447,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,30578.97,0,30578.97
+L00447,2025-03-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,30578.97,-30578.97
+L00448,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20400,0,20400
+L00448,2025-03-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,20400,-20400
+L00449,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,6576,0,6576
+L00449,2025-03-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,6576,-6576
+L00450,2025-03-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,17651.73518800002,0,17651.73518800002
+L00450,2025-03-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,17651.73518800002,-17651.73518800002
+L00451,2025-04-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1384297.22,0,1384297.22
+L00451,2025-04-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1384297.22,-1384297.22
+L00452,2025-04-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,117665.2637,0,117665.2637
+L00452,2025-04-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,117665.2637,-117665.2637
+L00453,2025-04-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,946275.1973333331,0,946275.1973333331
+L00453,2025-04-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,946275.1973333331,-946275.1973333331
+L00454,2025-04-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,950090.68,0,950090.68
+L00454,2025-04-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,950090.68,-950090.68
+L00455,2025-04-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00455,2025-04-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00456,2025-04-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,105925,0,105925
+L00456,2025-04-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,105925,-105925
+L00457,2025-04-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,49834.7,0,49834.7
+L00457,2025-04-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,49834.7,-49834.7
+L00458,2025-04-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00458,2025-04-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00459,2025-04-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,48160,0,48160
+L00459,2025-04-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,48160,-48160
+L00460,2025-04-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,30454.54,0,30454.54
+L00460,2025-04-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,30454.54,-30454.54
+L00461,2025-04-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,21300,0,21300
+L00461,2025-04-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,21300,-21300
+L00462,2025-04-01,5401,Juros,Resultado,Corporativo,Juros pagos,6360,0,6360
+L00462,2025-04-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,6360,-6360
+L00463,2025-04-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,6999.592341999974,0,6999.592341999974
+L00463,2025-04-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,6999.592341999974,-6999.592341999974
+L00464,2025-04-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1393158.067333334,0,1393158.067333334
+L00464,2025-04-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1393158.067333334,-1393158.067333334
+L00465,2025-04-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,948843.3106666664,0,948843.3106666664
+L00465,2025-04-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,948843.3106666664,-948843.3106666664
+L00466,2025-04-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,118146.0118,0,118146.0118
+L00466,2025-04-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,118146.0118,-118146.0118
+L00467,2025-04-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,17651.73518800002,0,17651.73518800002
+L00467,2025-04-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,17651.73518800002,-17651.73518800002
+L00468,2025-04-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00468,2025-04-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00469,2025-04-01,1101,Caixa,Ativo,Corporativo,Captação de empréstimo,350000,0,350000
+L00469,2025-04-01,2201,Empréstimos,Passivo,Corporativo,Captação de empréstimo,0,350000,-350000
+L00470,2025-04-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00470,2025-04-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00471,2025-04-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1384297.22,0,1384297.22
+L00471,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1384297.22,-1384297.22
+L00472,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,117665.2637,0,117665.2637
+L00472,2025-04-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,117665.2637,-117665.2637
+L00473,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,950090.68,0,950090.68
+L00473,2025-04-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,950090.68,-950090.68
+L00474,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00474,2025-04-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00475,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,49834.7,0,49834.7
+L00475,2025-04-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,49834.7,-49834.7
+L00476,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00476,2025-04-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00477,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,48160,0,48160
+L00477,2025-04-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,48160,-48160
+L00478,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,30454.54,0,30454.54
+L00478,2025-04-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,30454.54,-30454.54
+L00479,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21300,0,21300
+L00479,2025-04-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,21300,-21300
+L00480,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,6360,0,6360
+L00480,2025-04-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,6360,-6360
+L00481,2025-04-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,6999.592341999974,0,6999.592341999974
+L00481,2025-04-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,6999.592341999974,-6999.592341999974
+L00482,2025-05-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1449678.53,0,1449678.53
+L00482,2025-05-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1449678.53,-1449678.53
+L00483,2025-05-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,123222.67505,0,123222.67505
+L00483,2025-05-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,123222.67505,-123222.67505
+L00484,2025-05-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1064146.448,0,1064146.448
+L00484,2025-05-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1064146.448,-1064146.448
+L00485,2025-05-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,991818.4,0,991818.4
+L00485,2025-05-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,991818.4,-991818.4
+L00486,2025-05-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00486,2025-05-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00487,2025-05-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,105925,0,105925
+L00487,2025-05-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,105925,-105925
+L00488,2025-05-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,52188.43,0,52188.43
+L00488,2025-05-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,52188.43,-52188.43
+L00489,2025-05-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00489,2025-05-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00490,2025-05-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,48160,0,48160
+L00490,2025-05-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,48160,-48160
+L00491,2025-05-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,31892.93,0,31892.93
+L00491,2025-05-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,31892.93,-31892.93
+L00492,2025-05-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,21480,0,21480
+L00492,2025-05-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,21480,-21480
+L00493,2025-05-01,5401,Juros,Resultado,Corporativo,Juros pagos,10344,0,10344
+L00493,2025-05-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,10344,-10344
+L00494,2025-05-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,10447.21228300002,0,10447.21228300002
+L00494,2025-05-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,10447.21228300002,-10447.21228300002
+L00495,2025-05-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1347247.811,0,1347247.811
+L00495,2025-05-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1347247.811,-1347247.811
+L00496,2025-05-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1015464.108,0,1015464.108
+L00496,2025-05-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1015464.108,-1015464.108
+L00497,2025-05-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,117665.2637,0,117665.2637
+L00497,2025-05-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,117665.2637,-117665.2637
+L00498,2025-05-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,6999.592341999973,0,6999.592341999973
+L00498,2025-05-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,6999.592341999973,-6999.592341999973
+L00499,2025-05-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00499,2025-05-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00500,2025-05-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00500,2025-05-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00501,2025-05-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1449678.53,0,1449678.53
+L00501,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1449678.53,-1449678.53
+L00502,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,123222.67505,0,123222.67505
+L00502,2025-05-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,123222.67505,-123222.67505
+L00503,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,991818.4,0,991818.4
+L00503,2025-05-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,991818.4,-991818.4
+L00504,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00504,2025-05-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00505,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,52188.43,0,52188.43
+L00505,2025-05-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,52188.43,-52188.43
+L00506,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00506,2025-05-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00507,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,48160,0,48160
+L00507,2025-05-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,48160,-48160
+L00508,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,31892.93,0,31892.93
+L00508,2025-05-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,31892.93,-31892.93
+L00509,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21480,0,21480
+L00509,2025-05-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,21480,-21480
+L00510,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,10344,0,10344
+L00510,2025-05-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,10344,-10344
+L00511,2025-05-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,10447.21228300002,0,10447.21228300002
+L00511,2025-05-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,10447.21228300002,-10447.21228300002
+L00512,2025-06-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1471160.97,0,1471160.97
+L00512,2025-06-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1471160.97,-1471160.97
+L00513,2025-06-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,125048.68245,0,125048.68245
+L00513,2025-06-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,125048.68245,-125048.68245
+L00514,2025-06-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1033888.609333333,0,1033888.609333333
+L00514,2025-06-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1033888.609333333,-1033888.609333333
+L00515,2025-06-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,1007209.94,0,1007209.94
+L00515,2025-06-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,1007209.94,-1007209.94
+L00516,2025-06-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,105925,0,105925
+L00516,2025-06-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,105925,-105925
+L00517,2025-06-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,105925,0,105925
+L00517,2025-06-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,105925,-105925
+L00518,2025-06-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,52961.79,0,52961.79
+L00518,2025-06-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,52961.79,-52961.79
+L00519,2025-06-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00519,2025-06-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00520,2025-06-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00520,2025-06-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00521,2025-06-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,32365.54,0,32365.54
+L00521,2025-06-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,32365.54,-32365.54
+L00522,2025-06-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,21660,0,21660
+L00522,2025-06-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,21660,-21660
+L00523,2025-06-01,5401,Juros,Resultado,Corporativo,Juros pagos,10128,0,10128
+L00523,2025-06-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,10128,-10128
+L00524,2025-06-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,21005.88596700002,0,21005.88596700002
+L00524,2025-06-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,21005.88596700002,-21005.88596700002
+L00525,2025-06-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1437505.147333333,0,1437505.147333333
+L00525,2025-06-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1437505.147333333,-1437505.147333333
+L00526,2025-06-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1015931.812666666,0,1015931.812666666
+L00526,2025-06-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1015931.812666666,-1015931.812666666
+L00527,2025-06-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,123222.67505,0,123222.67505
+L00527,2025-06-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,123222.67505,-123222.67505
+L00528,2025-06-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,10447.21228300002,0,10447.21228300002
+L00528,2025-06-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,10447.21228300002,-10447.21228300002
+L00529,2025-06-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00529,2025-06-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00530,2025-06-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00530,2025-06-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00531,2025-06-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1471160.97,0,1471160.97
+L00531,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1471160.97,-1471160.97
+L00532,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,125048.68245,0,125048.68245
+L00532,2025-06-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,125048.68245,-125048.68245
+L00533,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,1007209.94,0,1007209.94
+L00533,2025-06-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,1007209.94,-1007209.94
+L00534,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,105925,0,105925
+L00534,2025-06-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,105925,-105925
+L00535,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,52961.79,0,52961.79
+L00535,2025-06-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,52961.79,-52961.79
+L00536,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00536,2025-06-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00537,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00537,2025-06-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00538,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,32365.54,0,32365.54
+L00538,2025-06-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,32365.54,-32365.54
+L00539,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21660,0,21660
+L00539,2025-06-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,21660,-21660
+L00540,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,10128,0,10128
+L00540,2025-06-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,10128,-10128
+L00541,2025-06-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,21005.88596700002,0,21005.88596700002
+L00541,2025-06-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,21005.88596700002,-21005.88596700002
+L00542,2025-07-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1207312.48,0,1207312.48
+L00542,2025-07-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1207312.48,-1207312.48
+L00543,2025-07-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,102621.5608,0,102621.5608
+L00543,2025-07-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,102621.5608,-102621.5608
+L00544,2025-07-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,769095.7893333335,0,769095.7893333335
+L00544,2025-07-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,769095.7893333335,-769095.7893333335
+L00545,2025-07-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,820084.68,0,820084.68
+L00545,2025-07-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,820084.68,-820084.68
+L00546,2025-07-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00546,2025-07-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00547,2025-07-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,109314.6,0,109314.6
+L00547,2025-07-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,109314.6,-109314.6
+L00548,2025-07-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,43463.25,0,43463.25
+L00548,2025-07-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,43463.25,-43463.25
+L00549,2025-07-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00549,2025-07-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00550,2025-07-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00550,2025-07-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00551,2025-07-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,26560.87,0,26560.87
+L00551,2025-07-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,26560.87,-26560.87
+L00552,2025-07-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,22560,0,22560
+L00552,2025-07-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,22560,-22560
+L00553,2025-07-01,5401,Juros,Resultado,Corporativo,Juros pagos,9912,0,9912
+L00553,2025-07-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9912,-9912
+L00554,2025-07-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,6075.160527999947,0,6075.160527999947
+L00554,2025-07-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,6075.160527999947,-6075.160527999947
+L00555,2025-07-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1097506.373,0,1097506.373
+L00555,2025-07-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1097506.373,-1097506.373
+L00556,2025-07-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,987408.5926666666,0,987408.5926666666
+L00556,2025-07-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,987408.5926666666,-987408.5926666666
+L00557,2025-07-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,125048.68245,0,125048.68245
+L00557,2025-07-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,125048.68245,-125048.68245
+L00558,2025-07-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,21005.88596700002,0,21005.88596700002
+L00558,2025-07-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,21005.88596700002,-21005.88596700002
+L00559,2025-07-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00559,2025-07-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00560,2025-07-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00560,2025-07-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00561,2025-07-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1207312.48,0,1207312.48
+L00561,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1207312.48,-1207312.48
+L00562,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,102621.5608,0,102621.5608
+L00562,2025-07-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,102621.5608,-102621.5608
+L00563,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,820084.68,0,820084.68
+L00563,2025-07-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,820084.68,-820084.68
+L00564,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00564,2025-07-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00565,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,43463.25,0,43463.25
+L00565,2025-07-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,43463.25,-43463.25
+L00566,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00566,2025-07-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00567,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00567,2025-07-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00568,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,26560.87,0,26560.87
+L00568,2025-07-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,26560.87,-26560.87
+L00569,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,22560,0,22560
+L00569,2025-07-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,22560,-22560
+L00570,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9912,0,9912
+L00570,2025-07-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9912,-9912
+L00571,2025-07-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,6075.160527999947,0,6075.160527999947
+L00571,2025-07-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,6075.160527999947,-6075.160527999947
+L00572,2025-08-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1298644.84,0,1298644.84
+L00572,2025-08-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1298644.84,-1298644.84
+L00573,2025-08-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,110384.8114,0,110384.8114
+L00573,2025-08-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,110384.8114,-110384.8114
+L00574,2025-08-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1013430.101333333,0,1013430.101333333
+L00574,2025-08-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1013430.101333333,-1013430.101333333
+L00575,2025-08-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,883132.1,0,883132.1
+L00575,2025-08-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,883132.1,-883132.1
+L00576,2025-08-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00576,2025-08-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00577,2025-08-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,110162,0,110162
+L00577,2025-08-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,110162,-110162
+L00578,2025-08-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,46751.21,0,46751.21
+L00578,2025-08-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,46751.21,-46751.21
+L00579,2025-08-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00579,2025-08-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00580,2025-08-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00580,2025-08-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00581,2025-08-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,28570.19,0,28570.19
+L00581,2025-08-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,28570.19,-28570.19
+L00582,2025-08-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,22740,0,22740
+L00582,2025-08-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,22740,-22740
+L00583,2025-08-01,5401,Juros,Resultado,Corporativo,Juros pagos,9696,0,9696
+L00583,2025-08-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9696,-9696
+L00584,2025-08-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,11263.69972400004,0,11263.69972400004
+L00584,2025-08-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,11263.69972400004,-11263.69972400004
+L00585,2025-08-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1115980.12,0,1115980.12
+L00585,2025-08-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1115980.12,-1115980.12
+L00586,2025-08-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,939874.7779999998,0,939874.7779999998
+L00586,2025-08-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,939874.7779999998,-939874.7779999998
+L00587,2025-08-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,102621.5608,0,102621.5608
+L00587,2025-08-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,102621.5608,-102621.5608
+L00588,2025-08-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,6075.160527999948,0,6075.160527999948
+L00588,2025-08-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,6075.160527999948,-6075.160527999948
+L00589,2025-08-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00589,2025-08-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00590,2025-08-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00590,2025-08-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00591,2025-08-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1298644.84,0,1298644.84
+L00591,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1298644.84,-1298644.84
+L00592,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110384.8114,0,110384.8114
+L00592,2025-08-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,110384.8114,-110384.8114
+L00593,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,883132.1,0,883132.1
+L00593,2025-08-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,883132.1,-883132.1
+L00594,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00594,2025-08-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00595,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,46751.21,0,46751.21
+L00595,2025-08-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,46751.21,-46751.21
+L00596,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00596,2025-08-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00597,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00597,2025-08-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00598,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,28570.19,0,28570.19
+L00598,2025-08-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,28570.19,-28570.19
+L00599,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,22740,0,22740
+L00599,2025-08-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,22740,-22740
+L00600,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9696,0,9696
+L00600,2025-08-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9696,-9696
+L00601,2025-08-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,11263.69972400004,0,11263.69972400004
+L00601,2025-08-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,11263.69972400004,-11263.69972400004
+L00602,2025-09-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1385311.35,0,1385311.35
+L00602,2025-09-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1385311.35,-1385311.35
+L00603,2025-09-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,117751.46475,0,117751.46475
+L00603,2025-09-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,117751.46475,-117751.46475
+L00604,2025-09-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1060903.148,0,1060903.148
+L00604,2025-09-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1060903.148,-1060903.148
+L00605,2025-09-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,941100.92,0,941100.92
+L00605,2025-09-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,941100.92,-941100.92
+L00606,2025-09-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00606,2025-09-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00607,2025-09-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,110162,0,110162
+L00607,2025-09-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,110162,-110162
+L00608,2025-09-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,49871.21,0,49871.21
+L00608,2025-09-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,49871.21,-49871.21
+L00609,2025-09-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00609,2025-09-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00610,2025-09-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00610,2025-09-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00611,2025-09-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,30476.85,0,30476.85
+L00611,2025-09-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,30476.85,-30476.85
+L00612,2025-09-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,22920,0,22920
+L00612,2025-09-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,22920,-22920
+L00613,2025-09-01,5401,Juros,Resultado,Corporativo,Juros pagos,9480,0,9480
+L00613,2025-09-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9480,-9480
+L00614,2025-09-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,16819.427785,0,16819.427785
+L00614,2025-09-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,16819.427785,-16819.427785
+L00615,2025-09-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1211978.33,0,1211978.33
+L00615,2025-09-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1211978.33,-1211978.33
+L00616,2025-09-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,993272.8580000002,0,993272.8580000002
+L00616,2025-09-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,993272.8580000002,-993272.8580000002
+L00617,2025-09-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,110384.8114,0,110384.8114
+L00617,2025-09-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,110384.8114,-110384.8114
+L00618,2025-09-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,11263.69972400004,0,11263.69972400004
+L00618,2025-09-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,11263.69972400004,-11263.69972400004
+L00619,2025-09-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00619,2025-09-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00620,2025-09-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00620,2025-09-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00621,2025-09-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1385311.35,0,1385311.35
+L00621,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1385311.35,-1385311.35
+L00622,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,117751.46475,0,117751.46475
+L00622,2025-09-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,117751.46475,-117751.46475
+L00623,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,941100.92,0,941100.92
+L00623,2025-09-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,941100.92,-941100.92
+L00624,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00624,2025-09-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00625,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,49871.21,0,49871.21
+L00625,2025-09-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,49871.21,-49871.21
+L00626,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00626,2025-09-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00627,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00627,2025-09-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00628,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,30476.85,0,30476.85
+L00628,2025-09-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,30476.85,-30476.85
+L00629,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,22920,0,22920
+L00629,2025-09-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,22920,-22920
+L00630,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9480,0,9480
+L00630,2025-09-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9480,-9480
+L00631,2025-09-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,16819.427785,0,16819.427785
+L00631,2025-09-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,16819.427785,-16819.427785
+L00632,2025-10-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1555988.89,0,1555988.89
+L00632,2025-10-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1555988.89,-1555988.89
+L00633,2025-10-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,132259.05565,0,132259.05565
+L00633,2025-10-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,132259.05565,-132259.05565
+L00634,2025-10-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,966131.5160000005,0,966131.5160000005
+L00634,2025-10-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,966131.5160000005,-966131.5160000005
+L00635,2025-10-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,1065026.86,0,1065026.86
+L00635,2025-10-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,1065026.86,-1065026.86
+L00636,2025-10-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00636,2025-10-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00637,2025-10-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,110162,0,110162
+L00637,2025-10-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,110162,-110162
+L00638,2025-10-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,56015.6,0,56015.6
+L00638,2025-10-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,56015.6,-56015.6
+L00639,2025-10-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00639,2025-10-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00640,2025-10-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00640,2025-10-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00641,2025-10-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,34231.76,0,34231.76
+L00641,2025-10-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,34231.76,-34231.76
+L00642,2025-10-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,23820,0,23820
+L00642,2025-10-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,23820,-23820
+L00643,2025-10-01,5401,Juros,Resultado,Corporativo,Juros pagos,9264,0,9264
+L00643,2025-10-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9264,-9264
+L00644,2025-10-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,24184.06887899994,0,24184.06887899994
+L00644,2025-10-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,24184.06887899994,-24184.06887899994
+L00645,2025-10-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1888895.662333333,0,1888895.662333333
+L00645,2025-10-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1888895.662333333,-1888895.662333333
+L00646,2025-10-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,821551.2526666673,0,821551.2526666673
+L00646,2025-10-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,821551.2526666673,-821551.2526666673
+L00647,2025-10-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,117751.46475,0,117751.46475
+L00647,2025-10-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,117751.46475,-117751.46475
+L00648,2025-10-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,16819.42778500001,0,16819.42778500001
+L00648,2025-10-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,16819.42778500001,-16819.42778500001
+L00649,2025-10-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00649,2025-10-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00650,2025-10-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00650,2025-10-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00651,2025-10-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1555988.89,0,1555988.89
+L00651,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1555988.89,-1555988.89
+L00652,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,132259.05565,0,132259.05565
+L00652,2025-10-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,132259.05565,-132259.05565
+L00653,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,1065026.86,0,1065026.86
+L00653,2025-10-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,1065026.86,-1065026.86
+L00654,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00654,2025-10-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00655,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,56015.6,0,56015.6
+L00655,2025-10-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,56015.6,-56015.6
+L00656,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00656,2025-10-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00657,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00657,2025-10-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00658,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,34231.76,0,34231.76
+L00658,2025-10-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,34231.76,-34231.76
+L00659,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,23820,0,23820
+L00659,2025-10-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,23820,-23820
+L00660,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9264,0,9264
+L00660,2025-10-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9264,-9264
+L00661,2025-10-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,24184.06887899994,0,24184.06887899994
+L00661,2025-10-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,24184.06887899994,-24184.06887899994
+L00662,2025-11-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1824414.72,0,1824414.72
+L00662,2025-11-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1824414.72,-1824414.72
+L00663,2025-11-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,155075.2512,0,155075.2512
+L00663,2025-11-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,155075.2512,-155075.2512
+L00664,2025-11-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1568533.264,0,1568533.264
+L00664,2025-11-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1568533.264,-1568533.264
+L00665,2025-11-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,1249236.52,0,1249236.52
+L00665,2025-11-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,1249236.52,-1249236.52
+L00666,2025-11-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00666,2025-11-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00667,2025-11-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,110162,0,110162
+L00667,2025-11-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,110162,-110162
+L00668,2025-11-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,65678.93,0,65678.93
+L00668,2025-11-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,65678.93,-65678.93
+L00669,2025-11-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00669,2025-11-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00670,2025-11-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00670,2025-11-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00671,2025-11-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,40137.12,0,40137.12
+L00671,2025-11-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,40137.12,-40137.12
+L00672,2025-11-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,24000,0,24000
+L00672,2025-11-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,24000,-24000
+L00673,2025-11-01,5401,Juros,Resultado,Corporativo,Juros pagos,9048,0,9048
+L00673,2025-11-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,9048,-9048
+L00674,2025-11-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,39778.94559199997,0,39778.94559199997
+L00674,2025-11-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,39778.94559199997,-39778.94559199997
+L00675,2025-11-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1403880.919666667,0,1403880.919666667
+L00675,2025-11-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1403880.919666667,-1403880.919666667
+L00676,2025-11-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1353621.994,0,1353621.994
+L00676,2025-11-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1353621.994,-1353621.994
+L00677,2025-11-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,132259.05565,0,132259.05565
+L00677,2025-11-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,132259.05565,-132259.05565
+L00678,2025-11-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,24184.06887899994,0,24184.06887899994
+L00678,2025-11-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,24184.06887899994,-24184.06887899994
+L00679,2025-11-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,18000,0,18000
+L00679,2025-11-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,18000,-18000
+L00680,2025-11-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00680,2025-11-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00681,2025-11-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1824414.72,0,1824414.72
+L00681,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1824414.72,-1824414.72
+L00682,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,155075.2512,0,155075.2512
+L00682,2025-11-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,155075.2512,-155075.2512
+L00683,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,1249236.52,0,1249236.52
+L00683,2025-11-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,1249236.52,-1249236.52
+L00684,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00684,2025-11-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00685,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,65678.93,0,65678.93
+L00685,2025-11-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,65678.93,-65678.93
+L00686,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00686,2025-11-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00687,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00687,2025-11-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00688,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,40137.12,0,40137.12
+L00688,2025-11-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,40137.12,-40137.12
+L00689,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,24000,0,24000
+L00689,2025-11-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,24000,-24000
+L00690,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,9048,0,9048
+L00690,2025-11-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,9048,-9048
+L00691,2025-11-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,39778.94559199997,0,39778.94559199997
+L00691,2025-11-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,39778.94559199997,-39778.94559199997
+L00692,2025-12-01,1102,Clientes,Ativo,Comercial,Vendas por competência,1695124.08,0,1695124.08
+L00692,2025-12-01,4101,Receita bruta,Resultado,Comercial,Vendas por competência,0,1695124.08,-1695124.08
+L00693,2025-12-01,5101,Deduções,Resultado,Corporativo,Deduções sobre vendas simuladas,144085.5468,0,144085.5468
+L00693,2025-12-01,2103,Tributos sobre venda,Passivo,Corporativo,Deduções sobre vendas simuladas,0,144085.5468,-144085.5468
+L00694,2025-12-01,1103,Estoques,Ativo,Operações,Compras de mercadorias,1010539.002666666,0,1010539.002666666
+L00694,2025-12-01,2101,Fornecedores,Passivo,Operações,Compras de mercadorias,0,1010539.002666666,-1010539.002666666
+L00695,2025-12-01,5102,CMV,Resultado,Operações,Baixa de mercadorias vendidas,1161908.16,0,1161908.16
+L00695,2025-12-01,1103,Estoques,Ativo,Operações,Baixa de mercadorias vendidas,0,1161908.16,-1161908.16
+L00696,2025-12-01,5201,Pessoal,Resultado,Pessoal,Folha por competência,110162,0,110162
+L00696,2025-12-01,2102,Salários a pagar,Passivo,Pessoal,Folha por competência,0,110162,-110162
+L00697,2025-12-01,2102,Salários a pagar,Passivo,Pessoal,Pagamento de pessoal,110162,0,110162
+L00697,2025-12-01,1101,Caixa,Ativo,Pessoal,Pagamento de pessoal,0,110162,-110162
+L00698,2025-12-01,5202,Comercial,Resultado,Comercial,Despesa paga no mês,61024.47,0,61024.47
+L00698,2025-12-01,1101,Caixa,Ativo,Comercial,Despesa paga no mês,0,61024.47,-61024.47
+L00699,2025-12-01,5203,Administrativo,Resultado,Administrativo,Despesa paga no mês,33920,0,33920
+L00699,2025-12-01,1101,Caixa,Ativo,Administrativo,Despesa paga no mês,0,33920,-33920
+L00700,2025-12-01,5204,Tecnologia,Resultado,Tecnologia,Despesa paga no mês,20160,0,20160
+L00700,2025-12-01,1101,Caixa,Ativo,Tecnologia,Despesa paga no mês,0,20160,-20160
+L00701,2025-12-01,5205,Logística,Resultado,Logistica,Despesa paga no mês,37292.73,0,37292.73
+L00701,2025-12-01,1101,Caixa,Ativo,Logistica,Despesa paga no mês,0,37292.73,-37292.73
+L00702,2025-12-01,5301,Depreciação,Resultado,Corporativo,Depreciação mensal,24180,0,24180
+L00702,2025-12-01,1202,Depreciação acumulada,Ativo,Corporativo,Depreciação mensal,0,24180,-24180
+L00703,2025-12-01,5401,Juros,Resultado,Corporativo,Juros pagos,8832,0,8832
+L00703,2025-12-01,1101,Caixa,Ativo,Corporativo,Juros pagos,0,8832,-8832
+L00704,2025-12-01,5501,IR simulado,Resultado,Corporativo,Tributo sobre lucro simulado,31810.11888800001,0,31810.11888800001
+L00704,2025-12-01,2104,IR simulado a pagar,Passivo,Corporativo,Tributo sobre lucro simulado,0,31810.11888800001,-31810.11888800001
+L00705,2025-12-01,1101,Caixa,Ativo,Corporativo,Recebimento de clientes,1897679.416,0,1897679.416
+L00705,2025-12-01,1102,Clientes,Ativo,Corporativo,Recebimento de clientes,0,1897679.416,-1897679.416
+L00706,2025-12-01,2101,Fornecedores,Passivo,Corporativo,Liquidação fornecedores,1112422.089333333,0,1112422.089333333
+L00706,2025-12-01,1101,Caixa,Ativo,Corporativo,Liquidação fornecedores,0,1112422.089333333,-1112422.089333333
+L00707,2025-12-01,2103,Tributos sobre venda,Passivo,Corporativo,Pagamento tributos venda,155075.2512,0,155075.2512
+L00707,2025-12-01,1101,Caixa,Ativo,Corporativo,Pagamento tributos venda,0,155075.2512,-155075.2512
+L00708,2025-12-01,2104,IR simulado a pagar,Passivo,Corporativo,Pagamento tributo lucro,39778.94559199997,0,39778.94559199997
+L00708,2025-12-01,1101,Caixa,Ativo,Corporativo,Pagamento tributo lucro,0,39778.94559199997,-39778.94559199997
+L00709,2025-12-01,1201,Imobilizado bruto,Ativo,Corporativo,Investimento em imobilizado,90000,0,90000
+L00709,2025-12-01,1101,Caixa,Ativo,Corporativo,Investimento em imobilizado,0,90000,-90000
+L00710,2025-12-01,2201,Empréstimos,Passivo,Corporativo,Amortização principal,18000,0,18000
+L00710,2025-12-01,1101,Caixa,Ativo,Corporativo,Amortização principal,0,18000,-18000
+L00711,2025-12-01,4101,Receita bruta,Resultado,Corporativo,Encerramento de resultado,1695124.08,0,1695124.08
+L00711,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,0,1695124.08,-1695124.08
+L00712,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,144085.5468,0,144085.5468
+L00712,2025-12-01,5101,Deduções,Resultado,Corporativo,Encerramento de resultado,0,144085.5468,-144085.5468
+L00713,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,1161908.16,0,1161908.16
+L00713,2025-12-01,5102,CMV,Resultado,Corporativo,Encerramento de resultado,0,1161908.16,-1161908.16
+L00714,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,110162,0,110162
+L00714,2025-12-01,5201,Pessoal,Resultado,Corporativo,Encerramento de resultado,0,110162,-110162
+L00715,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,61024.47,0,61024.47
+L00715,2025-12-01,5202,Comercial,Resultado,Corporativo,Encerramento de resultado,0,61024.47,-61024.47
+L00716,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,33920,0,33920
+L00716,2025-12-01,5203,Administrativo,Resultado,Corporativo,Encerramento de resultado,0,33920,-33920
+L00717,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,20160,0,20160
+L00717,2025-12-01,5204,Tecnologia,Resultado,Corporativo,Encerramento de resultado,0,20160,-20160
+L00718,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,37292.73,0,37292.73
+L00718,2025-12-01,5205,Logística,Resultado,Corporativo,Encerramento de resultado,0,37292.73,-37292.73
+L00719,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,24180,0,24180
+L00719,2025-12-01,5301,Depreciação,Resultado,Corporativo,Encerramento de resultado,0,24180,-24180
+L00720,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,8832,0,8832
+L00720,2025-12-01,5401,Juros,Resultado,Corporativo,Encerramento de resultado,0,8832,-8832
+L00721,2025-12-01,3102,Lucros acumulados,PL,Corporativo,Encerramento de resultado,31810.11888800001,0,31810.11888800001
+L00721,2025-12-01,5501,IR simulado,Resultado,Corporativo,Encerramento de resultado,0,31810.11888800001,-31810.11888800001

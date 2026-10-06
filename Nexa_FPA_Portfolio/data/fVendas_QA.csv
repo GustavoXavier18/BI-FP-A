@@ -1,0 +1,433 @@
+﻿Data,ProdutoID,Produto,Regiao,Canal,Quantidade,PrecoUnitario,CustoUnitario,ReceitaBruta,CMV
+2024-01-01,P01,Estações de trabalho,Sudeste,Venda direta,83,2646.8,1820,219684.4,151060
+2024-01-01,P01,Estações de trabalho,Sudeste,Parceiros,46,2496,1820,114816,83720
+2024-01-01,P01,Estações de trabalho,Sul,Venda direta,37,2646.8,1820,97931.6,67340
+2024-01-01,P01,Estações de trabalho,Sul,Parceiros,20,2496,1820,49920,36400
+2024-01-01,P01,Estações de trabalho,Nordeste,Venda direta,26,2646.8,1820,68816.8,47320
+2024-01-01,P01,Estações de trabalho,Nordeste,Parceiros,15,2496,1820,37440,27300
+2024-01-01,P02,Equipamentos de rede,Sudeste,Venda direta,60,1679.7,990,100782,59400
+2024-01-01,P02,Equipamentos de rede,Sudeste,Parceiros,32,1584,990,50688,31680
+2024-01-01,P02,Equipamentos de rede,Sul,Venda direta,27,1679.7,990,45351.9,26730
+2024-01-01,P02,Equipamentos de rede,Sul,Parceiros,13,1584,990,20592,12870
+2024-01-01,P02,Equipamentos de rede,Nordeste,Venda direta,20,1679.7,990,33594,19800
+2024-01-01,P02,Equipamentos de rede,Nordeste,Parceiros,10,1584,990,15840,9900
+2024-01-01,P03,Periféricos profissionais,Sudeste,Venda direta,40,692.24,380,27689.6,15200
+2024-01-01,P03,Periféricos profissionais,Sudeste,Parceiros,21,652.8,380,13708.8,7980
+2024-01-01,P03,Periféricos profissionais,Sul,Venda direta,18,692.24,380,12460.32,6840
+2024-01-01,P03,Periféricos profissionais,Sul,Parceiros,10,652.8,380,6528,3800
+2024-01-01,P03,Periféricos profissionais,Nordeste,Venda direta,14,692.24,380,9691.36,5320
+2024-01-01,P03,Periféricos profissionais,Nordeste,Parceiros,7,652.8,380,4569.6,2660
+2024-02-01,P01,Estações de trabalho,Sudeste,Venda direta,87,2646.8,1820,230271.6,158340
+2024-02-01,P01,Estações de trabalho,Sudeste,Parceiros,46,2496,1820,114816,83720
+2024-02-01,P01,Estações de trabalho,Sul,Venda direta,41,2646.8,1820,108518.8,74620
+2024-02-01,P01,Estações de trabalho,Sul,Parceiros,20,2496,1820,49920,36400
+2024-02-01,P01,Estações de trabalho,Nordeste,Venda direta,29,2646.8,1820,76757.2,52780
+2024-02-01,P01,Estações de trabalho,Nordeste,Parceiros,14,2496,1820,34944,25480
+2024-02-01,P02,Equipamentos de rede,Sudeste,Venda direta,65,1679.7,990,109180.5,64350
+2024-02-01,P02,Equipamentos de rede,Sudeste,Parceiros,32,1584,990,50688,31680
+2024-02-01,P02,Equipamentos de rede,Sul,Venda direta,27,1679.7,990,45351.9,26730
+2024-02-01,P02,Equipamentos de rede,Sul,Parceiros,15,1584,990,23760,14850
+2024-02-01,P02,Equipamentos de rede,Nordeste,Venda direta,20,1679.7,990,33594,19800
+2024-02-01,P02,Equipamentos de rede,Nordeste,Parceiros,10,1584,990,15840,9900
+2024-02-01,P03,Periféricos profissionais,Sudeste,Venda direta,43,692.24,380,29766.32,16340
+2024-02-01,P03,Periféricos profissionais,Sudeste,Parceiros,23,652.8,380,15014.4,8740
+2024-02-01,P03,Periféricos profissionais,Sul,Venda direta,20,692.24,380,13844.8,7600
+2024-02-01,P03,Periféricos profissionais,Sul,Parceiros,10,652.8,380,6528,3800
+2024-02-01,P03,Periféricos profissionais,Nordeste,Venda direta,14,692.24,380,9691.36,5320
+2024-02-01,P03,Periféricos profissionais,Nordeste,Parceiros,7,652.8,380,4569.6,2660
+2024-03-01,P01,Estações de trabalho,Sudeste,Venda direta,101,2646.8,1820,267326.8,183820
+2024-03-01,P01,Estações de trabalho,Sudeste,Parceiros,53,2496,1820,132288,96460
+2024-03-01,P01,Estações de trabalho,Sul,Venda direta,49,2646.8,1820,129693.2,89180
+2024-03-01,P01,Estações de trabalho,Sul,Parceiros,24,2496,1820,59904,43680
+2024-03-01,P01,Estações de trabalho,Nordeste,Venda direta,32,2646.8,1820,84697.6,58240
+2024-03-01,P01,Estações de trabalho,Nordeste,Parceiros,18,2496,1820,44928,32760
+2024-03-01,P02,Equipamentos de rede,Sudeste,Venda direta,73,1679.7,990,122618.1,72270
+2024-03-01,P02,Equipamentos de rede,Sudeste,Parceiros,36,1584,990,57024,35640
+2024-03-01,P02,Equipamentos de rede,Sul,Venda direta,36,1679.7,990,60469.2,35640
+2024-03-01,P02,Equipamentos de rede,Sul,Parceiros,18,1584,990,28512,17820
+2024-03-01,P02,Equipamentos de rede,Nordeste,Venda direta,24,1679.7,990,40312.8,23760
+2024-03-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1584,990,19008,11880
+2024-03-01,P03,Periféricos profissionais,Sudeste,Venda direta,51,692.24,380,35304.24,19380
+2024-03-01,P03,Periféricos profissionais,Sudeste,Parceiros,25,652.8,380,16320,9500
+2024-03-01,P03,Periféricos profissionais,Sul,Venda direta,25,692.24,380,17306,9500
+2024-03-01,P03,Periféricos profissionais,Sul,Parceiros,12,652.8,380,7833.6,4560
+2024-03-01,P03,Periféricos profissionais,Nordeste,Venda direta,15,692.24,380,10383.6,5700
+2024-03-01,P03,Periféricos profissionais,Nordeste,Parceiros,8,652.8,380,5222.4,3040
+2024-04-01,P01,Estações de trabalho,Sudeste,Venda direta,108,2646.8,1820,285854.4,196560
+2024-04-01,P01,Estações de trabalho,Sudeste,Parceiros,51,2496,1820,127296,92820
+2024-04-01,P01,Estações de trabalho,Sul,Venda direta,46,2646.8,1820,121752.8,83720
+2024-04-01,P01,Estações de trabalho,Sul,Parceiros,25,2496,1820,62400,45500
+2024-04-01,P01,Estações de trabalho,Nordeste,Venda direta,34,2646.8,1820,89991.2,61880
+2024-04-01,P01,Estações de trabalho,Nordeste,Parceiros,17,2496,1820,42432,30940
+2024-04-01,P02,Equipamentos de rede,Sudeste,Venda direta,73,1679.7,990,122618.1,72270
+2024-04-01,P02,Equipamentos de rede,Sudeste,Parceiros,35,1584,990,55440,34650
+2024-04-01,P02,Equipamentos de rede,Sul,Venda direta,33,1679.7,990,55430.1,32670
+2024-04-01,P02,Equipamentos de rede,Sul,Parceiros,17,1584,990,26928,16830
+2024-04-01,P02,Equipamentos de rede,Nordeste,Venda direta,22,1679.7,990,36953.4,21780
+2024-04-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1584,990,19008,11880
+2024-04-01,P03,Periféricos profissionais,Sudeste,Venda direta,52,692.24,380,35996.48,19760
+2024-04-01,P03,Periféricos profissionais,Sudeste,Parceiros,25,652.8,380,16320,9500
+2024-04-01,P03,Periféricos profissionais,Sul,Venda direta,24,692.24,380,16613.76,9120
+2024-04-01,P03,Periféricos profissionais,Sul,Parceiros,12,652.8,380,7833.6,4560
+2024-04-01,P03,Periféricos profissionais,Nordeste,Venda direta,16,692.24,380,11075.84,6080
+2024-04-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-05-01,P01,Estações de trabalho,Sudeste,Venda direta,107,2646.8,1820,283207.6,194740
+2024-05-01,P01,Estações de trabalho,Sudeste,Parceiros,58,2496,1820,144768,105560
+2024-05-01,P01,Estações de trabalho,Sul,Venda direta,49,2646.8,1820,129693.2,89180
+2024-05-01,P01,Estações de trabalho,Sul,Parceiros,25,2496,1820,62400,45500
+2024-05-01,P01,Estações de trabalho,Nordeste,Venda direta,36,2646.8,1820,95284.8,65520
+2024-05-01,P01,Estações de trabalho,Nordeste,Parceiros,18,2496,1820,44928,32760
+2024-05-01,P02,Equipamentos de rede,Sudeste,Venda direta,74,1679.7,990,124297.8,73260
+2024-05-01,P02,Equipamentos de rede,Sudeste,Parceiros,37,1584,990,58608,36630
+2024-05-01,P02,Equipamentos de rede,Sul,Venda direta,35,1679.7,990,58789.5,34650
+2024-05-01,P02,Equipamentos de rede,Sul,Parceiros,19,1584,990,30096,18810
+2024-05-01,P02,Equipamentos de rede,Nordeste,Venda direta,23,1679.7,990,38633.1,22770
+2024-05-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1584,990,19008,11880
+2024-05-01,P03,Periféricos profissionais,Sudeste,Venda direta,53,692.24,380,36688.72,20140
+2024-05-01,P03,Periféricos profissionais,Sudeste,Parceiros,28,652.8,380,18278.4,10640
+2024-05-01,P03,Periféricos profissionais,Sul,Venda direta,23,692.24,380,15921.52,8740
+2024-05-01,P03,Periféricos profissionais,Sul,Parceiros,13,652.8,380,8486.4,4940
+2024-05-01,P03,Periféricos profissionais,Nordeste,Venda direta,16,692.24,380,11075.84,6080
+2024-05-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-06-01,P01,Estações de trabalho,Sudeste,Venda direta,116,2646.8,1820,307028.8,211120
+2024-06-01,P01,Estações de trabalho,Sudeste,Parceiros,55,2496,1820,137280,100100
+2024-06-01,P01,Estações de trabalho,Sul,Venda direta,50,2646.8,1820,132340,91000
+2024-06-01,P01,Estações de trabalho,Sul,Parceiros,28,2496,1820,69888,50960
+2024-06-01,P01,Estações de trabalho,Nordeste,Venda direta,36,2646.8,1820,95284.8,65520
+2024-06-01,P01,Estações de trabalho,Nordeste,Parceiros,18,2496,1820,44928,32760
+2024-06-01,P02,Equipamentos de rede,Sudeste,Venda direta,80,1679.7,990,134376,79200
+2024-06-01,P02,Equipamentos de rede,Sudeste,Parceiros,42,1584,990,66528,41580
+2024-06-01,P02,Equipamentos de rede,Sul,Venda direta,34,1679.7,990,57109.8,33660
+2024-06-01,P02,Equipamentos de rede,Sul,Parceiros,17,1584,990,26928,16830
+2024-06-01,P02,Equipamentos de rede,Nordeste,Venda direta,24,1679.7,990,40312.8,23760
+2024-06-01,P02,Equipamentos de rede,Nordeste,Parceiros,13,1584,990,20592,12870
+2024-06-01,P03,Periféricos profissionais,Sudeste,Venda direta,50,692.24,380,34612,19000
+2024-06-01,P03,Periféricos profissionais,Sudeste,Parceiros,29,652.8,380,18931.2,11020
+2024-06-01,P03,Periféricos profissionais,Sul,Venda direta,24,692.24,380,16613.76,9120
+2024-06-01,P03,Periféricos profissionais,Sul,Parceiros,13,652.8,380,8486.4,4940
+2024-06-01,P03,Periféricos profissionais,Nordeste,Venda direta,16,692.24,380,11075.84,6080
+2024-06-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-07-01,P01,Estações de trabalho,Sudeste,Venda direta,95,2646.8,1820,251446,172900
+2024-07-01,P01,Estações de trabalho,Sudeste,Parceiros,52,2496,1820,129792,94640
+2024-07-01,P01,Estações de trabalho,Sul,Venda direta,49,2646.8,1820,129693.2,89180
+2024-07-01,P01,Estações de trabalho,Sul,Parceiros,24,2496,1820,59904,43680
+2024-07-01,P01,Estações de trabalho,Nordeste,Venda direta,34,2646.8,1820,89991.2,61880
+2024-07-01,P01,Estações de trabalho,Nordeste,Parceiros,16,2496,1820,39936,29120
+2024-07-01,P02,Equipamentos de rede,Sudeste,Venda direta,65,1679.7,990,109180.5,64350
+2024-07-01,P02,Equipamentos de rede,Sudeste,Parceiros,35,1584,990,55440,34650
+2024-07-01,P02,Equipamentos de rede,Sul,Venda direta,30,1679.7,990,50391,29700
+2024-07-01,P02,Equipamentos de rede,Sul,Parceiros,17,1584,990,26928,16830
+2024-07-01,P02,Equipamentos de rede,Nordeste,Venda direta,21,1679.7,990,35273.7,20790
+2024-07-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1584,990,19008,11880
+2024-07-01,P03,Periféricos profissionais,Sudeste,Venda direta,46,692.24,380,31843.04,17480
+2024-07-01,P03,Periféricos profissionais,Sudeste,Parceiros,24,652.8,380,15667.2,9120
+2024-07-01,P03,Periféricos profissionais,Sul,Venda direta,23,692.24,380,15921.52,8740
+2024-07-01,P03,Periféricos profissionais,Sul,Parceiros,12,652.8,380,7833.6,4560
+2024-07-01,P03,Periféricos profissionais,Nordeste,Venda direta,15,692.24,380,10383.6,5700
+2024-07-01,P03,Periféricos profissionais,Nordeste,Parceiros,8,652.8,380,5222.4,3040
+2024-08-01,P01,Estações de trabalho,Sudeste,Venda direta,104,2646.8,1820,275267.2,189280
+2024-08-01,P01,Estações de trabalho,Sudeste,Parceiros,54,2496,1820,134784,98280
+2024-08-01,P01,Estações de trabalho,Sul,Venda direta,50,2646.8,1820,132340,91000
+2024-08-01,P01,Estações de trabalho,Sul,Parceiros,26,2496,1820,64896,47320
+2024-08-01,P01,Estações de trabalho,Nordeste,Venda direta,35,2646.8,1820,92638,63700
+2024-08-01,P01,Estações de trabalho,Nordeste,Parceiros,19,2496,1820,47424,34580
+2024-08-01,P02,Equipamentos de rede,Sudeste,Venda direta,74,1679.7,990,124297.8,73260
+2024-08-01,P02,Equipamentos de rede,Sudeste,Parceiros,38,1584,990,60192,37620
+2024-08-01,P02,Equipamentos de rede,Sul,Venda direta,34,1679.7,990,57109.8,33660
+2024-08-01,P02,Equipamentos de rede,Sul,Parceiros,18,1584,990,28512,17820
+2024-08-01,P02,Equipamentos de rede,Nordeste,Venda direta,25,1679.7,990,41992.5,24750
+2024-08-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1584,990,19008,11880
+2024-08-01,P03,Periféricos profissionais,Sudeste,Venda direta,50,692.24,380,34612,19000
+2024-08-01,P03,Periféricos profissionais,Sudeste,Parceiros,27,652.8,380,17625.6,10260
+2024-08-01,P03,Periféricos profissionais,Sul,Venda direta,24,692.24,380,16613.76,9120
+2024-08-01,P03,Periféricos profissionais,Sul,Parceiros,13,652.8,380,8486.4,4940
+2024-08-01,P03,Periféricos profissionais,Nordeste,Venda direta,17,692.24,380,11768.08,6460
+2024-08-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-09-01,P01,Estações de trabalho,Sudeste,Venda direta,111,2646.8,1820,293794.8,202020
+2024-09-01,P01,Estações de trabalho,Sudeste,Parceiros,54,2496,1820,134784,98280
+2024-09-01,P01,Estações de trabalho,Sul,Venda direta,51,2646.8,1820,134986.8,92820
+2024-09-01,P01,Estações de trabalho,Sul,Parceiros,26,2496,1820,64896,47320
+2024-09-01,P01,Estações de trabalho,Nordeste,Venda direta,37,2646.8,1820,97931.6,67340
+2024-09-01,P01,Estações de trabalho,Nordeste,Parceiros,18,2496,1820,44928,32760
+2024-09-01,P02,Equipamentos de rede,Sudeste,Venda direta,81,1679.7,990,136055.7,80190
+2024-09-01,P02,Equipamentos de rede,Sudeste,Parceiros,39,1584,990,61776,38610
+2024-09-01,P02,Equipamentos de rede,Sul,Venda direta,36,1679.7,990,60469.2,35640
+2024-09-01,P02,Equipamentos de rede,Sul,Parceiros,19,1584,990,30096,18810
+2024-09-01,P02,Equipamentos de rede,Nordeste,Venda direta,24,1679.7,990,40312.8,23760
+2024-09-01,P02,Equipamentos de rede,Nordeste,Parceiros,13,1584,990,20592,12870
+2024-09-01,P03,Periféricos profissionais,Sudeste,Venda direta,52,692.24,380,35996.48,19760
+2024-09-01,P03,Periféricos profissionais,Sudeste,Parceiros,29,652.8,380,18931.2,11020
+2024-09-01,P03,Periféricos profissionais,Sul,Venda direta,24,692.24,380,16613.76,9120
+2024-09-01,P03,Periféricos profissionais,Sul,Parceiros,13,652.8,380,8486.4,4940
+2024-09-01,P03,Periféricos profissionais,Nordeste,Venda direta,18,692.24,380,12460.32,6840
+2024-09-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-10-01,P01,Estações de trabalho,Sudeste,Venda direta,126,2646.8,1820,333496.8,229320
+2024-10-01,P01,Estações de trabalho,Sudeste,Parceiros,60,2496,1820,149760,109200
+2024-10-01,P01,Estações de trabalho,Sul,Venda direta,58,2646.8,1820,153514.4,105560
+2024-10-01,P01,Estações de trabalho,Sul,Parceiros,30,2496,1820,74880,54600
+2024-10-01,P01,Estações de trabalho,Nordeste,Venda direta,38,2646.8,1820,100578.4,69160
+2024-10-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2496,1820,52416,38220
+2024-10-01,P02,Equipamentos de rede,Sudeste,Venda direta,85,1679.7,990,142774.5,84150
+2024-10-01,P02,Equipamentos de rede,Sudeste,Parceiros,43,1584,990,68112,42570
+2024-10-01,P02,Equipamentos de rede,Sul,Venda direta,37,1679.7,990,62148.9,36630
+2024-10-01,P02,Equipamentos de rede,Sul,Parceiros,19,1584,990,30096,18810
+2024-10-01,P02,Equipamentos de rede,Nordeste,Venda direta,27,1679.7,990,45351.9,26730
+2024-10-01,P02,Equipamentos de rede,Nordeste,Parceiros,14,1584,990,22176,13860
+2024-10-01,P03,Periféricos profissionais,Sudeste,Venda direta,55,692.24,380,38073.2,20900
+2024-10-01,P03,Periféricos profissionais,Sudeste,Parceiros,27,652.8,380,17625.6,10260
+2024-10-01,P03,Periféricos profissionais,Sul,Venda direta,26,692.24,380,17998.24,9880
+2024-10-01,P03,Periféricos profissionais,Sul,Parceiros,14,652.8,380,9139.2,5320
+2024-10-01,P03,Periféricos profissionais,Nordeste,Venda direta,18,692.24,380,12460.32,6840
+2024-10-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,652.8,380,5875.2,3420
+2024-11-01,P01,Estações de trabalho,Sudeste,Venda direta,145,2646.8,1820,383786,263900
+2024-11-01,P01,Estações de trabalho,Sudeste,Parceiros,68,2496,1820,169728,123760
+2024-11-01,P01,Estações de trabalho,Sul,Venda direta,63,2646.8,1820,166748.4,114660
+2024-11-01,P01,Estações de trabalho,Sul,Parceiros,33,2496,1820,82368,60060
+2024-11-01,P01,Estações de trabalho,Nordeste,Venda direta,44,2646.8,1820,116459.2,80080
+2024-11-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2496,1820,52416,38220
+2024-11-01,P02,Equipamentos de rede,Sudeste,Venda direta,92,1679.7,990,154532.4,91080
+2024-11-01,P02,Equipamentos de rede,Sudeste,Parceiros,47,1584,990,74448,46530
+2024-11-01,P02,Equipamentos de rede,Sul,Venda direta,42,1679.7,990,70547.4,41580
+2024-11-01,P02,Equipamentos de rede,Sul,Parceiros,24,1584,990,38016,23760
+2024-11-01,P02,Equipamentos de rede,Nordeste,Venda direta,30,1679.7,990,50391,29700
+2024-11-01,P02,Equipamentos de rede,Nordeste,Parceiros,17,1584,990,26928,16830
+2024-11-01,P03,Periféricos profissionais,Sudeste,Venda direta,61,692.24,380,42226.64,23180
+2024-11-01,P03,Periféricos profissionais,Sudeste,Parceiros,35,652.8,380,22848,13300
+2024-11-01,P03,Periféricos profissionais,Sul,Venda direta,30,692.24,380,20767.2,11400
+2024-11-01,P03,Periféricos profissionais,Sul,Parceiros,16,652.8,380,10444.8,6080
+2024-11-01,P03,Periféricos profissionais,Nordeste,Venda direta,22,692.24,380,15229.28,8360
+2024-11-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,652.8,380,6528,3800
+2024-12-01,P01,Estações de trabalho,Sudeste,Venda direta,129,2646.8,1820,341437.2,234780
+2024-12-01,P01,Estações de trabalho,Sudeste,Parceiros,67,2496,1820,167232,121940
+2024-12-01,P01,Estações de trabalho,Sul,Venda direta,56,2646.8,1820,148220.8,101920
+2024-12-01,P01,Estações de trabalho,Sul,Parceiros,28,2496,1820,69888,50960
+2024-12-01,P01,Estações de trabalho,Nordeste,Venda direta,42,2646.8,1820,111165.6,76440
+2024-12-01,P01,Estações de trabalho,Nordeste,Parceiros,20,2496,1820,49920,36400
+2024-12-01,P02,Equipamentos de rede,Sudeste,Venda direta,83,1679.7,990,139415.1,82170
+2024-12-01,P02,Equipamentos de rede,Sudeste,Parceiros,47,1584,990,74448,46530
+2024-12-01,P02,Equipamentos de rede,Sul,Venda direta,38,1679.7,990,63828.6,37620
+2024-12-01,P02,Equipamentos de rede,Sul,Parceiros,22,1584,990,34848,21780
+2024-12-01,P02,Equipamentos de rede,Nordeste,Venda direta,30,1679.7,990,50391,29700
+2024-12-01,P02,Equipamentos de rede,Nordeste,Parceiros,15,1584,990,23760,14850
+2024-12-01,P03,Periféricos profissionais,Sudeste,Venda direta,56,692.24,380,38765.44,21280
+2024-12-01,P03,Periféricos profissionais,Sudeste,Parceiros,30,652.8,380,19584,11400
+2024-12-01,P03,Periféricos profissionais,Sul,Venda direta,27,692.24,380,18690.48,10260
+2024-12-01,P03,Periféricos profissionais,Sul,Parceiros,15,652.8,380,9792,5700
+2024-12-01,P03,Periféricos profissionais,Nordeste,Venda direta,19,692.24,380,13152.56,7220
+2024-12-01,P03,Periféricos profissionais,Nordeste,Parceiros,11,652.8,380,7180.8,4180
+2025-01-01,P01,Estações de trabalho,Sudeste,Venda direta,103,2765.91,1992.9,284888.73,205268.7
+2025-01-01,P01,Estações de trabalho,Sudeste,Parceiros,49,2608.32,1992.9,127807.68,97652.1
+2025-01-01,P01,Estações de trabalho,Sul,Venda direta,44,2765.91,1992.9,121700.04,87687.6
+2025-01-01,P01,Estações de trabalho,Sul,Parceiros,24,2608.32,1992.9,62599.68,47829.6
+2025-01-01,P01,Estações de trabalho,Nordeste,Venda direta,33,2765.91,1992.9,91275.03,65765.7
+2025-01-01,P01,Estações de trabalho,Nordeste,Parceiros,16,2608.32,1992.9,41733.12,31886.4
+2025-01-01,P02,Equipamentos de rede,Sudeste,Venda direta,72,1755.29,1041.48,126380.88,74986.56
+2025-01-01,P02,Equipamentos de rede,Sudeste,Parceiros,36,1655.28,1041.48,59590.08,37493.28
+2025-01-01,P02,Equipamentos de rede,Sul,Venda direta,32,1755.29,1041.48,56169.28,33327.36
+2025-01-01,P02,Equipamentos de rede,Sul,Parceiros,17,1655.28,1041.48,28139.76,17705.16
+2025-01-01,P02,Equipamentos de rede,Nordeste,Venda direta,23,1755.29,1041.48,40371.67,23954.04
+2025-01-01,P02,Equipamentos de rede,Nordeste,Parceiros,11,1655.28,1041.48,18208.08,11456.28
+2025-01-01,P03,Periféricos profissionais,Sudeste,Venda direta,49,723.39,399.76,35446.11,19588.24
+2025-01-01,P03,Periféricos profissionais,Sudeste,Parceiros,24,682.18,399.76,16372.32,9594.24
+2025-01-01,P03,Periféricos profissionais,Sul,Venda direta,22,723.39,399.76,15914.58,8794.72
+2025-01-01,P03,Periféricos profissionais,Sul,Parceiros,12,682.18,399.76,8186.16,4797.12
+2025-01-01,P03,Periféricos profissionais,Nordeste,Venda direta,15,723.39,399.76,10850.85,5996.4
+2025-01-01,P03,Periféricos profissionais,Nordeste,Parceiros,8,682.18,399.76,5457.44,3198.08
+2025-02-01,P01,Estações de trabalho,Sudeste,Venda direta,102,2765.91,1992.9,282122.82,203275.8
+2025-02-01,P01,Estações de trabalho,Sudeste,Parceiros,54,2608.32,1992.9,140849.28,107616.6
+2025-02-01,P01,Estações de trabalho,Sul,Venda direta,46,2765.91,1992.9,127231.86,91673.4
+2025-02-01,P01,Estações de trabalho,Sul,Parceiros,25,2608.32,1992.9,65208,49822.5
+2025-02-01,P01,Estações de trabalho,Nordeste,Venda direta,33,2765.91,1992.9,91275.03,65765.7
+2025-02-01,P01,Estações de trabalho,Nordeste,Parceiros,17,2608.32,1992.9,44341.44,33879.3
+2025-02-01,P02,Equipamentos de rede,Sudeste,Venda direta,69,1755.29,1041.48,121115.01,71862.12
+2025-02-01,P02,Equipamentos de rede,Sudeste,Parceiros,38,1655.28,1041.48,62900.64,39576.24
+2025-02-01,P02,Equipamentos de rede,Sul,Venda direta,33,1755.29,1041.48,57924.57,34368.84
+2025-02-01,P02,Equipamentos de rede,Sul,Parceiros,17,1655.28,1041.48,28139.76,17705.16
+2025-02-01,P02,Equipamentos de rede,Nordeste,Venda direta,24,1755.29,1041.48,42126.96,24995.52
+2025-02-01,P02,Equipamentos de rede,Nordeste,Parceiros,12,1655.28,1041.48,19863.36,12497.76
+2025-02-01,P03,Periféricos profissionais,Sudeste,Venda direta,51,723.39,399.76,36892.89,20387.76
+2025-02-01,P03,Periféricos profissionais,Sudeste,Parceiros,26,682.18,399.76,17736.68,10393.76
+2025-02-01,P03,Periféricos profissionais,Sul,Venda direta,21,723.39,399.76,15191.19,8394.96
+2025-02-01,P03,Periféricos profissionais,Sul,Parceiros,11,682.18,399.76,7503.98,4397.36
+2025-02-01,P03,Periféricos profissionais,Nordeste,Venda direta,15,723.39,399.76,10850.85,5996.4
+2025-02-01,P03,Periféricos profissionais,Nordeste,Parceiros,8,682.18,399.76,5457.44,3198.08
+2025-03-01,P01,Estações de trabalho,Sudeste,Venda direta,119,2765.91,1992.9,329143.29,237155.1
+2025-03-01,P01,Estações de trabalho,Sudeste,Parceiros,65,2608.32,1992.9,169540.8,129538.5
+2025-03-01,P01,Estações de trabalho,Sul,Venda direta,57,2765.91,1992.9,157656.87,113595.3
+2025-03-01,P01,Estações de trabalho,Sul,Parceiros,28,2608.32,1992.9,73032.96,55801.2
+2025-03-01,P01,Estações de trabalho,Nordeste,Venda direta,38,2765.91,1992.9,105104.58,75730.2
+2025-03-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2608.32,1992.9,54774.72,41850.9
+2025-03-01,P02,Equipamentos de rede,Sudeste,Venda direta,82,1755.29,1041.48,143933.78,85401.36
+2025-03-01,P02,Equipamentos de rede,Sudeste,Parceiros,44,1655.28,1041.48,72832.32,45825.12
+2025-03-01,P02,Equipamentos de rede,Sul,Venda direta,37,1755.29,1041.48,64945.73,38534.76
+2025-03-01,P02,Equipamentos de rede,Sul,Parceiros,21,1655.28,1041.48,34760.88,21871.08
+2025-03-01,P02,Equipamentos de rede,Nordeste,Venda direta,29,1755.29,1041.48,50903.41,30202.92
+2025-03-01,P02,Equipamentos de rede,Nordeste,Parceiros,15,1655.28,1041.48,24829.2,15622.2
+2025-03-01,P03,Periféricos profissionais,Sudeste,Venda direta,55,723.39,399.76,39786.45,21986.8
+2025-03-01,P03,Periféricos profissionais,Sudeste,Parceiros,30,682.18,399.76,20465.4,11992.8
+2025-03-01,P03,Periféricos profissionais,Sul,Venda direta,27,723.39,399.76,19531.53,10793.52
+2025-03-01,P03,Periféricos profissionais,Sul,Parceiros,13,682.18,399.76,8868.34,5196.88
+2025-03-01,P03,Periféricos profissionais,Nordeste,Venda direta,18,723.39,399.76,13021.02,7195.68
+2025-03-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,682.18,399.76,6821.8,3997.6
+2025-04-01,P01,Estações de trabalho,Sudeste,Venda direta,121,2765.91,1992.9,334675.11,241140.9
+2025-04-01,P01,Estações de trabalho,Sudeste,Parceiros,64,2608.32,1992.9,166932.48,127545.6
+2025-04-01,P01,Estações de trabalho,Sul,Venda direta,58,2765.91,1992.9,160422.78,115588.2
+2025-04-01,P01,Estações de trabalho,Sul,Parceiros,30,2608.32,1992.9,78249.6,59787
+2025-04-01,P01,Estações de trabalho,Nordeste,Venda direta,38,2765.91,1992.9,105104.58,75730.2
+2025-04-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2608.32,1992.9,54774.72,41850.9
+2025-04-01,P02,Equipamentos de rede,Sudeste,Venda direta,79,1755.29,1041.48,138667.91,82276.92
+2025-04-01,P02,Equipamentos de rede,Sudeste,Parceiros,42,1655.28,1041.48,69521.76,43742.16
+2025-04-01,P02,Equipamentos de rede,Sul,Venda direta,39,1755.29,1041.48,68456.31,40617.72
+2025-04-01,P02,Equipamentos de rede,Sul,Parceiros,19,1655.28,1041.48,31450.32,19788.12
+2025-04-01,P02,Equipamentos de rede,Nordeste,Venda direta,27,1755.29,1041.48,47392.83,28119.96
+2025-04-01,P02,Equipamentos de rede,Nordeste,Parceiros,13,1655.28,1041.48,21518.64,13539.24
+2025-04-01,P03,Periféricos profissionais,Sudeste,Venda direta,55,723.39,399.76,39786.45,21986.8
+2025-04-01,P03,Periféricos profissionais,Sudeste,Parceiros,28,682.18,399.76,19101.04,11193.28
+2025-04-01,P03,Periféricos profissionais,Sul,Venda direta,27,723.39,399.76,19531.53,10793.52
+2025-04-01,P03,Periféricos profissionais,Sul,Parceiros,13,682.18,399.76,8868.34,5196.88
+2025-04-01,P03,Periféricos profissionais,Nordeste,Venda direta,18,723.39,399.76,13021.02,7195.68
+2025-04-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,682.18,399.76,6821.8,3997.6
+2025-05-01,P01,Estações de trabalho,Sudeste,Venda direta,124,2765.91,1992.9,342972.84,247119.6
+2025-05-01,P01,Estações de trabalho,Sudeste,Parceiros,63,2608.32,1992.9,164324.16,125552.7
+2025-05-01,P01,Estações de trabalho,Sul,Venda direta,61,2765.91,1992.9,168720.51,121566.9
+2025-05-01,P01,Estações de trabalho,Sul,Parceiros,31,2608.32,1992.9,80857.92,61779.9
+2025-05-01,P01,Estações de trabalho,Nordeste,Venda direta,40,2765.91,1992.9,110636.4,79716
+2025-05-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2608.32,1992.9,54774.72,41850.9
+2025-05-01,P02,Equipamentos de rede,Sudeste,Venda direta,87,1755.29,1041.48,152710.23,90608.76
+2025-05-01,P02,Equipamentos de rede,Sudeste,Parceiros,46,1655.28,1041.48,76142.88,47908.08
+2025-05-01,P02,Equipamentos de rede,Sul,Venda direta,42,1755.29,1041.48,73722.18,43742.16
+2025-05-01,P02,Equipamentos de rede,Sul,Parceiros,21,1655.28,1041.48,34760.88,21871.08
+2025-05-01,P02,Equipamentos de rede,Nordeste,Venda direta,28,1755.29,1041.48,49148.12,29161.44
+2025-05-01,P02,Equipamentos de rede,Nordeste,Parceiros,14,1655.28,1041.48,23173.92,14580.72
+2025-05-01,P03,Periféricos profissionais,Sudeste,Venda direta,62,723.39,399.76,44850.18,24785.12
+2025-05-01,P03,Periféricos profissionais,Sudeste,Parceiros,33,682.18,399.76,22511.94,13192.08
+2025-05-01,P03,Periféricos profissionais,Sul,Venda direta,27,723.39,399.76,19531.53,10793.52
+2025-05-01,P03,Periféricos profissionais,Sul,Parceiros,14,682.18,399.76,9550.52,5596.64
+2025-05-01,P03,Periféricos profissionais,Nordeste,Venda direta,20,723.39,399.76,14467.8,7995.2
+2025-05-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,682.18,399.76,6821.8,3997.6
+2025-06-01,P01,Estações de trabalho,Sudeste,Venda direta,131,2765.91,1992.9,362334.21,261069.9
+2025-06-01,P01,Estações de trabalho,Sudeste,Parceiros,63,2608.32,1992.9,164324.16,125552.7
+2025-06-01,P01,Estações de trabalho,Sul,Venda direta,60,2765.91,1992.9,165954.6,119574
+2025-06-01,P01,Estações de trabalho,Sul,Parceiros,32,2608.32,1992.9,83466.24,63772.8
+2025-06-01,P01,Estações de trabalho,Nordeste,Venda direta,40,2765.91,1992.9,110636.4,79716
+2025-06-01,P01,Estações de trabalho,Nordeste,Parceiros,21,2608.32,1992.9,54774.72,41850.9
+2025-06-01,P02,Equipamentos de rede,Sudeste,Venda direta,86,1755.29,1041.48,150954.94,89567.28
+2025-06-01,P02,Equipamentos de rede,Sudeste,Parceiros,47,1655.28,1041.48,77798.16,48949.56
+2025-06-01,P02,Equipamentos de rede,Sul,Venda direta,42,1755.29,1041.48,73722.18,43742.16
+2025-06-01,P02,Equipamentos de rede,Sul,Parceiros,22,1655.28,1041.48,36416.16,22912.56
+2025-06-01,P02,Equipamentos de rede,Nordeste,Venda direta,28,1755.29,1041.48,49148.12,29161.44
+2025-06-01,P02,Equipamentos de rede,Nordeste,Parceiros,14,1655.28,1041.48,23173.92,14580.72
+2025-06-01,P03,Periféricos profissionais,Sudeste,Venda direta,62,723.39,399.76,44850.18,24785.12
+2025-06-01,P03,Periféricos profissionais,Sudeste,Parceiros,33,682.18,399.76,22511.94,13192.08
+2025-06-01,P03,Periféricos profissionais,Sul,Venda direta,28,723.39,399.76,20254.92,11193.28
+2025-06-01,P03,Periféricos profissionais,Sul,Parceiros,14,682.18,399.76,9550.52,5596.64
+2025-06-01,P03,Periféricos profissionais,Nordeste,Venda direta,20,723.39,399.76,14467.8,7995.2
+2025-06-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,682.18,399.76,6821.8,3997.6
+2025-07-01,P01,Estações de trabalho,Sudeste,Venda direta,95,2765.91,1992.9,262761.45,189325.5
+2025-07-01,P01,Estações de trabalho,Sudeste,Parceiros,53,2608.32,1992.9,138240.96,105623.7
+2025-07-01,P01,Estações de trabalho,Sul,Venda direta,44,2765.91,1992.9,121700.04,87687.6
+2025-07-01,P01,Estações de trabalho,Sul,Parceiros,25,2608.32,1992.9,65208,49822.5
+2025-07-01,P01,Estações de trabalho,Nordeste,Venda direta,32,2765.91,1992.9,88509.12,63772.8
+2025-07-01,P01,Estações de trabalho,Nordeste,Parceiros,17,2608.32,1992.9,44341.44,33879.3
+2025-07-01,P02,Equipamentos de rede,Sudeste,Venda direta,85,1755.29,1041.48,149199.65,88525.8
+2025-07-01,P02,Equipamentos de rede,Sudeste,Parceiros,42,1655.28,1041.48,69521.76,43742.16
+2025-07-01,P02,Equipamentos de rede,Sul,Venda direta,36,1755.29,1041.48,63190.44,37493.28
+2025-07-01,P02,Equipamentos de rede,Sul,Parceiros,19,1655.28,1041.48,31450.32,19788.12
+2025-07-01,P02,Equipamentos de rede,Nordeste,Venda direta,27,1755.29,1041.48,47392.83,28119.96
+2025-07-01,P02,Equipamentos de rede,Nordeste,Parceiros,13,1655.28,1041.48,21518.64,13539.24
+2025-07-01,P03,Periféricos profissionais,Sudeste,Venda direta,54,723.39,399.76,39063.06,21587.04
+2025-07-01,P03,Periféricos profissionais,Sudeste,Parceiros,28,682.18,399.76,19101.04,11193.28
+2025-07-01,P03,Periféricos profissionais,Sul,Venda direta,24,723.39,399.76,17361.36,9594.24
+2025-07-01,P03,Periféricos profissionais,Sul,Parceiros,13,682.18,399.76,8868.34,5196.88
+2025-07-01,P03,Periféricos profissionais,Nordeste,Venda direta,19,723.39,399.76,13744.41,7595.44
+2025-07-01,P03,Periféricos profissionais,Nordeste,Parceiros,9,682.18,399.76,6139.62,3597.84
+2025-08-01,P01,Estações de trabalho,Sudeste,Venda direta,105,2765.91,1992.9,290420.55,209254.5
+2025-08-01,P01,Estações de trabalho,Sudeste,Parceiros,56,2608.32,1992.9,146065.92,111602.4
+2025-08-01,P01,Estações de trabalho,Sul,Venda direta,49,2765.91,1992.9,135529.59,97652.1
+2025-08-01,P01,Estações de trabalho,Sul,Parceiros,27,2608.32,1992.9,70424.64,53808.3
+2025-08-01,P01,Estações de trabalho,Nordeste,Venda direta,34,2765.91,1992.9,94040.94,67758.6
+2025-08-01,P01,Estações de trabalho,Nordeste,Parceiros,18,2608.32,1992.9,46949.76,35872.2
+2025-08-01,P02,Equipamentos de rede,Sudeste,Venda direta,82,1755.29,1041.48,143933.78,85401.36
+2025-08-01,P02,Equipamentos de rede,Sudeste,Parceiros,47,1655.28,1041.48,77798.16,48949.56
+2025-08-01,P02,Equipamentos de rede,Sul,Venda direta,38,1755.29,1041.48,66701.02,39576.24
+2025-08-01,P02,Equipamentos de rede,Sul,Parceiros,21,1655.28,1041.48,34760.88,21871.08
+2025-08-01,P02,Equipamentos de rede,Nordeste,Venda direta,29,1755.29,1041.48,50903.41,30202.92
+2025-08-01,P02,Equipamentos de rede,Nordeste,Parceiros,15,1655.28,1041.48,24829.2,15622.2
+2025-08-01,P03,Periféricos profissionais,Sudeste,Venda direta,61,723.39,399.76,44126.79,24385.36
+2025-08-01,P03,Periféricos profissionais,Sudeste,Parceiros,32,682.18,399.76,21829.76,12792.32
+2025-08-01,P03,Periféricos profissionais,Sul,Venda direta,27,723.39,399.76,19531.53,10793.52
+2025-08-01,P03,Periféricos profissionais,Sul,Parceiros,14,682.18,399.76,9550.52,5596.64
+2025-08-01,P03,Periféricos profissionais,Nordeste,Venda direta,19,723.39,399.76,13744.41,7595.44
+2025-08-01,P03,Periféricos profissionais,Nordeste,Parceiros,11,682.18,399.76,7503.98,4397.36
+2025-09-01,P01,Estações de trabalho,Sudeste,Venda direta,117,2765.91,1992.9,323611.47,233169.3
+2025-09-01,P01,Estações de trabalho,Sudeste,Parceiros,55,2608.32,1992.9,143457.6,109609.5
+2025-09-01,P01,Estações de trabalho,Sul,Venda direta,56,2765.91,1992.9,154890.96,111602.4
+2025-09-01,P01,Estações de trabalho,Sul,Parceiros,26,2608.32,1992.9,67816.32,51815.4
+2025-09-01,P01,Estações de trabalho,Nordeste,Venda direta,35,2765.91,1992.9,96806.85,69751.5
+2025-09-01,P01,Estações de trabalho,Nordeste,Parceiros,19,2608.32,1992.9,49558.08,37865.1
+2025-09-01,P02,Equipamentos de rede,Sudeste,Venda direta,95,1755.29,1041.48,166752.55,98940.6
+2025-09-01,P02,Equipamentos de rede,Sudeste,Parceiros,47,1655.28,1041.48,77798.16,48949.56
+2025-09-01,P02,Equipamentos de rede,Sul,Venda direta,41,1755.29,1041.48,71966.89,42700.68
+2025-09-01,P02,Equipamentos de rede,Sul,Parceiros,22,1655.28,1041.48,36416.16,22912.56
+2025-09-01,P02,Equipamentos de rede,Nordeste,Venda direta,29,1755.29,1041.48,50903.41,30202.92
+2025-09-01,P02,Equipamentos de rede,Nordeste,Parceiros,15,1655.28,1041.48,24829.2,15622.2
+2025-09-01,P03,Periféricos profissionais,Sudeste,Venda direta,61,723.39,399.76,44126.79,24385.36
+2025-09-01,P03,Periféricos profissionais,Sudeste,Parceiros,34,682.18,399.76,23194.12,13591.84
+2025-09-01,P03,Periféricos profissionais,Sul,Venda direta,29,723.39,399.76,20978.31,11593.04
+2025-09-01,P03,Periféricos profissionais,Sul,Parceiros,15,682.18,399.76,10232.7,5996.4
+2025-09-01,P03,Periféricos profissionais,Nordeste,Venda direta,20,723.39,399.76,14467.8,7995.2
+2025-09-01,P03,Periféricos profissionais,Nordeste,Parceiros,11,682.18,399.76,7503.98,4397.36
+2025-10-01,P01,Estações de trabalho,Sudeste,Venda direta,134,2765.91,1992.9,370631.94,267048.6
+2025-10-01,P01,Estações de trabalho,Sudeste,Parceiros,71,2608.32,1992.9,185190.72,141495.9
+2025-10-01,P01,Estações de trabalho,Sul,Venda direta,62,2765.91,1992.9,171486.42,123559.8
+2025-10-01,P01,Estações de trabalho,Sul,Parceiros,31,2608.32,1992.9,80857.92,61779.9
+2025-10-01,P01,Estações de trabalho,Nordeste,Venda direta,43,2765.91,1992.9,118934.13,85694.7
+2025-10-01,P01,Estações de trabalho,Nordeste,Parceiros,24,2608.32,1992.9,62599.68,47829.6
+2025-10-01,P02,Equipamentos de rede,Sudeste,Venda direta,93,1755.29,1041.48,163241.97,96857.64
+2025-10-01,P02,Equipamentos de rede,Sudeste,Parceiros,51,1655.28,1041.48,84419.28,53115.48
+2025-10-01,P02,Equipamentos de rede,Sul,Venda direta,44,1755.29,1041.48,77232.76,45825.12
+2025-10-01,P02,Equipamentos de rede,Sul,Parceiros,22,1655.28,1041.48,36416.16,22912.56
+2025-10-01,P02,Equipamentos de rede,Nordeste,Venda direta,31,1755.29,1041.48,54413.99,32285.88
+2025-10-01,P02,Equipamentos de rede,Nordeste,Parceiros,16,1655.28,1041.48,26484.48,16663.68
+2025-10-01,P03,Periféricos profissionais,Sudeste,Venda direta,62,723.39,399.76,44850.18,24785.12
+2025-10-01,P03,Periféricos profissionais,Sudeste,Parceiros,36,682.18,399.76,24558.48,14391.36
+2025-10-01,P03,Periféricos profissionais,Sul,Venda direta,30,723.39,399.76,21701.7,11992.8
+2025-10-01,P03,Periféricos profissionais,Sul,Parceiros,15,682.18,399.76,10232.7,5996.4
+2025-10-01,P03,Periféricos profissionais,Nordeste,Venda direta,22,723.39,399.76,15914.58,8794.72
+2025-10-01,P03,Periféricos profissionais,Nordeste,Parceiros,10,682.18,399.76,6821.8,3997.6
+2025-11-01,P01,Estações de trabalho,Sudeste,Venda direta,163,2765.91,1992.9,450843.33,324842.7
+2025-11-01,P01,Estações de trabalho,Sudeste,Parceiros,79,2608.32,1992.9,206057.28,157439.1
+2025-11-01,P01,Estações de trabalho,Sul,Venda direta,74,2765.91,1992.9,204677.34,147474.6
+2025-11-01,P01,Estações de trabalho,Sul,Parceiros,36,2608.32,1992.9,93899.52,71744.4
+2025-11-01,P01,Estações de trabalho,Nordeste,Venda direta,54,2765.91,1992.9,149359.14,107616.6
+2025-11-01,P01,Estações de trabalho,Nordeste,Parceiros,26,2608.32,1992.9,67816.32,51815.4
+2025-11-01,P02,Equipamentos de rede,Sudeste,Venda direta,103,1755.29,1041.48,180794.87,107272.44
+2025-11-01,P02,Equipamentos de rede,Sudeste,Parceiros,56,1655.28,1041.48,92695.68,58322.88
+2025-11-01,P02,Equipamentos de rede,Sul,Venda direta,52,1755.29,1041.48,91275.08,54156.96
+2025-11-01,P02,Equipamentos de rede,Sul,Parceiros,27,1655.28,1041.48,44692.56,28119.96
+2025-11-01,P02,Equipamentos de rede,Nordeste,Venda direta,36,1755.29,1041.48,63190.44,37493.28
+2025-11-01,P02,Equipamentos de rede,Nordeste,Parceiros,19,1655.28,1041.48,31450.32,19788.12
+2025-11-01,P03,Periféricos profissionais,Sudeste,Venda direta,79,723.39,399.76,57147.81,31581.04
+2025-11-01,P03,Periféricos profissionais,Sudeste,Parceiros,38,682.18,399.76,25922.84,15190.88
+2025-11-01,P03,Periféricos profissionais,Sul,Venda direta,37,723.39,399.76,26765.43,14791.12
+2025-11-01,P03,Periféricos profissionais,Sul,Parceiros,17,682.18,399.76,11597.06,6795.92
+2025-11-01,P03,Periféricos profissionais,Nordeste,Venda direta,24,723.39,399.76,17361.36,9594.24
+2025-11-01,P03,Periféricos profissionais,Nordeste,Parceiros,13,682.18,399.76,8868.34,5196.88
+2025-12-01,P01,Estações de trabalho,Sudeste,Venda direta,149,2765.91,1992.9,412120.59,296942.1
+2025-12-01,P01,Estações de trabalho,Sudeste,Parceiros,79,2608.32,1992.9,206057.28,157439.1
+2025-12-01,P01,Estações de trabalho,Sul,Venda direta,67,2765.91,1992.9,185315.97,133524.3
+2025-12-01,P01,Estações de trabalho,Sul,Parceiros,35,2608.32,1992.9,91291.2,69751.5
+2025-12-01,P01,Estações de trabalho,Nordeste,Venda direta,48,2765.91,1992.9,132763.68,95659.2
+2025-12-01,P01,Estações de trabalho,Nordeste,Parceiros,24,2608.32,1992.9,62599.68,47829.6
+2025-12-01,P02,Equipamentos de rede,Sudeste,Venda direta,100,1755.29,1041.48,175529,104148
+2025-12-01,P02,Equipamentos de rede,Sudeste,Parceiros,55,1655.28,1041.48,91040.4,57281.4
+2025-12-01,P02,Equipamentos de rede,Sul,Venda direta,47,1755.29,1041.48,82498.63,48949.56
+2025-12-01,P02,Equipamentos de rede,Sul,Parceiros,24,1655.28,1041.48,39726.72,24995.52
+2025-12-01,P02,Equipamentos de rede,Nordeste,Venda direta,32,1755.29,1041.48,56169.28,33327.36
+2025-12-01,P02,Equipamentos de rede,Nordeste,Parceiros,17,1655.28,1041.48,28139.76,17705.16
+2025-12-01,P03,Periféricos profissionais,Sudeste,Venda direta,67,723.39,399.76,48467.13,26783.92
+2025-12-01,P03,Periféricos profissionais,Sudeste,Parceiros,38,682.18,399.76,25922.84,15190.88
+2025-12-01,P03,Periféricos profissionais,Sul,Venda direta,31,723.39,399.76,22425.09,12392.56
+2025-12-01,P03,Periféricos profissionais,Sul,Parceiros,16,682.18,399.76,10914.88,6396.16
+2025-12-01,P03,Periféricos profissionais,Nordeste,Venda direta,23,723.39,399.76,16637.97,9194.48
+2025-12-01,P03,Periféricos profissionais,Nordeste,Parceiros,11,682.18,399.76,7503.98,4397.36

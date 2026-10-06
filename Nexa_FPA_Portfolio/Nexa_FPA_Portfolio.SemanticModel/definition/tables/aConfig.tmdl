@@ -1,0 +1,19 @@
+/// Tolerância central para os controles de integridade.
+table 'aConfig'
+	lineageTag: eb3927dc-42ec-57e4-91bd-64b937ae9514
+	isHidden
+
+	column 'Tolerancia'
+		dataType: double
+		sourceColumn: Tolerancia
+		summarizeBy: none
+		lineageTag: dd7a94fb-14f4-5bfa-ab79-f7d4ba1fc478
+
+	partition 'aConfig' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			#table(type table [Tolerancia=number],{{pTolerancia}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

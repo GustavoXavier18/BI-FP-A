@@ -1,0 +1,236 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa05Balance",
+  "displayName": "05 | Balance Sheet",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "bp",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "debt",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "asset",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bp",
+      "target": "capital",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "bp",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "asset",
+      "type": "NoFilter"
+    },
+    {
+      "source": "debt",
+      "target": "capital",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "bp",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "debt",
+      "type": "NoFilter"
+    },
+    {
+      "source": "asset",
+      "target": "capital",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "bp",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "debt",
+      "type": "NoFilter"
+    },
+    {
+      "source": "capital",
+      "target": "asset",
+      "type": "NoFilter"
+    }
+  ]
+}

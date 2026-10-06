@@ -1,0 +1,35 @@
+/// Componentes aditivos; total automático corresponde à variação de caixa.
+table 'aPonteCaixa'
+	lineageTag: ddb25d99-5edf-5bc1-ba02-3079520c4251
+
+	column 'Etapa'
+		dataType: string
+		sourceColumn: Etapa
+		summarizeBy: none
+		lineageTag: e9367fa2-e0a9-530f-8624-013bb5b1e497
+		sortByColumn: 'Ordem'
+
+	column 'Ordem'
+		dataType: int64
+		sourceColumn: Ordem
+		summarizeBy: none
+		lineageTag: ce29719e-8886-563b-9816-fad918bd9696
+		isHidden
+
+	partition 'aPonteCaixa' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			#table(type table [Etapa=text, Ordem=Int64.Type],{
+			    {"Lucro Líquido",1},
+			    {"Depreciação",2},
+			    {"Clientes",3},
+			    {"Estoque",4},
+			    {"Fornecedores",5},
+			    {"Outros Passivos Operacionais",6},
+			    {"Capex",7},
+			    {"Financiamento",8}
+			})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

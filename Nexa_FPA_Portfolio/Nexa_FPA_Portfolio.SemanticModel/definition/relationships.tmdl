@@ -1,0 +1,137 @@
+relationship abc1761a-54ee-597a-9ccc-9e6dbc6675c3
+	fromColumn: 'fFinanceiro'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship d1dc44c7-ca88-5938-a23f-9dd507321683
+	fromColumn: 'fVendas'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship d99b7bd1-fa1b-59b0-8583-0f4ba0ce670a
+	fromColumn: 'fDespesas'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship 03094b67-9d00-5f48-922e-364ce0d3df2e
+	fromColumn: 'fPremissas'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship cb5f93fa-4e90-5a57-974c-5da51672b1a7
+	fromColumn: 'fPontePrecoVolume'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship 8467c042-7faa-5095-a545-dda32783ce4c
+	fromColumn: 'fDiario'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship b5885dcf-17dd-5202-a5c3-9ba3fa48dcb0
+	fromColumn: 'fConciliacao'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship 22656a66-983f-5602-a59d-880ffe3296b9
+	fromColumn: 'fChecks'.'Data'
+	toColumn: 'dCalendario'.'Data'
+	crossFilteringBehavior: oneDirection
+	joinOnDateBehavior: datePartOnly
+
+relationship 9332cc25-90cf-5b15-950d-6a4a12277c44
+	fromColumn: 'fFinanceiro'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship a50ad5f7-b47b-5599-a0ec-faf2de56c8f5
+	fromColumn: 'fVendas'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship 06957c03-d704-5cf3-9496-18c36af4cfe4
+	fromColumn: 'fDespesas'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship 449cca0e-62e4-5708-8cd1-ed8d5b31a598
+	fromColumn: 'fPremissas'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship f4c0f154-d464-5ebf-9419-c871005547b4
+	fromColumn: 'fDiario'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship 2e10ec61-d79d-5786-a293-7973c98483a9
+	fromColumn: 'fConciliacao'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship 20a242f0-302b-5f42-bb8c-06edd9f3d2ad
+	fromColumn: 'fChecks'.'Cenario'
+	toColumn: 'dCenario'.'Cenario'
+	crossFilteringBehavior: oneDirection
+
+relationship 4610599f-aa86-5062-a669-bfc077e714ef
+	fromColumn: 'fVendas'.'ProdutoID'
+	toColumn: 'dProduto'.'ProdutoID'
+	crossFilteringBehavior: oneDirection
+
+relationship b785ceb5-3494-5da0-b8a8-cdde9ca9928e
+	fromColumn: 'fPontePrecoVolume'.'Produto'
+	toColumn: 'dProduto'.'Produto'
+	crossFilteringBehavior: oneDirection
+
+relationship 1b434571-d0db-58d3-8ed1-f422da2f42fe
+	fromColumn: 'fVendas'.'Regiao'
+	toColumn: 'dRegiao'.'Regiao'
+	crossFilteringBehavior: oneDirection
+
+relationship c53b82a8-b9dc-555f-85e5-f8cdbe8325f5
+	fromColumn: 'fVendas'.'Canal'
+	toColumn: 'dCanal'.'Canal'
+	crossFilteringBehavior: oneDirection
+
+relationship 82fbdbb8-35d3-5a39-bd92-c67e1c4a1337
+	fromColumn: 'fPontePrecoVolume'.'Regiao'
+	toColumn: 'dRegiao'.'Regiao'
+	crossFilteringBehavior: oneDirection
+
+relationship 0b9b34a4-8e0f-52aa-8e95-eedaea23ccf5
+	fromColumn: 'fPontePrecoVolume'.'Canal'
+	toColumn: 'dCanal'.'Canal'
+	crossFilteringBehavior: oneDirection
+
+relationship b310175a-0a84-52b8-bcdb-a14c20d7aa68
+	fromColumn: 'fDespesas'.'CentroCusto'
+	toColumn: 'dCentroCusto'.'CentroCusto'
+	crossFilteringBehavior: oneDirection
+
+relationship 0f8213a2-9f2f-5da8-a5cd-8ea613febdab
+	fromColumn: 'fDiario'.'CentroCusto'
+	toColumn: 'dCentroCusto'.'CentroCusto'
+	crossFilteringBehavior: oneDirection
+
+relationship 5efd1e98-9586-5e3a-af18-b8916e2adc14
+	fromColumn: 'fDespesas'.'Conta'
+	toColumn: 'dContaDespesa'.'Conta'
+	crossFilteringBehavior: oneDirection
+
+relationship e7aa8de0-2b17-5964-8a69-e477a07454e0
+	fromColumn: 'fDiario'.'ContaID'
+	toColumn: 'dConta'.'ContaID'
+	crossFilteringBehavior: oneDirection
+
+relationship e3062f79-c125-5b03-98ff-ae1d71dd3a7f
+	fromColumn: 'fConciliacao'.'ContaID'
+	toColumn: 'dConta'.'ContaID'
+	crossFilteringBehavior: oneDirection

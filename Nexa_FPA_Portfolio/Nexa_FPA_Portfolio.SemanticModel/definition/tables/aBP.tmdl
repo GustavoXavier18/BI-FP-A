@@ -1,0 +1,54 @@
+/// Linhas de apresentação do balanço; último mês de cada cenário.
+table 'aBP'
+	lineageTag: 2ad86a02-5797-5ab4-88c8-7da8185a89cd
+
+	column 'Linha'
+		dataType: string
+		sourceColumn: Linha
+		summarizeBy: none
+		lineageTag: 3fff9c77-cb97-5bf8-bc33-b49389443e89
+		sortByColumn: 'Ordem'
+
+	column 'Campo'
+		dataType: string
+		sourceColumn: Campo
+		summarizeBy: none
+		lineageTag: 0a0cf740-ad72-59b4-aacf-68f8c76b7551
+		isHidden
+
+	column 'Ordem'
+		dataType: int64
+		sourceColumn: Ordem
+		summarizeBy: none
+		lineageTag: ed191ce2-6937-5114-a0d9-7734ba98ad39
+		isHidden
+
+	partition 'aBP' = m
+		mode: import
+		queryGroup: '03_Apoio'
+		source =
+			#table(type table [Linha=text, Campo=text, Ordem=Int64.Type],{
+			    {"ATIVO | Caixa","CaixaFinal",1},
+			    {"ATIVO | Clientes","Clientes",2},
+			    {"ATIVO | Estoque","Estoque",3},
+			    {"ATIVO | Ativo Circulante","AtivoCirculante",4},
+			    {"ATIVO | Imobilizado Bruto","ImobilizadoBruto",5},
+			    {"ATIVO | (-) Depreciação Acumulada","DepAcumulada",6},
+			    {"ATIVO | Ativo Não Circulante","AtivoNaoCirculante",7},
+			    {"ATIVO TOTAL","Ativo",8},
+			    {"PASSIVO | Fornecedores","Fornecedores",9},
+			    {"PASSIVO | Salários a Pagar","SalariosPagar",10},
+			    {"PASSIVO | Tributos sobre Venda","TributosVendaPagar",11},
+			    {"PASSIVO | IR a Pagar","IRPagar",12},
+			    {"PASSIVO | Dívida CP","DividaCP",13},
+			    {"PASSIVO | Passivo Circulante","PassivoCirculante",14},
+			    {"PASSIVO | Dívida LP","DividaLP",15},
+			    {"PASSIVO | Passivo Não Circulante","PassivoNaoCirculante",16},
+			    {"PASSIVO TOTAL","Passivo",17},
+			    {"PL | Capital","Capital",18},
+			    {"PL | Lucros Acumulados","LucrosAcumulados",19},
+			    {"PATRIMÔNIO LÍQUIDO","PL",20}
+			})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

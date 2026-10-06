@@ -1,0 +1,24 @@
+/// Dimensão compartilhada de Produto.
+table 'dProduto'
+	lineageTag: 13869cb7-3cbf-5c57-b971-ae09b83007fd
+
+	column 'ProdutoID'
+		dataType: string
+		sourceColumn: ProdutoID
+		summarizeBy: none
+		lineageTag: a98610a0-093c-50b1-b485-8bb76b99b196
+
+	column 'Produto'
+		dataType: string
+		sourceColumn: Produto
+		summarizeBy: none
+		lineageTag: fe0713ab-0d46-5868-a5b6-5b2d2acaa1ce
+
+	partition 'dProduto' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			Table.Sort(Table.Distinct(Table.SelectColumns(fVendas,{"ProdutoID","Produto"})),{{"ProdutoID",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

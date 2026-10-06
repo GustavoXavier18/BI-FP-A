@@ -1,0 +1,256 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa04Cash",
+  "displayName": "04 | Cash & Working Capital",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "cashncg",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "days",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "cashbridge",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "components",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashncg",
+      "target": "finance0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "cashncg",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "cashbridge",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "components",
+      "type": "NoFilter"
+    },
+    {
+      "source": "days",
+      "target": "finance0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "cashncg",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "days",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "components",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cashbridge",
+      "target": "finance0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "cashncg",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "days",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "cashbridge",
+      "type": "NoFilter"
+    },
+    {
+      "source": "components",
+      "target": "finance0",
+      "type": "NoFilter"
+    }
+  ]
+}

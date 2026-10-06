@@ -1,0 +1,230 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa03PL",
+  "displayName": "03 | P&L & Variance",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ActualOnly",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCenario"
+              }
+            },
+            "Property": "Cenario"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCenario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Cenario"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Realizado'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "dre",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "forecast",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dre",
+      "target": "var",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "dre",
+      "type": "NoFilter"
+    },
+    {
+      "source": "forecast",
+      "target": "var",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "dre",
+      "type": "NoFilter"
+    },
+    {
+      "source": "var",
+      "target": "forecast",
+      "type": "NoFilter"
+    }
+  ]
+}

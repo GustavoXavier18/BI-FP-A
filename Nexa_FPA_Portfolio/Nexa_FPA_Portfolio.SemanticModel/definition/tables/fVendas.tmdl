@@ -1,0 +1,95 @@
+/// Histórico comercial realizado por mês, produto, região e canal.
+table 'fVendas'
+	lineageTag: 30350d9e-67e3-52ad-adf7-40d36716afa7
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 70f746b0-eb23-5fd3-a5a4-8c165fb16831
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'ProdutoID'
+		dataType: string
+		sourceColumn: ProdutoID
+		summarizeBy: none
+		lineageTag: 1a51b7e9-fa1a-53ac-9934-e524b55095eb
+		isHidden
+
+	column 'Produto'
+		dataType: string
+		sourceColumn: Produto
+		summarizeBy: none
+		lineageTag: 71c66bbd-130d-5f38-a944-b3d5054ffc59
+		isHidden
+
+	column 'Regiao'
+		dataType: string
+		sourceColumn: Regiao
+		summarizeBy: none
+		lineageTag: f26682e8-7e89-5bc7-8dc4-a4adf49eb965
+		isHidden
+
+	column 'Canal'
+		dataType: string
+		sourceColumn: Canal
+		summarizeBy: none
+		lineageTag: fd7a1976-2d3b-5ba9-8c62-17bd2efa84c7
+		isHidden
+
+	column 'Quantidade'
+		dataType: double
+		sourceColumn: Quantidade
+		summarizeBy: none
+		lineageTag: 5f28ccf3-7770-5fc7-8acd-b38bb73447a3
+		isHidden
+
+	column 'PrecoUnitario'
+		dataType: double
+		sourceColumn: PrecoUnitario
+		summarizeBy: none
+		lineageTag: a50172bd-af1d-5db3-8af5-256a5d9dd2ec
+		isHidden
+
+	column 'CustoUnitario'
+		dataType: double
+		sourceColumn: CustoUnitario
+		summarizeBy: none
+		lineageTag: 6762749d-9719-5f2a-b9d4-68d99005c893
+		isHidden
+
+	column 'ReceitaBruta'
+		dataType: double
+		sourceColumn: ReceitaBruta
+		summarizeBy: none
+		lineageTag: 60dde989-47ef-5c85-a937-9924ea2bb54b
+		isHidden
+
+	column 'CMV'
+		dataType: double
+		sourceColumn: CMV
+		summarizeBy: none
+		lineageTag: 8eecadb6-1e7e-5e93-a110-6a3e7c794492
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: 174f775d-dc7f-517d-81a2-bbc2ad96d45e
+		isHidden
+
+	partition 'fVendas' = m
+		mode: import
+		queryGroup: '02_Fatos'
+		source =
+			let
+			    Fonte = fnPlanilha("09_VENDAS"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"ProdutoID",type text},{"Produto",type text},{"Regiao",type text},{"Canal",type text},{"Quantidade",type number},{"PrecoUnitario",type number},{"CustoUnitario",type number},{"ReceitaBruta",type number},{"CMV",type number}},"pt-BR"),
+			    Cenario = Table.AddColumn(Tipos,"Cenario",each "Realizado",type text)
+			in
+			    Cenario
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

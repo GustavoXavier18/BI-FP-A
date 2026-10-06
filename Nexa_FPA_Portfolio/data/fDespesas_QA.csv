@@ -1,0 +1,123 @@
+﻿Data,CentroCusto,Conta,Valor
+2024-01-01,Pessoal,Pessoal,95000
+2024-01-01,Comercial,Comissões,33483.76
+2024-01-01,Administrativo,Aluguel e serviços,32000
+2024-01-01,Tecnologia,Software e infraestrutura,18000
+2024-01-01,Operações,Logística,20462.3
+2024-02-01,Pessoal,Pessoal,95000
+2024-02-01,Comercial,Comissões,35030.03
+2024-02-01,Administrativo,Aluguel e serviços,32000
+2024-02-01,Tecnologia,Software e infraestrutura,18000
+2024-02-01,Operações,Logística,21407.24
+2024-03-01,Pessoal,Pessoal,95000
+2024-03-01,Comercial,Comissões,41009.46
+2024-03-01,Administrativo,Aluguel e serviços,32000
+2024-03-01,Tecnologia,Software e infraestrutura,18000
+2024-03-01,Operações,Logística,25061.33
+2024-04-01,Pessoal,Pessoal,95000
+2024-04-01,Comercial,Comissões,41033.48
+2024-04-01,Administrativo,Aluguel e serviços,32000
+2024-04-01,Tecnologia,Software e infraestrutura,18000
+2024-04-01,Operações,Logística,25076.02
+2024-05-01,Pessoal,Pessoal,95000
+2024-05-01,Comercial,Comissões,42697.44
+2024-05-01,Administrativo,Aluguel e serviços,32000
+2024-05-01,Tecnologia,Software e infraestrutura,18000
+2024-05-01,Operações,Logística,26092.88
+2024-06-01,Pessoal,Pessoal,95000
+2024-06-01,Comercial,Comissões,44214.86
+2024-06-01,Administrativo,Aluguel e serviços,32000
+2024-06-01,Tecnologia,Software e infraestrutura,18000
+2024-06-01,Operações,Logística,27020.19
+2024-07-01,Pessoal,Pessoal,98800
+2024-07-01,Comercial,Comissões,39018.78
+2024-07-01,Administrativo,Aluguel e serviços,32000
+2024-07-01,Tecnologia,Software e infraestrutura,18000
+2024-07-01,Operações,Logística,23844.81
+2024-08-01,Pessoal,Pessoal,98800
+2024-08-01,Comercial,Comissões,42243.92
+2024-08-01,Administrativo,Aluguel e serviços,32000
+2024-08-01,Tecnologia,Software e infraestrutura,18000
+2024-08-01,Operações,Logística,25815.73
+2024-09-01,Pessoal,Pessoal,98800
+2024-09-01,Comercial,Comissões,43883.51
+2024-09-01,Administrativo,Aluguel e serviços,32000
+2024-09-01,Tecnologia,Software e infraestrutura,18000
+2024-09-01,Operações,Logística,26817.7
+2024-10-01,Pessoal,Pessoal,98800
+2024-10-01,Comercial,Comissões,48113.16
+2024-10-01,Administrativo,Aluguel e serviços,32000
+2024-10-01,Tecnologia,Software e infraestrutura,18000
+2024-10-01,Operações,Logística,29402.49
+2024-11-01,Pessoal,Pessoal,98800
+2024-11-01,Comercial,Comissões,54158.84
+2024-11-01,Administrativo,Aluguel e serviços,32000
+2024-11-01,Tecnologia,Software e infraestrutura,18000
+2024-11-01,Operações,Logística,33097.07
+2024-12-01,Pessoal,Pessoal,98800
+2024-12-01,Comercial,Comissões,49741.9
+2024-12-01,Administrativo,Aluguel e serviços,32000
+2024-12-01,Tecnologia,Software e infraestrutura,18000
+2024-12-01,Operações,Logística,30397.83
+2025-01-01,Pessoal,Pessoal,105925
+2025-01-01,Comercial,Comissões,41439.29
+2025-01-01,Administrativo,Aluguel e serviços,33920
+2025-01-01,Tecnologia,Software e infraestrutura,20160
+2025-01-01,Operações,Logística,25324.01
+2025-02-01,Pessoal,Pessoal,105925
+2025-02-01,Comercial,Comissões,42362.34
+2025-02-01,Administrativo,Aluguel e serviços,33920
+2025-02-01,Tecnologia,Software e infraestrutura,20160
+2025-02-01,Operações,Logística,25888.1
+2025-03-01,Pessoal,Pessoal,105925
+2025-03-01,Comercial,Comissões,50038.31
+2025-03-01,Administrativo,Aluguel e serviços,33920
+2025-03-01,Tecnologia,Software e infraestrutura,20160
+2025-03-01,Operações,Logística,30578.97
+2025-04-01,Pessoal,Pessoal,105925
+2025-04-01,Comercial,Comissões,49834.7
+2025-04-01,Administrativo,Aluguel e serviços,33920
+2025-04-01,Tecnologia,Software e infraestrutura,20160
+2025-04-01,Operações,Logística,30454.54
+2025-04-01,Tecnologia,Implantação ERP,28000
+2025-05-01,Pessoal,Pessoal,105925
+2025-05-01,Comercial,Comissões,52188.43
+2025-05-01,Administrativo,Aluguel e serviços,33920
+2025-05-01,Tecnologia,Software e infraestrutura,20160
+2025-05-01,Operações,Logística,31892.93
+2025-05-01,Tecnologia,Implantação ERP,28000
+2025-06-01,Pessoal,Pessoal,105925
+2025-06-01,Comercial,Comissões,52961.79
+2025-06-01,Administrativo,Aluguel e serviços,33920
+2025-06-01,Tecnologia,Software e infraestrutura,20160
+2025-06-01,Operações,Logística,32365.54
+2025-07-01,Pessoal,Pessoal,110162
+2025-07-01,Comercial,Comissões,43463.25
+2025-07-01,Administrativo,Aluguel e serviços,33920
+2025-07-01,Tecnologia,Software e infraestrutura,20160
+2025-07-01,Operações,Logística,26560.87
+2025-08-01,Pessoal,Pessoal,110162
+2025-08-01,Comercial,Comissões,46751.21
+2025-08-01,Administrativo,Aluguel e serviços,33920
+2025-08-01,Tecnologia,Software e infraestrutura,20160
+2025-08-01,Operações,Logística,28570.19
+2025-09-01,Pessoal,Pessoal,110162
+2025-09-01,Comercial,Comissões,49871.21
+2025-09-01,Administrativo,Aluguel e serviços,33920
+2025-09-01,Tecnologia,Software e infraestrutura,20160
+2025-09-01,Operações,Logística,30476.85
+2025-10-01,Pessoal,Pessoal,110162
+2025-10-01,Comercial,Comissões,56015.6
+2025-10-01,Administrativo,Aluguel e serviços,33920
+2025-10-01,Tecnologia,Software e infraestrutura,20160
+2025-10-01,Operações,Logística,34231.76
+2025-11-01,Pessoal,Pessoal,110162
+2025-11-01,Comercial,Comissões,65678.93
+2025-11-01,Administrativo,Aluguel e serviços,33920
+2025-11-01,Tecnologia,Software e infraestrutura,20160
+2025-11-01,Operações,Logística,40137.12
+2025-12-01,Pessoal,Pessoal,110162
+2025-12-01,Comercial,Comissões,61024.47
+2025-12-01,Administrativo,Aluguel e serviços,33920
+2025-12-01,Tecnologia,Software e infraestrutura,20160
+2025-12-01,Operações,Logística,37292.73

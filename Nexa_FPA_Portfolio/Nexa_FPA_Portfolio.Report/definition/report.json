@@ -1,0 +1,78 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "themeCollection": {
+    "customTheme": {
+      "name": "theme_Nexa.json",
+      "type": "RegisteredResources",
+      "reportVersionAtImport": {
+        "visual": "2.1.0",
+        "page": "2.0.0",
+        "report": "3.0.0"
+      }
+    }
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "theme_Nexa.json",
+          "path": "theme_Nexa.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Nexa01Overview.png",
+          "path": "Nexa01Overview.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa02Growth.png",
+          "path": "Nexa02Growth.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa03PL.png",
+          "path": "Nexa03PL.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa04Cash.png",
+          "path": "Nexa04Cash.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa05Balance.png",
+          "path": "Nexa05Balance.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa06Scenarios.png",
+          "path": "Nexa06Scenarios.png",
+          "type": "Image"
+        },
+        {
+          "name": "Nexa07Integrity.png",
+          "path": "Nexa07Integrity.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "useEnhancedTooltips": true,
+    "defaultFilterActionIsDataFilter": true,
+    "defaultDrillFilterOtherVisuals": false,
+    "isPersistentUserStateDisabled": true,
+    "pagesPosition": "Bottom",
+    "useDefaultAggregateDisplayName": true
+  },
+  "annotations": [
+    {
+      "name": "NexaAuthor",
+      "value": "Gustavo Xavier | Projeto autoral | Empresa e dados fictícios"
+    }
+  ]
+}

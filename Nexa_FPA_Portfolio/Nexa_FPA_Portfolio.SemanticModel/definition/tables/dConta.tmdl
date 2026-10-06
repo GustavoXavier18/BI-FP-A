@@ -1,0 +1,46 @@
+/// Plano de contas contábil. Chave ContaID; não se relaciona por descrição à base de despesas.
+table 'dConta'
+	lineageTag: 9db71850-08df-5059-8868-892418fb3072
+
+	column 'ContaID'
+		dataType: string
+		sourceColumn: ContaID
+		summarizeBy: none
+		lineageTag: 564ce325-8ab9-5611-8cb5-8ac83bfcffea
+
+	column 'Conta'
+		dataType: string
+		sourceColumn: Conta
+		summarizeBy: none
+		lineageTag: d9ce6b00-26e1-5de3-bb01-bc9d455c26b2
+
+	column 'Grupo'
+		dataType: string
+		sourceColumn: Grupo
+		summarizeBy: none
+		lineageTag: bdff3c7a-cbaa-5f3e-b73e-ef30b6f1a9d8
+
+	column 'Natureza'
+		dataType: string
+		sourceColumn: Natureza
+		summarizeBy: none
+		lineageTag: 4033b2a2-6ab3-5ff0-bffc-a94436eb8124
+
+	column 'CampoModelo'
+		dataType: string
+		sourceColumn: CampoModelo
+		summarizeBy: none
+		lineageTag: 594a8ef1-0d9f-5cf3-a611-084b56bce040
+
+	partition 'dConta' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			let
+			    Fonte = fnPlanilha("14_PLANO_CONTAS"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"ContaID",type text},{"Conta",type text},{"Grupo",type text},{"Natureza",type text},{"CampoModelo",type text}},"pt-BR")
+			in
+			    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

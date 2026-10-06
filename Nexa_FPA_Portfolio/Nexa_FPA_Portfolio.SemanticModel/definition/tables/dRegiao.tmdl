@@ -1,0 +1,18 @@
+/// Dimensão compartilhada de Regiao.
+table 'dRegiao'
+	lineageTag: 585a1e45-5d0c-5b80-8010-7577c9ed7678
+
+	column 'Regiao'
+		dataType: string
+		sourceColumn: Regiao
+		summarizeBy: none
+		lineageTag: 1e7ef1a0-28cb-530c-bb88-14dd6d931647
+
+	partition 'dRegiao' = m
+		mode: import
+		queryGroup: '01_Dimensoes'
+		source =
+			Table.Sort(Table.Distinct(Table.SelectColumns(fVendas,{"Regiao"})),{{"Regiao",Order.Ascending}})
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

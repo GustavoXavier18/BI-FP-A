@@ -1,0 +1,306 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa01Overview",
+  "displayName": "01 | Executive Overview",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "receita",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "kctx5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "margem",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "giro",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "insights0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "insights1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "receita",
+      "target": "insights2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "kctx5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "receita",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "giro",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "insights0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "insights1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "margem",
+      "target": "insights2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "kctx5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "receita",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "margem",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "insights0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "insights1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "giro",
+      "target": "insights2",
+      "type": "NoFilter"
+    }
+  ]
+}

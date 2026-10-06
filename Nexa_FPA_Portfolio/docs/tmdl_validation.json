@@ -1,0 +1,153 @@
+{
+  "valid": true,
+  "compatibilityLevel": 1604,
+  "tables": 24,
+  "relationships": 26,
+  "measures": 225,
+  "details": [
+    {
+      "table": "fFinanceiro",
+      "columns": 73,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fVendas",
+      "columns": 11,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fDespesas",
+      "columns": 5,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fPremissas",
+      "columns": 25,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fPontePrecoVolume",
+      "columns": 10,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fDiario",
+      "columns": 11,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fConciliacao",
+      "columns": 7,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "fChecks",
+      "columns": 8,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aSaldoInicial",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dConta",
+      "columns": 5,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dCalendario",
+      "columns": 9,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dCenario",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dProduto",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dRegiao",
+      "columns": 1,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dCanal",
+      "columns": 1,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dCentroCusto",
+      "columns": 1,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "dContaDespesa",
+      "columns": 1,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aConfig",
+      "columns": 1,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aDRE",
+      "columns": 5,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aBP",
+      "columns": 3,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aPontePV",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aPonteCaixa",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "aVariancia",
+      "columns": 2,
+      "measures": 0,
+      "partitions": 1
+    },
+    {
+      "table": "_Medidas",
+      "columns": 1,
+      "measures": 225,
+      "partitions": 1
+    }
+  ]
+}

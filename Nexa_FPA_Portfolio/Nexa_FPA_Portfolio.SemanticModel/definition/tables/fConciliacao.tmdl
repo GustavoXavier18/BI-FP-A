@@ -1,0 +1,67 @@
+/// Conciliação histórica de 12 contas patrimoniais, com abertura explícita.
+table 'fConciliacao'
+	lineageTag: 8e755588-2e06-5baa-92bb-e60c7b15f292
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 7bffba20-ee5c-5def-9b62-f12fdd874bef
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'ContaID'
+		dataType: string
+		sourceColumn: ContaID
+		summarizeBy: none
+		lineageTag: 9dc6540f-5d04-5876-95e4-611c44f02388
+		isHidden
+
+	column 'Campo'
+		dataType: string
+		sourceColumn: Campo
+		summarizeBy: none
+		lineageTag: 773abe83-7db8-532a-8b90-31cc92760c30
+		isHidden
+
+	column 'SaldoDiario'
+		dataType: double
+		sourceColumn: SaldoDiario
+		summarizeBy: none
+		lineageTag: 571f5af4-7c07-5c76-b6d2-1305a8892b0f
+		isHidden
+
+	column 'SaldoModelo'
+		dataType: double
+		sourceColumn: SaldoModelo
+		summarizeBy: none
+		lineageTag: e046b755-3461-5a2b-83e1-b4c48c65b0c7
+		isHidden
+
+	column 'Diferenca'
+		dataType: double
+		sourceColumn: Diferenca
+		summarizeBy: none
+		lineageTag: 6a4ec3b2-e2e1-545b-ac86-f60091b94f19
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: f1db2b8d-4656-5c65-84a4-6e3f2b5bbd32
+		isHidden
+
+	partition 'fConciliacao' = m
+		mode: import
+		queryGroup: '99_QA'
+		source =
+			let
+			    Fonte = fnPlanilha("15_CONCILIACAO"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"ContaID",type text},{"Campo",type text},{"SaldoDiario",type number},{"SaldoModelo",type number},{"Diferenca",type number}},"pt-BR"),
+			    Cenario = Table.AddColumn(Tipos,"Cenario",each "Realizado",type text)
+			in
+			    Cenario
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

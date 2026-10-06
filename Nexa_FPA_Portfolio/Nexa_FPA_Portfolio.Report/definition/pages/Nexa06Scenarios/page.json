@@ -1,0 +1,364 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa06Scenarios",
+  "displayName": "06 | Scenario Planning",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Year2026",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCalendario"
+              }
+            },
+            "Property": "Ano"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCalendario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Ano"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "2026L"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Scenario2026",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dCenario"
+              }
+            },
+            "Property": "Cenario"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "isLockedInViewMode": true,
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "dCenario",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Cenario"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Base 2026'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Otimista 2026'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Adverso 2026'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "scenarios",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "sccash",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "premissas",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scenarios",
+      "target": "scmargin",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "scenarios",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "premissas",
+      "type": "NoFilter"
+    },
+    {
+      "source": "sccash",
+      "target": "scmargin",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "scenarios",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "sccash",
+      "type": "NoFilter"
+    },
+    {
+      "source": "premissas",
+      "target": "scmargin",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "scenarios",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "sccash",
+      "type": "NoFilter"
+    },
+    {
+      "source": "scmargin",
+      "target": "premissas",
+      "type": "NoFilter"
+    }
+  ]
+}

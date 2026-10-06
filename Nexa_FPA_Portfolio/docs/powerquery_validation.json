@@ -1,0 +1,137 @@
+[
+  {
+    "file": "aBP.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aConfig.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aDRE.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aPonteCaixa.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aPontePV.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aSaldoInicial.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "aVariancia.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dCalendario.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dCanal.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dCenario.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dCentroCusto.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dConta.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dContaDespesa.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dProduto.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "dRegiao.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fChecks.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fConciliacao.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fDespesas.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fDiario.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fFinanceiro.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fPontePrecoVolume.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fPremissas.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fVendas.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "fnPlanilha.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "pArquivoExcel.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "pTolerancia.pq",
+    "ok": true,
+    "error": null
+  },
+  {
+    "file": "stgExcel.pq",
+    "ok": true,
+    "error": null
+  }
+]

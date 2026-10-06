@@ -1,0 +1,126 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "Nexa07Integrity",
+  "displayName": "07 | Model Integrity",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 720,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F4F7FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "conc",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "status0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "conc",
+      "target": "diario",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "context",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "kpi5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "status0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "diario",
+      "target": "conc",
+      "type": "NoFilter"
+    }
+  ]
+}

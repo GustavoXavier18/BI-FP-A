@@ -1,0 +1,87 @@
+/// Receita bruta: volume a preço anterior; preço a quantidade atual. Interação atribuída ao preço.
+table 'fPontePrecoVolume'
+	lineageTag: d90e63ff-271c-5798-a543-0e378a7860dc
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 547d785c-044f-5c4f-8eb2-66bcc20df32d
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'Produto'
+		dataType: string
+		sourceColumn: Produto
+		summarizeBy: none
+		lineageTag: 24ab41ee-3313-5c6c-ac8d-0e88e960d310
+		isHidden
+
+	column 'Regiao'
+		dataType: string
+		sourceColumn: Regiao
+		summarizeBy: none
+		lineageTag: 34236a72-4035-52c3-b638-2f3e4a96c69a
+		isHidden
+
+	column 'Canal'
+		dataType: string
+		sourceColumn: Canal
+		summarizeBy: none
+		lineageTag: c29101b8-1cf2-515d-a306-c688c98ef0af
+		isHidden
+
+	column 'Receita2024'
+		dataType: double
+		sourceColumn: Receita2024
+		summarizeBy: none
+		lineageTag: 48fe28ce-1275-54f5-93d1-9f2ae33104c2
+		isHidden
+
+	column 'Receita2025'
+		dataType: double
+		sourceColumn: Receita2025
+		summarizeBy: none
+		lineageTag: adcbf7a2-712f-5469-9f11-623e7ba93923
+		isHidden
+
+	column 'EfeitoVolume'
+		dataType: double
+		sourceColumn: EfeitoVolume
+		summarizeBy: none
+		lineageTag: 88f9be05-a6dc-5aa8-8f8b-566efbb4ef7a
+		isHidden
+
+	column 'EfeitoPreco'
+		dataType: double
+		sourceColumn: EfeitoPreco
+		summarizeBy: none
+		lineageTag: 0ceac92a-930f-5460-9bc2-282a4f0f3290
+		isHidden
+
+	column 'Variacao'
+		dataType: double
+		sourceColumn: Variacao
+		summarizeBy: none
+		lineageTag: 58609050-682f-5332-a7de-8cd516b74fd4
+		isHidden
+
+	column 'Check'
+		dataType: double
+		sourceColumn: Check
+		summarizeBy: none
+		lineageTag: 10c9c591-cc2c-519d-b2fe-be2aa5b4c4db
+		isHidden
+
+	partition 'fPontePrecoVolume' = m
+		mode: import
+		queryGroup: '02_Fatos'
+		source =
+			let
+			    Fonte = fnPlanilha("16_PONTE_PRECO_VOLUME"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"Produto",type text},{"Regiao",type text},{"Canal",type text},{"Receita2024",type number},{"Receita2025",type number},{"EfeitoVolume",type number},{"EfeitoPreco",type number},{"Variacao",type number},{"Check",type number}},"pt-BR")
+			in
+			    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

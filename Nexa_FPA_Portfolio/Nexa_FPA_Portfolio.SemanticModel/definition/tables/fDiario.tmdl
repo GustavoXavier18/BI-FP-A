@@ -1,0 +1,95 @@
+/// Diário contábil histórico; partidas dobradas em 721 lançamentos.
+table 'fDiario'
+	lineageTag: 5b8b37da-8fca-5a2d-9a20-86adb1187757
+
+	column 'Lancamento'
+		dataType: string
+		sourceColumn: Lancamento
+		summarizeBy: none
+		lineageTag: ac7836c2-56f1-57e9-83df-f115d31e1034
+		isHidden
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: 9b7ac629-e301-5889-a03f-1d8708a32889
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'ContaID'
+		dataType: string
+		sourceColumn: ContaID
+		summarizeBy: none
+		lineageTag: 0e925017-7754-59b9-a2b1-0c529126ef59
+		isHidden
+
+	column 'Conta'
+		dataType: string
+		sourceColumn: Conta
+		summarizeBy: none
+		lineageTag: 0039cecf-52f4-5540-b6d0-6f863555a236
+		isHidden
+
+	column 'Grupo'
+		dataType: string
+		sourceColumn: Grupo
+		summarizeBy: none
+		lineageTag: ef2fa77c-b98d-5ca3-b6fb-29a270b466f8
+		isHidden
+
+	column 'CentroCusto'
+		dataType: string
+		sourceColumn: CentroCusto
+		summarizeBy: none
+		lineageTag: 5a5283c6-9275-5f1d-9744-c6693b472ad1
+		isHidden
+
+	column 'Historico'
+		dataType: string
+		sourceColumn: Historico
+		summarizeBy: none
+		lineageTag: 4acdc229-8352-5848-8bdc-de7dab9cb84a
+		isHidden
+
+	column 'Debito'
+		dataType: double
+		sourceColumn: Debito
+		summarizeBy: none
+		lineageTag: 975c1b48-085a-5a90-8277-100fd397823a
+		isHidden
+
+	column 'Credito'
+		dataType: double
+		sourceColumn: Credito
+		summarizeBy: none
+		lineageTag: edd5a970-6114-5869-9b23-02a20ffa1cd0
+		isHidden
+
+	column 'Movimento'
+		dataType: double
+		sourceColumn: Movimento
+		summarizeBy: none
+		lineageTag: 4bb1dc98-1a61-51c3-9b2d-79b2f5cadbfd
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: e790290c-765b-585a-b871-d19634a628bb
+		isHidden
+
+	partition 'fDiario' = m
+		mode: import
+		queryGroup: '99_QA'
+		source =
+			let
+			    Fonte = fnPlanilha("13_DIARIO"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Lancamento",type text},{"Data",type date},{"ContaID",type text},{"Conta",type text},{"Grupo",type text},{"CentroCusto",type text},{"Historico",type text},{"Debito",type number},{"Credito",type number},{"Movimento",type number}},"pt-BR"),
+			    Cenario = Table.AddColumn(Tipos,"Cenario",each "Realizado",type text)
+			in
+			    Cenario
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

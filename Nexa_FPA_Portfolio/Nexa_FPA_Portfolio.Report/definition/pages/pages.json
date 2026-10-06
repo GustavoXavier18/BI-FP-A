@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "Nexa01Overview",
+    "Nexa02Growth",
+    "Nexa03PL",
+    "Nexa04Cash",
+    "Nexa05Balance",
+    "Nexa06Scenarios",
+    "Nexa07Integrity",
+    "NexaTTReceita",
+    "NexaTTCaixa",
+    "NexaTTProduto"
+  ],
+  "activePageName": "Nexa01Overview"
+}

@@ -1,0 +1,528 @@
+/// Modelo integrado; granularidade mês/cenário. Fluxos acumulam; posições usam último mês. Fontes de detalhe realizadas conciliadas separadamente.
+table 'fFinanceiro'
+	lineageTag: 71a66d4a-005d-5f0f-aeb0-3435facab65e
+
+	column 'Data'
+		dataType: dateTime
+		sourceColumn: Data
+		summarizeBy: none
+		lineageTag: e3303302-6b0b-5787-a524-f759fe9ef92f
+		formatString: dd/MM/yyyy
+		isHidden
+
+	column 'Cenario'
+		dataType: string
+		sourceColumn: Cenario
+		summarizeBy: none
+		lineageTag: 86071ced-b88a-5b7f-9610-6be75a2c691a
+		isHidden
+
+	column 'ReceitaBruta'
+		dataType: double
+		sourceColumn: ReceitaBruta
+		summarizeBy: none
+		lineageTag: 1ed3185e-10de-5ce5-90ca-22165210f606
+		isHidden
+
+	column 'Deducoes'
+		dataType: double
+		sourceColumn: Deducoes
+		summarizeBy: none
+		lineageTag: 4ab73c45-970a-502c-bb0b-c9ef809af246
+		isHidden
+
+	column 'ReceitaLiquida'
+		dataType: double
+		sourceColumn: ReceitaLiquida
+		summarizeBy: none
+		lineageTag: 98abe492-72d0-5b0a-9046-cfbd1e6b3574
+		isHidden
+
+	column 'CMV'
+		dataType: double
+		sourceColumn: CMV
+		summarizeBy: none
+		lineageTag: 69daf7bd-4f29-5c8d-a018-0a2498f1bceb
+		isHidden
+
+	column 'LucroBruto'
+		dataType: double
+		sourceColumn: LucroBruto
+		summarizeBy: none
+		lineageTag: f94c4583-5415-5b42-9442-7b77d2e53a49
+		isHidden
+
+	column 'Pessoal'
+		dataType: double
+		sourceColumn: Pessoal
+		summarizeBy: none
+		lineageTag: fc921e9d-03b0-5f21-9763-a29b117e81da
+		isHidden
+
+	column 'Comercial'
+		dataType: double
+		sourceColumn: Comercial
+		summarizeBy: none
+		lineageTag: 6fc7637f-cbc6-5118-9b0a-d61fd70005a0
+		isHidden
+
+	column 'Administrativo'
+		dataType: double
+		sourceColumn: Administrativo
+		summarizeBy: none
+		lineageTag: b3dc6144-200d-5db1-8b08-2fe3861d5891
+		isHidden
+
+	column 'Tecnologia'
+		dataType: double
+		sourceColumn: Tecnologia
+		summarizeBy: none
+		lineageTag: 4d3f1566-4f3c-5807-95eb-c45506fbcc80
+		isHidden
+
+	column 'Logistica'
+		dataType: double
+		sourceColumn: Logistica
+		summarizeBy: none
+		lineageTag: fd58dfb1-7a59-5d7c-8dcc-c9981e830487
+		isHidden
+
+	column 'Opex'
+		dataType: double
+		sourceColumn: Opex
+		summarizeBy: none
+		lineageTag: b2d96de1-18a1-57a9-9d76-b89b88c3d1dc
+		isHidden
+
+	column 'EBITDA'
+		dataType: double
+		sourceColumn: EBITDA
+		summarizeBy: none
+		lineageTag: 4fd557c2-d0b1-545f-ba8e-6ed610d949fe
+		isHidden
+
+	column 'Depreciacao'
+		dataType: double
+		sourceColumn: Depreciacao
+		summarizeBy: none
+		lineageTag: 826ee2b8-8861-5db4-987b-5ccd227a1eb9
+		isHidden
+
+	column 'EBIT'
+		dataType: double
+		sourceColumn: EBIT
+		summarizeBy: none
+		lineageTag: 0ccd990f-4c89-5ba6-b6e9-78db0674925a
+		isHidden
+
+	column 'Juros'
+		dataType: double
+		sourceColumn: Juros
+		summarizeBy: none
+		lineageTag: 64e16c70-f28f-52bf-b6bf-fc3c81b3a05e
+		isHidden
+
+	column 'LAIR'
+		dataType: double
+		sourceColumn: LAIR
+		summarizeBy: none
+		lineageTag: 53d799fe-0f05-5ad2-ae68-1443776ce4e3
+		isHidden
+
+	column 'IRSimulado'
+		dataType: double
+		sourceColumn: IRSimulado
+		summarizeBy: none
+		lineageTag: fa9e9354-5e9f-59d2-ac91-47c5275f43d3
+		isHidden
+
+	column 'LucroLiquido'
+		dataType: double
+		sourceColumn: LucroLiquido
+		summarizeBy: none
+		lineageTag: 03f82353-7e58-5b46-bebd-9796e71ce8c0
+		isHidden
+
+	column 'Clientes'
+		dataType: double
+		sourceColumn: Clientes
+		summarizeBy: none
+		lineageTag: 6fdbec61-95f9-5542-8499-9ee4a75e6b81
+		isHidden
+
+	column 'Estoque'
+		dataType: double
+		sourceColumn: Estoque
+		summarizeBy: none
+		lineageTag: 8b9cc12d-c25a-5cf7-8962-7f1b66624b6d
+		isHidden
+
+	column 'Compras'
+		dataType: double
+		sourceColumn: Compras
+		summarizeBy: none
+		lineageTag: 277f9109-8992-5c0e-a8a5-0a5e1b35ff4a
+		isHidden
+
+	column 'Fornecedores'
+		dataType: double
+		sourceColumn: Fornecedores
+		summarizeBy: none
+		lineageTag: 77c92ae6-6277-5d26-a8ac-1bfe546eae0d
+		isHidden
+
+	column 'SalariosPagar'
+		dataType: double
+		sourceColumn: SalariosPagar
+		summarizeBy: none
+		lineageTag: 2591a3e2-6b0b-52fb-b753-d8adde9061fd
+		isHidden
+
+	column 'TributosVendaPagar'
+		dataType: double
+		sourceColumn: TributosVendaPagar
+		summarizeBy: none
+		lineageTag: 1cd9ad95-e770-5ff6-8462-0034e8c574ca
+		isHidden
+
+	column 'IRPagar'
+		dataType: double
+		sourceColumn: IRPagar
+		summarizeBy: none
+		lineageTag: 9d0218fd-df4c-5c9e-9ae5-b91047b63aa3
+		isHidden
+
+	column 'Capex'
+		dataType: double
+		sourceColumn: Capex
+		summarizeBy: none
+		lineageTag: 990b008d-9b1e-545d-9af7-96a654748b8a
+		isHidden
+
+	column 'ImobilizadoBruto'
+		dataType: double
+		sourceColumn: ImobilizadoBruto
+		summarizeBy: none
+		lineageTag: e44dc40c-ba36-59f5-8337-ff5d5d9decdf
+		isHidden
+
+	column 'DepAcumulada'
+		dataType: double
+		sourceColumn: DepAcumulada
+		summarizeBy: none
+		lineageTag: 461e27b8-7ee5-5fb0-892e-4cdfc7b44086
+		isHidden
+
+	column 'Captacao'
+		dataType: double
+		sourceColumn: Captacao
+		summarizeBy: none
+		lineageTag: 8d9e5d18-2db5-554c-be74-116ffa977b1b
+		isHidden
+
+	column 'Amortizacao'
+		dataType: double
+		sourceColumn: Amortizacao
+		summarizeBy: none
+		lineageTag: f87f308b-bd83-570b-9984-6f834d90f2b0
+		isHidden
+
+	column 'Divida'
+		dataType: double
+		sourceColumn: Divida
+		summarizeBy: none
+		lineageTag: 655bc1cc-1135-5c6e-9681-c7fbbdfe328a
+		isHidden
+
+	column 'Dividendos'
+		dataType: double
+		sourceColumn: Dividendos
+		summarizeBy: none
+		lineageTag: 7655c26a-cec3-5c7b-9372-11d29a5ef4aa
+		isHidden
+
+	column 'Capital'
+		dataType: double
+		sourceColumn: Capital
+		summarizeBy: none
+		lineageTag: b2f60073-3195-5aad-8fff-29c83beb164d
+		isHidden
+
+	column 'LucrosAcumulados'
+		dataType: double
+		sourceColumn: LucrosAcumulados
+		summarizeBy: none
+		lineageTag: 89268bce-e143-51c4-9f7b-c0e9a6ca1e58
+		isHidden
+
+	column 'Recebimentos'
+		dataType: double
+		sourceColumn: Recebimentos
+		summarizeBy: none
+		lineageTag: e8757371-f4f5-5f73-ad2d-85748d795cc8
+		isHidden
+
+	column 'PagFornecedores'
+		dataType: double
+		sourceColumn: PagFornecedores
+		summarizeBy: none
+		lineageTag: 70c3dc5c-06f7-5ed0-bfb5-acb8c9e4f273
+		isHidden
+
+	column 'PagOpex'
+		dataType: double
+		sourceColumn: PagOpex
+		summarizeBy: none
+		lineageTag: a108cf84-9608-5b9a-87f0-f1ab64a4fa00
+		isHidden
+
+	column 'PagTributosVenda'
+		dataType: double
+		sourceColumn: PagTributosVenda
+		summarizeBy: none
+		lineageTag: ca5e5263-1b12-5b01-b33a-98e3798656a3
+		isHidden
+
+	column 'PagIR'
+		dataType: double
+		sourceColumn: PagIR
+		summarizeBy: none
+		lineageTag: dd838118-8f03-5281-a4a0-0414d0c2723f
+		isHidden
+
+	column 'FCO_Direto'
+		dataType: double
+		sourceColumn: FCO_Direto
+		summarizeBy: none
+		lineageTag: c44d2db4-85a0-5b31-8db3-2e3f3c1d5617
+		isHidden
+
+	column 'FCO_Indireto'
+		dataType: double
+		sourceColumn: FCO_Indireto
+		summarizeBy: none
+		lineageTag: 976f22dc-c404-5bc7-9fa3-2f9b0eec6295
+		isHidden
+
+	column 'FCI'
+		dataType: double
+		sourceColumn: FCI
+		summarizeBy: none
+		lineageTag: c43cce78-7b6d-54c4-ae58-c349036a3d7f
+		isHidden
+
+	column 'FCF'
+		dataType: double
+		sourceColumn: FCF
+		summarizeBy: none
+		lineageTag: 9072d365-fb3e-5311-a8a8-5b56737d7f85
+		isHidden
+
+	column 'VariacaoCaixa'
+		dataType: double
+		sourceColumn: VariacaoCaixa
+		summarizeBy: none
+		lineageTag: 391dccfa-98cb-5f1c-99bc-dcc2aecd2896
+		isHidden
+
+	column 'CaixaInicial'
+		dataType: double
+		sourceColumn: CaixaInicial
+		summarizeBy: none
+		lineageTag: 95288e5a-f379-528c-b589-cfc965d18843
+		isHidden
+
+	column 'CaixaFinal'
+		dataType: double
+		sourceColumn: CaixaFinal
+		summarizeBy: none
+		lineageTag: e027f16d-3e94-5a0e-ab9f-a268ca9bfc60
+		isHidden
+
+	column 'Ativo'
+		dataType: double
+		sourceColumn: Ativo
+		summarizeBy: none
+		lineageTag: a0b7037f-3499-56cb-9d7c-732b21ad33e3
+		isHidden
+
+	column 'Passivo'
+		dataType: double
+		sourceColumn: Passivo
+		summarizeBy: none
+		lineageTag: df4f4d41-acd2-57ca-bbaf-294471d86f73
+		isHidden
+
+	column 'PL'
+		dataType: double
+		sourceColumn: PL
+		summarizeBy: none
+		lineageTag: fa7c4a45-64d3-55aa-bb66-268188db1537
+		isHidden
+
+	column 'CheckBP'
+		dataType: double
+		sourceColumn: CheckBP
+		summarizeBy: none
+		lineageTag: 17c0ccf3-e303-5ac1-b9d4-1cddd6f00be5
+		isHidden
+
+	column 'CheckDFC'
+		dataType: double
+		sourceColumn: CheckDFC
+		summarizeBy: none
+		lineageTag: e3c924be-1386-54ba-91dd-2fbe496ff011
+		isHidden
+
+	column 'DSO'
+		dataType: double
+		sourceColumn: DSO
+		summarizeBy: none
+		lineageTag: 0f7ac9e2-37e5-5b9d-89d7-8cd0f2070e04
+		isHidden
+
+	column 'DIO'
+		dataType: double
+		sourceColumn: DIO
+		summarizeBy: none
+		lineageTag: 5031a5f3-222a-5e23-8215-54bfe2e6a6af
+		isHidden
+
+	column 'DPO'
+		dataType: double
+		sourceColumn: DPO
+		summarizeBy: none
+		lineageTag: cb94cfae-8e89-57a7-8142-956ec2632f5e
+		isHidden
+
+	column 'TaxaVenda'
+		dataType: double
+		sourceColumn: TaxaVenda
+		summarizeBy: none
+		lineageTag: 551dc683-2496-5f63-84c3-cb774c6e9461
+		isHidden
+
+	column 'TaxaIR'
+		dataType: double
+		sourceColumn: TaxaIR
+		summarizeBy: none
+		lineageTag: 37bb5895-59bb-55a3-a0e5-d3ec6a120005
+		isHidden
+
+	column 'TaxaJuros'
+		dataType: double
+		sourceColumn: TaxaJuros
+		summarizeBy: none
+		lineageTag: 1ca725cb-8dec-529e-8804-a792e44bc5af
+		isHidden
+
+	column 'TaxaDep'
+		dataType: double
+		sourceColumn: TaxaDep
+		summarizeBy: none
+		lineageTag: 54aca4b7-de17-527c-9d27-64f5c77cfecd
+		isHidden
+
+	column 'MargemEBITDA'
+		dataType: double
+		sourceColumn: MargemEBITDA
+		summarizeBy: none
+		lineageTag: 6281fad5-4624-5b31-a01a-9063f6515af3
+		isHidden
+
+	column 'MargemLiquida'
+		dataType: double
+		sourceColumn: MargemLiquida
+		summarizeBy: none
+		lineageTag: 3aad2a7f-c50b-55c7-aae5-f02cb3352dae
+		isHidden
+
+	column 'FC_Livre'
+		dataType: double
+		sourceColumn: FC_Livre
+		summarizeBy: none
+		lineageTag: 44841616-461f-577d-9f88-7a6d0edccc0a
+		isHidden
+
+	column 'NCG'
+		dataType: double
+		sourceColumn: NCG
+		summarizeBy: none
+		lineageTag: a53d25ec-97f6-5fa0-8deb-e0181ed4094f
+		isHidden
+
+	column 'DividaLiquida'
+		dataType: double
+		sourceColumn: DividaLiquida
+		summarizeBy: none
+		lineageTag: 4ada5f87-b30a-5f5f-a199-0a274758ba2b
+		isHidden
+
+	column 'CheckDiario'
+		dataType: double
+		sourceColumn: CheckDiario
+		summarizeBy: none
+		lineageTag: 4b775e08-76d8-5748-b206-733005633245
+		isHidden
+
+	column 'AtivoCirculante'
+		dataType: double
+		sourceColumn: AtivoCirculante
+		summarizeBy: none
+		lineageTag: 8fd177cc-90e5-5d29-a614-cb5ae7dff082
+		isHidden
+
+	column 'AtivoNaoCirculante'
+		dataType: double
+		sourceColumn: AtivoNaoCirculante
+		summarizeBy: none
+		lineageTag: 9d4aa459-5ebd-5886-a71c-09d85bbb305d
+		isHidden
+
+	column 'DividaCP'
+		dataType: double
+		sourceColumn: DividaCP
+		summarizeBy: none
+		lineageTag: f2ff219b-cb54-5f61-a7c8-5b89b72b78b2
+		isHidden
+
+	column 'DividaLP'
+		dataType: double
+		sourceColumn: DividaLP
+		summarizeBy: none
+		lineageTag: 9d337602-f17a-5d3a-8fe1-5e13bf014349
+		isHidden
+
+	column 'PassivoCirculante'
+		dataType: double
+		sourceColumn: PassivoCirculante
+		summarizeBy: none
+		lineageTag: be60ed28-12ce-5c93-a5b4-19b89b890013
+		isHidden
+
+	column 'PassivoNaoCirculante'
+		dataType: double
+		sourceColumn: PassivoNaoCirculante
+		summarizeBy: none
+		lineageTag: 4ce0cf40-3280-5a86-b5d4-ac2295d47378
+		isHidden
+
+	column 'LiquidezCorrente'
+		dataType: double
+		sourceColumn: LiquidezCorrente
+		summarizeBy: none
+		lineageTag: 678aaa65-f228-53bf-acbd-0add1d9127d3
+		isHidden
+
+	partition 'fFinanceiro' = m
+		mode: import
+		queryGroup: '02_Fatos'
+		source =
+			let
+			    Fonte = fnPlanilha("12_MODELO"),
+			    Tipos = Table.TransformColumnTypes(Fonte,{{"Data",type date},{"Cenario",type text},{"ReceitaBruta",type number},{"Deducoes",type number},{"ReceitaLiquida",type number},{"CMV",type number},{"LucroBruto",type number},{"Pessoal",type number},{"Comercial",type number},{"Administrativo",type number},{"Tecnologia",type number},{"Logistica",type number},{"Opex",type number},{"EBITDA",type number},{"Depreciacao",type number},{"EBIT",type number},{"Juros",type number},{"LAIR",type number},{"IRSimulado",type number},{"LucroLiquido",type number},{"Clientes",type number},{"Estoque",type number},{"Compras",type number},{"Fornecedores",type number},{"SalariosPagar",type number},{"TributosVendaPagar",type number},{"IRPagar",type number},{"Capex",type number},{"ImobilizadoBruto",type number},{"DepAcumulada",type number},{"Captacao",type number},{"Amortizacao",type number},{"Divida",type number},{"Dividendos",type number},{"Capital",type number},{"LucrosAcumulados",type number},{"Recebimentos",type number},{"PagFornecedores",type number},{"PagOpex",type number},{"PagTributosVenda",type number},{"PagIR",type number},{"FCO_Direto",type number},{"FCO_Indireto",type number},{"FCI",type number},{"FCF",type number},{"VariacaoCaixa",type number},{"CaixaInicial",type number},{"CaixaFinal",type number},{"Ativo",type number},{"Passivo",type number},{"PL",type number},{"CheckBP",type number},{"CheckDFC",type number},{"DSO",type number},{"DIO",type number},{"DPO",type number},{"TaxaVenda",type number},{"TaxaIR",type number},{"TaxaJuros",type number},{"TaxaDep",type number},{"MargemEBITDA",type number},{"MargemLiquida",type number},{"FC_Livre",type number},{"NCG",type number},{"DividaLiquida",type number},{"CheckDiario",type number},{"AtivoCirculante",type number},{"AtivoNaoCirculante",type number},{"DividaCP",type number},{"DividaLP",type number},{"PassivoCirculante",type number},{"PassivoNaoCirculante",type number},{"LiquidezCorrente",type number}},"pt-BR")
+			in
+			    Tipos
+
+	annotation PBI_NavigationStepName = Navigation
+	annotation PBI_ResultType = Table

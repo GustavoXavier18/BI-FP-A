@@ -1,0 +1,75 @@
+model Model
+	culture: pt-BR
+	sourceQueryCulture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup '00_Parametros'
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup '01_Dimensoes'
+	annotation PBI_QueryGroupOrder = 1
+
+queryGroup '02_Fatos'
+	annotation PBI_QueryGroupOrder = 2
+
+queryGroup '03_Apoio'
+	annotation PBI_QueryGroupOrder = 3
+
+queryGroup '99_QA'
+	annotation PBI_QueryGroupOrder = 4
+
+annotation PBI_QueryOrder = ["pArquivoExcel", "pTolerancia", "stgExcel", "fnPlanilha", "fFinanceiro", "fVendas", "fDespesas", "fPremissas", "fPontePrecoVolume", "fDiario", "fConciliacao", "fChecks", "aSaldoInicial", "dConta", "dCalendario", "dCenario", "dProduto", "dRegiao", "dCanal", "dCentroCusto", "dContaDespesa", "aConfig", "aDRE", "aBP", "aPontePV", "aPonteCaixa", "aVariancia"]
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+ref table 'fFinanceiro'
+
+ref table 'fVendas'
+
+ref table 'fDespesas'
+
+ref table 'fPremissas'
+
+ref table 'fPontePrecoVolume'
+
+ref table 'fDiario'
+
+ref table 'fConciliacao'
+
+ref table 'fChecks'
+
+ref table 'aSaldoInicial'
+
+ref table 'dConta'
+
+ref table 'dCalendario'
+
+ref table 'dCenario'
+
+ref table 'dProduto'
+
+ref table 'dRegiao'
+
+ref table 'dCanal'
+
+ref table 'dCentroCusto'
+
+ref table 'dContaDespesa'
+
+ref table 'aConfig'
+
+ref table 'aDRE'
+
+ref table 'aBP'
+
+ref table 'aPontePV'
+
+ref table 'aPonteCaixa'
+
+ref table 'aVariancia'
+
+ref table '_Medidas'

@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "Nexa01Overview",
+    "name": "01 | Executive Overview",
+    "short": "Visão Executiva",
+    "title": "NEXA | FP&A INTEGRADO",
+    "subtitle": "Resultado, patrimônio e caixa conectados.",
+    "year": 2025,
+    "scenario": "Realizado",
+    "kpis": [
+      [
+        "RECEITA LÍQUIDA",
+        "KPI Receita",
+        "KPI Receita Contexto"
+      ],
+      [
+        "EBITDA",
+        "KPI EBITDA",
+        "KPI EBITDA Contexto"
+      ],
+      [
+        "MARGEM EBITDA",
+        "Margem EBITDA",
+        "KPI Margem Contexto"
+      ],
+      [
+        "CAIXA FINAL",
+        "KPI Caixa",
+        "KPI Caixa Contexto"
+      ],
+      [
+        "FLUXO DE CAIXA LIVRE",
+        "KPI FCL",
+        "KPI FCL Contexto"
+      ],
+      [
+        "NCG",
+        "KPI NCG",
+        "KPI NCG Contexto"
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "combo",
+        "id": "receita",
+        "title": "Receita entregue vs plano",
+        "box": [
+          210,
+          270,
+          630,
+          202
+        ],
+        "measures": [
+          "Receita Líquida",
+          "Receita Líquida | Orçamento"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ],
+        "tooltip": "NexaTTReceita"
+      },
+      {
+        "kind": "line",
+        "id": "margem",
+        "title": "Rentabilidade ao longo do ano",
+        "box": [
+          856,
+          270,
+          404,
+          202
+        ],
+        "measures": [
+          "Margem EBITDA"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "line",
+        "id": "giro",
+        "title": "Caixa disponível vs capital no giro",
+        "box": [
+          210,
+          488,
+          630,
+          202
+        ],
+        "measures": [
+          "Caixa Final",
+          "NCG"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ],
+        "tooltip": "NexaTTCaixa"
+      },
+      {
+        "kind": "insights",
+        "id": "insights",
+        "title": "LEITURA EXECUTIVA",
+        "box": [
+          856,
+          488,
+          404,
+          202
+        ],
+        "measures": [
+          "Insight Crescimento",
+          "Insight Giro",
+          "Insight Caixa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa02Growth",
+    "name": "02 | Growth & Drivers",
+    "short": "Crescimento",
+    "title": "CRESCIMENTO & DRIVERS",
+    "subtitle": "De onde vem o crescimento — e qual a qualidade da receita?",
+    "year": 2025,
+    "commercial": true,
+    "kpis": [
+      [
+        "RECEITA BRUTA",
+        "KPI | Receita Comercial",
+        null
+      ],
+      [
+        "CRESCIMENTO YoY",
+        "Receita Comercial YoY %",
+        null
+      ],
+      [
+        "QUANTIDADE",
+        "Quantidade",
+        null
+      ],
+      [
+        "PREÇO MÉDIO",
+        "KPI | Preço Médio",
+        null
+      ],
+      [
+        "CMV COMERCIAL",
+        "KPI | CMV Comercial",
+        null
+      ],
+      [
+        "MARGEM ANTES DEDUÇÕES",
+        "Margem Bruta Comercial",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "waterfall",
+        "id": "pv",
+        "title": "Ponte 2024→2025 • receita bruta • Total = 2025",
+        "box": [
+          210,
+          270,
+          630,
+          202
+        ],
+        "measures": [
+          "Ponte Preço Volume"
+        ],
+        "axis": [
+          "aPontePV",
+          "Etapa"
+        ]
+      },
+      {
+        "kind": "bar",
+        "id": "prod",
+        "title": "Produtos que sustentam a receita",
+        "box": [
+          856,
+          270,
+          404,
+          202
+        ],
+        "measures": [
+          "Receita Comercial"
+        ],
+        "axis": [
+          "dProduto",
+          "Produto"
+        ],
+        "tooltip": "NexaTTProduto"
+      },
+      {
+        "kind": "line",
+        "id": "evol",
+        "title": "Receita mensal • atual vs ano anterior",
+        "box": [
+          210,
+          488,
+          430,
+          202
+        ],
+        "measures": [
+          "Receita Comercial",
+          "Receita Comercial LY"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "bar",
+        "id": "reg",
+        "title": "Participação por região",
+        "box": [
+          656,
+          488,
+          294,
+          202
+        ],
+        "measures": [
+          "Receita Comercial"
+        ],
+        "axis": [
+          "dRegiao",
+          "Regiao"
+        ]
+      },
+      {
+        "kind": "bar",
+        "id": "canal",
+        "title": "Participação por canal",
+        "box": [
+          966,
+          488,
+          294,
+          202
+        ],
+        "measures": [
+          "Receita Comercial"
+        ],
+        "axis": [
+          "dCanal",
+          "Canal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa03PL",
+    "name": "03 | P&L & Variance",
+    "short": "Resultado & Plano",
+    "title": "RESULTADO & VARIÂNCIA",
+    "subtitle": "Receita, custos e despesas explicam a entrega do orçamento.",
+    "year": 2025,
+    "fixedActual": true,
+    "kpis": [
+      [
+        "RECEITA REALIZADA",
+        "KPI Receita",
+        null
+      ],
+      [
+        "DESVIO RECEITA",
+        "Desvio Real x Orçado %",
+        null
+      ],
+      [
+        "EBITDA REALIZADO",
+        "KPI EBITDA",
+        null
+      ],
+      [
+        "MARGEM EBITDA",
+        "Margem EBITDA",
+        null
+      ],
+      [
+        "LUCRO LÍQUIDO",
+        "KPI Lucro",
+        null
+      ],
+      [
+        "FCL REALIZADO",
+        "KPI FCL",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "matrix",
+        "id": "dre",
+        "title": "DRE • Realizado × Orçamento",
+        "box": [
+          210,
+          260,
+          630,
+          430
+        ],
+        "measures": [
+          "DRE Realizado",
+          "DRE Orçamento",
+          "DRE Desvio R$",
+          "DRE Desvio %"
+        ],
+        "axis": [
+          "aDRE",
+          "Linha"
+        ],
+        "filters": [
+          {
+            "name": "DRELines",
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "aDRE"
+                  }
+                },
+                "Property": "Linha"
+              }
+            },
+            "type": "Categorical",
+            "howCreated": "User",
+            "isLockedInViewMode": false,
+            "filter": {
+              "Version": 2,
+              "From": [
+                {
+                  "Name": "d",
+                  "Entity": "aDRE",
+                  "Type": 0
+                }
+              ],
+              "Where": [
+                {
+                  "Condition": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "d"
+                              }
+                            },
+                            "Property": "Linha"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Receita Bruta'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Deduções'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Receita Líquida'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) CMV'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Lucro Bruto'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Pessoal'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Comercial'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Administrativo'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Tecnologia'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Logística'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Opex'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'EBITDA'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Depreciação'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'EBIT'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) Juros'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'LAIR'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'(-) IR simulado'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Lucro Líquido'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "matrix",
+        "id": "forecast",
+        "title": "Forecast 6+6 • 2025 • erro vs realizado",
+        "box": [
+          856,
+          260,
+          404,
+          190
+        ],
+        "measures": [
+          "DRE Orçamento",
+          "DRE Forecast",
+          "DRE Realizado",
+          "DRE Erro Forecast %"
+        ],
+        "axis": [
+          "aDRE",
+          "Linha"
+        ],
+        "filters": [
+          {
+            "name": "ForecastLines",
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "aDRE"
+                  }
+                },
+                "Property": "Linha"
+              }
+            },
+            "type": "Categorical",
+            "howCreated": "User",
+            "isLockedInViewMode": false,
+            "filter": {
+              "Version": 2,
+              "From": [
+                {
+                  "Name": "d",
+                  "Entity": "aDRE",
+                  "Type": 0
+                }
+              ],
+              "Where": [
+                {
+                  "Condition": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "d"
+                              }
+                            },
+                            "Property": "Linha"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Receita Líquida'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'EBITDA'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Lucro Líquido'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Fluxo de Caixa Livre'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ForecastYear",
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dCalendario"
+                  }
+                },
+                "Property": "Ano"
+              }
+            },
+            "type": "Categorical",
+            "howCreated": "User",
+            "isLockedInViewMode": true,
+            "filter": {
+              "Version": 2,
+              "From": [
+                {
+                  "Name": "d",
+                  "Entity": "dCalendario",
+                  "Type": 0
+                }
+              ],
+              "Where": [
+                {
+                  "Condition": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "d"
+                              }
+                            },
+                            "Property": "Ano"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "2025L"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "waterfall",
+        "id": "var",
+        "title": "Ponte EBITDA • Total = realizado",
+        "box": [
+          856,
+          466,
+          404,
+          224
+        ],
+        "measures": [
+          "Ponte Variância EBITDA"
+        ],
+        "axis": [
+          "aVariancia",
+          "Etapa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa04Cash",
+    "name": "04 | Cash & Working Capital",
+    "short": "Caixa & Giro",
+    "title": "CAIXA & CAPITAL DE GIRO",
+    "subtitle": "Quanto do resultado vira caixa — e quanto fica preso na operação?",
+    "year": 2025,
+    "scenario": "Realizado",
+    "kpis": [
+      [
+        "CAIXA FINAL",
+        "KPI Caixa",
+        null
+      ],
+      [
+        "FCL",
+        "KPI FCL",
+        null
+      ],
+      [
+        "NCG",
+        "KPI NCG",
+        null
+      ],
+      [
+        "DSO",
+        "DSO",
+        null
+      ],
+      [
+        "CICLO DE CAIXA",
+        "Ciclo de Caixa",
+        null
+      ],
+      [
+        "CAPTAÇÃO",
+        "KPI | Captação",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "line",
+        "id": "cashncg",
+        "title": "Caixa vs necessidade de capital de giro",
+        "box": [
+          210,
+          270,
+          516,
+          202
+        ],
+        "measures": [
+          "Caixa Final",
+          "NCG"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ],
+        "tooltip": "NexaTTCaixa"
+      },
+      {
+        "kind": "line",
+        "id": "days",
+        "title": "Prazos e ciclo de caixa • dias",
+        "box": [
+          742,
+          270,
+          518,
+          202
+        ],
+        "measures": [
+          "DSO",
+          "DIO",
+          "DPO",
+          "Ciclo de Caixa"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "waterfall",
+        "id": "cashbridge",
+        "title": "Ponte de caixa • Total = variação",
+        "box": [
+          210,
+          488,
+          630,
+          202
+        ],
+        "measures": [
+          "Ponte Caixa"
+        ],
+        "axis": [
+          "aPonteCaixa",
+          "Etapa"
+        ]
+      },
+      {
+        "kind": "line",
+        "id": "components",
+        "title": "Clientes, estoques e fornecedores",
+        "box": [
+          856,
+          488,
+          404,
+          156
+        ],
+        "measures": [
+          "Clientes",
+          "Estoque",
+          "Fornecedores"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "insights",
+        "id": "finance",
+        "title": "",
+        "box": [
+          856,
+          650,
+          404,
+          40
+        ],
+        "measures": [
+          "Alerta de Financiamento"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa05Balance",
+    "name": "05 | Balance Sheet",
+    "short": "Balanço",
+    "title": "BALANÇO PATRIMONIAL",
+    "subtitle": "Posição final, liquidez e estrutura de financiamento.",
+    "year": 2025,
+    "scenario": "Realizado",
+    "kpis": [
+      [
+        "ATIVO TOTAL",
+        "KPI | Ativo",
+        null
+      ],
+      [
+        "PASSIVO TOTAL",
+        "KPI | Passivo",
+        null
+      ],
+      [
+        "PATRIMÔNIO LÍQUIDO",
+        "KPI | Patrimônio Líquido",
+        null
+      ],
+      [
+        "DÍVIDA",
+        "KPI Dívida",
+        null
+      ],
+      [
+        "DÍVIDA LÍQUIDA",
+        "KPI Dívida Líquida",
+        null
+      ],
+      [
+        "LIQUIDEZ CORRENTE",
+        "Liquidez Corrente",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "matrix",
+        "id": "bp",
+        "title": "Balanço • posição do último mês",
+        "box": [
+          210,
+          270,
+          510,
+          420
+        ],
+        "measures": [
+          "BP Valor"
+        ],
+        "axis": [
+          "aBP",
+          "Linha"
+        ]
+      },
+      {
+        "kind": "line",
+        "id": "debt",
+        "title": "Caixa e dívida • trajetória mensal",
+        "box": [
+          736,
+          270,
+          524,
+          202
+        ],
+        "measures": [
+          "Caixa Final",
+          "Dívida"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "components",
+        "id": "asset",
+        "title": "Composição do ativo final",
+        "box": [
+          736,
+          488,
+          252,
+          202
+        ],
+        "measures": [
+          "Caixa Final",
+          "Clientes",
+          "Estoque",
+          "Ativo Não Circulante"
+        ]
+      },
+      {
+        "kind": "components",
+        "id": "capital",
+        "title": "Passivo + patrimônio líquido",
+        "box": [
+          1004,
+          488,
+          256,
+          202
+        ],
+        "measures": [
+          "Passivo Circulante",
+          "Passivo Não Circulante",
+          "Patrimônio Líquido"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa06Scenarios",
+    "name": "06 | Scenario Planning",
+    "short": "Cenários 2026",
+    "title": "CENÁRIOS & SUSTENTABILIDADE",
+    "subtitle": "Qual combinação de crescimento, margem, giro e financiamento é sustentável?",
+    "year": 2026,
+    "scenarios": true,
+    "kpis": [
+      [
+        "RECEITA • BASE",
+        "KPI | Base 2026",
+        null
+      ],
+      [
+        "RECEITA • OTIMISTA",
+        "KPI | Otimista 2026",
+        null
+      ],
+      [
+        "RECEITA • ADVERSO",
+        "KPI | Adverso 2026",
+        null
+      ],
+      [
+        "FCL • BASE",
+        "KPI | Fluxo de Caixa Livre | Base 2026",
+        null
+      ],
+      [
+        "FCL • OTIMISTA",
+        "KPI | Fluxo de Caixa Livre | Otimista 2026",
+        null
+      ],
+      [
+        "CAPTAÇÃO • ADVERSO",
+        "KPI | Captação Adverso 2026",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "scenarioMatrix",
+        "id": "scenarios",
+        "title": "Resultado, caixa e giro • comparação simultânea",
+        "box": [
+          210,
+          270,
+          630,
+          202
+        ],
+        "measures": [
+          "Receita Líquida",
+          "EBITDA",
+          "Margem EBITDA",
+          "Lucro Líquido",
+          "Caixa Final",
+          "Fluxo de Caixa Livre",
+          "NCG",
+          "Dívida Líquida"
+        ]
+      },
+      {
+        "kind": "scenarioLine",
+        "id": "sccash",
+        "title": "Caixa mensal • financiamento já incorporado",
+        "box": [
+          856,
+          270,
+          404,
+          202
+        ],
+        "measures": [
+          "Caixa Final"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      },
+      {
+        "kind": "scenarioMatrix",
+        "id": "premissas",
+        "title": "Premissas • prazos finais e valores do ano",
+        "box": [
+          210,
+          488,
+          630,
+          202
+        ],
+        "measures": [
+          "Quantidade Planejada",
+          "Ticket Médio Planejado",
+          "CMV % Premissa",
+          "Pessoal",
+          "DSO Premissa",
+          "DIO Premissa",
+          "DPO Premissa",
+          "Capex",
+          "Captação",
+          "Amortização"
+        ]
+      },
+      {
+        "kind": "scenarioLine",
+        "id": "scmargin",
+        "title": "Margem EBITDA • trajetória por cenário",
+        "box": [
+          856,
+          488,
+          404,
+          202
+        ],
+        "measures": [
+          "Margem EBITDA"
+        ],
+        "axis": [
+          "dCalendario",
+          "AnoMes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nexa07Integrity",
+    "name": "07 | Model Integrity",
+    "short": "Integridade",
+    "title": "INTEGRIDADE DO MODELO",
+    "subtitle": "Demonstrações conectadas, rastreabilidade contábil e conciliação.",
+    "year": 2025,
+    "scenario": "Realizado",
+    "kpis": [
+      [
+        "CHECK BP • MÁX. ABS.",
+        "Check BP Máximo",
+        null
+      ],
+      [
+        "CHECK DFC • MÁX. ABS.",
+        "Check DFC Máximo",
+        null
+      ],
+      [
+        "DIÁRIO • HISTÓRICO",
+        "Check Diário Máximo",
+        null
+      ],
+      [
+        "CHECK PREÇO/VOLUME",
+        "Check Ponte Máximo",
+        null
+      ],
+      [
+        "INCONSISTÊNCIAS",
+        "Inconsistências",
+        null
+      ],
+      [
+        "TOLERÂNCIA",
+        "Tolerância QA",
+        null
+      ]
+    ],
+    "blocks": [
+      {
+        "kind": "status",
+        "id": "status",
+        "title": "STATUS DA VALIDAÇÃO",
+        "box": [
+          210,
+          270,
+          1050,
+          80
+        ],
+        "measures": [
+          "Status do Modelo"
+        ]
+      },
+      {
+        "kind": "table",
+        "id": "conc",
+        "title": "Conciliação patrimonial • histórico realizado",
+        "box": [
+          210,
+          366,
+          516,
+          260
+        ],
+        "measures": [],
+        "columns": [
+          [
+            "fConciliacao",
+            "Data"
+          ],
+          [
+            "dConta",
+            "Conta"
+          ],
+          [
+            "fConciliacao",
+            "SaldoDiario"
+          ],
+          [
+            "fConciliacao",
+            "SaldoModelo"
+          ],
+          [
+            "fConciliacao",
+            "Diferenca"
+          ]
+        ]
+      },
+      {
+        "kind": "table",
+        "id": "diario",
+        "title": "Rastreabilidade • partidas do diário",
+        "box": [
+          742,
+          366,
+          518,
+          260
+        ],
+        "measures": [],
+        "columns": [
+          [
+            "fDiario",
+            "Lancamento"
+          ],
+          [
+            "fDiario",
+            "Data"
+          ],
+          [
+            "dConta",
+            "Conta"
+          ],
+          [
+            "fDiario",
+            "Debito"
+          ],
+          [
+            "fDiario",
+            "Credito"
+          ]
+        ]
+      },
+      {
+        "kind": "architecture",
+        "id": "architecture",
+        "title": "",
+        "box": [
+          210,
+          642,
+          1050,
+          48
+        ],
+        "measures": []
+      }
+    ]
+  }
+]
