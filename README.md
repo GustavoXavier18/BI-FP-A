@@ -17,4 +17,8 @@ O projeto inclui sete páginas, três tooltips, 225 medidas DAX, consultas Power
 
 Veja a documentação completa em [Nexa_FPA_Portfolio/README.md](Nexa_FPA_Portfolio/README.md).
 
-SHA256 do ZIP: `a60087c5c958fe1150bd9a8457f2aade571ab20b83e0fbccb36663cc16742e64`.
+SHA256 do ZIP: `767c32c4175f1a080cc65d814cba3b7c268c1e3085660e4b5c2929738f86da14`.
+
+## Correção de abertura
+
+O pacote atual remove o conflito entre FormatString e FormatStringDefinition nas oito medidas KPI afetadas. Baixe novamente o ZIP e extraia em uma nova pasta antes de abrir.

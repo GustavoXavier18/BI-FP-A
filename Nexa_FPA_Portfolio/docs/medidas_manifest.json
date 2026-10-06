@@ -1389,7 +1389,7 @@
     "name": "KPI Receita",
     "dax": "[Receita Líquida]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI Receita. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Receita Líquida])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1397,7 +1397,7 @@
     "name": "KPI EBITDA",
     "dax": "[EBITDA]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI EBITDA. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([EBITDA])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1405,7 +1405,7 @@
     "name": "KPI Caixa",
     "dax": "[Caixa Final]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI Caixa. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Caixa Final])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1413,7 +1413,7 @@
     "name": "KPI FCL",
     "dax": "[Fluxo de Caixa Livre]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI FCL. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Fluxo de Caixa Livre])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1421,7 +1421,7 @@
     "name": "KPI NCG",
     "dax": "[NCG]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI NCG. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([NCG])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1429,7 +1429,7 @@
     "name": "KPI Lucro",
     "dax": "[Lucro Líquido]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI Lucro. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Lucro Líquido])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1437,7 +1437,7 @@
     "name": "KPI Dívida",
     "dax": "[Dívida]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI Dívida. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Dívida])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1445,7 +1445,7 @@
     "name": "KPI Dívida Líquida",
     "dax": "[Dívida Líquida]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00;[Red](\"R$\" #,0.00);\"R$\" 0.00",
+    "format": null,
     "description": "KPI Dívida Líquida. Respeita o período selecionado e as convenções financeiras do Excel.",
     "dynamicFormat": "VAR V = ABS([Dívida Líquida])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1495,7 +1495,7 @@
     "name": "KPI | Receita Comercial",
     "dax": "[Receita Comercial]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Receita Comercial])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1503,7 +1503,7 @@
     "name": "KPI | Preço Médio",
     "dax": "[Preço Médio]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Preço Médio])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1511,7 +1511,7 @@
     "name": "KPI | CMV Comercial",
     "dax": "[CMV Comercial]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | CMV Comercial])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1519,7 +1519,7 @@
     "name": "KPI | Captação",
     "dax": "[Captação]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Captação])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1527,7 +1527,7 @@
     "name": "KPI | Ativo",
     "dax": "[Ativo]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Ativo])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1535,7 +1535,7 @@
     "name": "KPI | Passivo",
     "dax": "[Passivo]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Passivo])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1543,7 +1543,7 @@
     "name": "KPI | Patrimônio Líquido",
     "dax": "[Patrimônio Líquido]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Patrimônio Líquido])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1551,7 +1551,7 @@
     "name": "KPI | Base 2026",
     "dax": "[Base 2026]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Base 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1559,7 +1559,7 @@
     "name": "KPI | Otimista 2026",
     "dax": "[Otimista 2026]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Otimista 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1567,7 +1567,7 @@
     "name": "KPI | Adverso 2026",
     "dax": "[Adverso 2026]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Adverso 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1575,7 +1575,7 @@
     "name": "KPI | Fluxo de Caixa Livre | Base 2026",
     "dax": "[Fluxo de Caixa Livre | Base 2026]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Fluxo de Caixa Livre | Base 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1583,7 +1583,7 @@
     "name": "KPI | Fluxo de Caixa Livre | Otimista 2026",
     "dax": "[Fluxo de Caixa Livre | Otimista 2026]",
     "folder": "12 | Comparativos",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Fluxo de Caixa Livre | Otimista 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   },
@@ -1591,7 +1591,7 @@
     "name": "KPI | Captação Adverso 2026",
     "dax": "[Captação Adverso 2026]",
     "folder": "11 | Cenários",
-    "format": "\"R$\" #,0.00",
+    "format": null,
     "description": "Medida de apresentação com contexto explícito.",
     "dynamicFormat": "VAR V = ABS([KPI | Captação Adverso 2026])\nRETURN SWITCH(TRUE(), V >= 1000000, \"\"\"R$\"\" 0.00,,\"\" mi\"\";-\"\"R$\"\" 0.00,,\"\" mi\"\"\", V >= 1000, \"\"\"R$\"\" 0.0,\"\" mil\"\";-\"\"R$\"\" 0.0,\"\" mil\"\"\", \"\"\"R$\"\" 0.00;-\"\"R$\"\" 0.00\")"
   }

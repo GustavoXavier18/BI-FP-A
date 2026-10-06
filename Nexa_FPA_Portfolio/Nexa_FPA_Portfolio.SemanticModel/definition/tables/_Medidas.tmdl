@@ -1558,7 +1558,6 @@ table '_Medidas'
 	/// KPI Receita. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI Receita' =
 			[Receita Líquida]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 752005e3-9241-59bf-8cb1-c625a2e0ebd1
 
@@ -1569,7 +1568,6 @@ table '_Medidas'
 	/// KPI EBITDA. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI EBITDA' =
 			[EBITDA]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 32a800d0-a66a-5545-8e14-9b48bd8ff3d7
 
@@ -1580,7 +1578,6 @@ table '_Medidas'
 	/// KPI Caixa. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI Caixa' =
 			[Caixa Final]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: b6ea829e-a171-5a03-8749-14a174664e24
 
@@ -1591,7 +1588,6 @@ table '_Medidas'
 	/// KPI FCL. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI FCL' =
 			[Fluxo de Caixa Livre]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: bcb969a9-1aba-5f03-9e54-0b9bdbab5700
 
@@ -1602,7 +1598,6 @@ table '_Medidas'
 	/// KPI NCG. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI NCG' =
 			[NCG]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 910adb6d-5b56-5696-af06-628015c5e07b
 
@@ -1613,7 +1608,6 @@ table '_Medidas'
 	/// KPI Lucro. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI Lucro' =
 			[Lucro Líquido]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 7d851b6f-d300-53e7-a1c7-51366635d043
 
@@ -1624,7 +1618,6 @@ table '_Medidas'
 	/// KPI Dívida. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI Dívida' =
 			[Dívida]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 2eae4626-62cf-5cbf-b60d-acbd4f08fffe
 
@@ -1635,7 +1628,6 @@ table '_Medidas'
 	/// KPI Dívida Líquida. Respeita o período selecionado e as convenções financeiras do Excel.
 	measure 'KPI Dívida Líquida' =
 			[Dívida Líquida]
-		formatString: "R$" #,0.00;[Red]("R$" #,0.00);"R$" 0.00
 		displayFolder: 12 | Comparativos
 		lineageTag: 2cd3f183-9623-52bd-a568-b5de7ec8bec6
 

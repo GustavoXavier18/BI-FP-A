@@ -30,3 +30,8 @@ Os schemas são cópias das definições oficiais Microsoft, preservadas para va
 - https://github.com/microsoft/powerbi-desktop-samples/tree/main/Report%20Theme%20JSON%20Schema
 
 Bibliotecas oficiais: Microsoft.AnalysisServices.NetCore.retail.amd64 19.84.1 e @microsoft/powerquery-parser. Consulte os termos dos respectivos repositórios/pacotes ao redistribuir dependências. O ZIP contém o projeto autoral e os schemas de referência, sem os binários das bibliotecas.
+
+
+## Correção de abertura — 06/10/2026
+
+Removido o formato estático nas oito medidas KPI que já possuem FormatStringDefinition. O Power BI Desktop não permite os dois formatos simultaneamente. O validador TOM agora verifica também esse conflito. A desserialização TMDL e as 984 referências passaram após a correção. A abertura e a atualização no Desktop ainda dependem de validação no Windows.

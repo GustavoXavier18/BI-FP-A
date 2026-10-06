@@ -9,6 +9,8 @@ try {
  Console.WriteLine("Partition QueryGroup: "+typeof(Partition).GetProperty("QueryGroup"));
  var db=TmdlSerializer.DeserializeDatabaseFromFolder(path);
  var model=db.Model;
+ var conflicts=model.Tables.SelectMany(t=>t.Measures.Select(m=>new {table=t.Name,measure=m.Name,staticFormat=m.FormatString,dynamicFormat=m.FormatStringDefinition})).Where(m=>!string.IsNullOrEmpty(m.staticFormat)&&m.dynamicFormat!=null).Select(m=>m.table+"["+m.measure+"]").ToArray();
+ if(conflicts.Length>0)throw new InvalidOperationException("Unsupported simultaneous FormatString and FormatStringDefinition: "+string.Join(", ",conflicts));
  var facts=model.Tables.Select(t=>new {table=t.Name, columns=t.Columns.Count, measures=t.Measures.Count, partitions=t.Partitions.Count}).ToArray();
  var data=new {valid=true,compatibilityLevel=db.CompatibilityLevel,tables=model.Tables.Count,relationships=model.Relationships.Count,measures=model.Tables.Sum(t=>t.Measures.Count),details=facts};
  Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(data));
